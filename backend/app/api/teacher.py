@@ -11,7 +11,7 @@ from ..auth import require
 from ..db import get_session
 from ..knowledge import kb
 from ..models import (Application, ChatMessage, ContactRequest, Endorsement, Module, Opportunity, Org,
-                      Recommendation, User, now)
+                      Recommendation, User)
 from ..services import award, counts, get_profile, profile_dict, save_profile
 
 router = APIRouter(prefix="/teacher", tags=["teacher"])
@@ -70,7 +70,32 @@ def add_student(body: NewStudent, teacher: User = Depends(teacher_only), session
     return {"id": s.id, "name": s.name}
 
 
-INTEREST_LABEL = lambda t: t.replace("_", " ")  # noqa: E731
+INSIGHT_TEXT = {
+    "cluster": {"en": "{n} students are interested in {x}", "ta": "{n} மாணவர்களுக்கு {x} மீது ஆர்வம் உள்ளது",
+                "hi": "{n} छात्रों की रुचि {x} में है"},
+    "unapplied": {"en": "{x} is eligible for {n} scholarships/schemes but hasn't applied",
+                  "ta": "{x} {n} உதவித்தொகை/திட்டங்களுக்குத் தகுதியானவர், ஆனால் இன்னும் விண்ணப்பிக்கவில்லை",
+                  "hi": "{x} {n} छात्रवृत्ति/योजनाओं के योग्य है, पर अभी आवेदन नहीं किया"},
+    "incomplete": {"en": "{n} students haven't finished their Discover profile",
+                   "ta": "{n} மாணவர்கள் தங்கள் சுயவிவரத்தை இன்னும் முடிக்கவில்லை",
+                   "hi": "{n} छात्रों ने अपनी प्रोफ़ाइल पूरी नहीं की है"},
+    "no_goal": {"en": "{n} students finished Discover but haven't chosen a career goal yet",
+                "ta": "{n} மாணவர்கள் சுயவிவரத்தை முடித்தும் இன்னும் தொழில் இலக்கைத் தேர்ந்தெடுக்கவில்லை",
+                "hi": "{n} छात्रों ने प्रोफ़ाइल पूरी की, पर अभी करियर लक्ष्य नहीं चुना"},
+}
+
+
+def interest_label(tag: str, lang: str) -> str:
+    for q in profiler.interview()["questions"]:
+        for o in q.get("options", []):
+            if q["field"] == "interests" and o["value"] == tag:
+                return o["label"].get(lang) or o["label"]["en"]
+    return tag.replace("_", " ")
+
+
+def _say(kind: str, lang: str, **kw) -> str:
+    tpl = INSIGHT_TEXT[kind].get(lang) or INSIGHT_TEXT[kind]["en"]
+    return tpl.format(**kw)
 
 
 @router.get("/insights")
@@ -86,16 +111,16 @@ def insights(lang: str = "en", teacher: User = Depends(teacher_only), session: S
     cards = []
     for cl in clusters[:2]:
         cards.append({"kind": "cluster", "count": cl["count"], "key": cl["interest"], "students": cl["students"],
-                      "text": f"{cl['count']} students are interested in {INTEREST_LABEL(cl['interest'])}"})
+                      "text": _say("cluster", lang, n=cl["count"], x=interest_label(cl["interest"], lang))})
     for s in sorted(unapplied, key=lambda x: -x["unapplied_count"])[:3]:
         cards.append({"kind": "unapplied", "count": s["unapplied_count"], "students": [s["name"]], "student_id": s["id"],
-                      "text": f"{s['name']} is eligible for {s['unapplied_count']} scholarships/schemes but hasn't applied"})
+                      "text": _say("unapplied", lang, x=s["name"], n=s["unapplied_count"])})
     if incomplete:
         cards.append({"kind": "incomplete", "count": len(incomplete), "students": [s["name"] for s in incomplete],
-                      "text": f"{len(incomplete)} students haven't finished their Discover profile"})
+                      "text": _say("incomplete", lang, n=len(incomplete))})
     if no_goal:
         cards.append({"kind": "no_goal", "count": len(no_goal), "students": [s["name"] for s in no_goal],
-                      "text": f"{len(no_goal)} students finished Discover but haven't chosen a career goal yet"})
+                      "text": _say("no_goal", lang, n=len(no_goal))})
 
     summary = None
     if n:

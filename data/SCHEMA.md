@@ -132,6 +132,8 @@ Rules: `null` means "no restriction". Lists mean "must be one of". All present r
 `gender`: `female`, `male` or null. `school_types`: `government`, `aided`, `private`.
 `states`: list of state names such as `"Tamil Nadu"`, or null for all-India.
 `streams`: list from `science_bio`, `science_maths`, `commerce`, `arts`, `vocational`, or null.
+`requires` (optional): a condition the engine can't check, as `{"en": "...", "ta": "...", "hi": "..."}`
+(e.g. "you cleared the NMMS exam in Class 8"). Such records are shown as "you may qualify if ...".
 
 ## apprenticeships.json
 Sample listings for the demo (seeded as employer opportunities). Mark them `"demo": true`.

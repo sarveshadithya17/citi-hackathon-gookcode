@@ -19,7 +19,12 @@
       "max_age": 45,
       "disability": null,
       "first_graduate": null,
-      "streams": null
+      "streams": null,
+      "requires": {
+        "en": "you have finished or left full-time study",
+        "ta": "முழு நேரப் படிப்பை முடித்தவர் அல்லது நிறுத்தியவர்",
+        "hi": "आपने पूर्णकालिक पढ़ाई पूरी कर ली है या छोड़ दी है"
+      }
     },
     "documents": [
       "Aadhaar card",
@@ -62,7 +67,8 @@
       "max_age": null,
       "disability": null,
       "first_graduate": null,
-      "streams": null
+      "streams": null,
+      "requires": null
     },
     "documents": [
       "Aadhaar card",
@@ -99,7 +105,8 @@
       "max_age": null,
       "disability": null,
       "first_graduate": null,
-      "streams": null
+      "streams": null,
+      "requires": null
     },
     "documents": [
       "Aadhaar card",
@@ -133,7 +140,12 @@
       "max_age": 35,
       "disability": null,
       "first_graduate": null,
-      "streams": null
+      "streams": null,
+      "requires": {
+        "en": "you are from a poor rural family and not in full-time study",
+        "ta": "ஏழை கிராமப்புறக் குடும்பம், முழு நேரப் படிப்பில் இல்லாதவர்",
+        "hi": "आप गरीब ग्रामीण परिवार से हैं और पूर्णकालिक पढ़ाई नहीं कर रहे"
+      }
     },
     "documents": [
       "Aadhaar card",
@@ -175,7 +187,8 @@
       "max_age": 25,
       "disability": null,
       "first_graduate": null,
-      "streams": null
+      "streams": null,
+      "requires": null
     },
     "documents": [
       "Aadhaar card",
@@ -208,7 +221,8 @@
       "max_age": null,
       "disability": null,
       "first_graduate": null,
-      "streams": null
+      "streams": null,
+      "requires": null
     },
     "documents": [
       "Aadhaar card",
@@ -242,7 +256,8 @@
       "max_age": null,
       "disability": null,
       "first_graduate": null,
-      "streams": null
+      "streams": null,
+      "requires": null
     },
     "documents": [
       "Aadhaar card",
@@ -278,7 +293,8 @@
       "max_age": null,
       "disability": null,
       "first_graduate": null,
-      "streams": null
+      "streams": null,
+      "requires": null
     },
     "documents": [
       "Aadhaar card",
@@ -313,7 +329,8 @@
       "max_age": null,
       "disability": null,
       "first_graduate": null,
-      "streams": null
+      "streams": null,
+      "requires": null
     },
     "documents": [
       "Aadhaar card",
@@ -355,7 +372,12 @@
       "max_age": 45,
       "disability": null,
       "first_graduate": null,
-      "streams": null
+      "streams": null,
+      "requires": {
+        "en": "you have left school or are not in regular study",
+        "ta": "நீங்கள் பள்ளிப் படிப்பை நிறுத்தியவர் அல்லது வழக்கமான படிப்பில் இல்லாதவர்",
+        "hi": "आपने स्कूल छोड़ दिया है या नियमित पढ़ाई नहीं कर रहे"
+      }
     },
     "documents": [
       "Aadhaar card",
@@ -388,7 +410,8 @@
       "max_age": null,
       "disability": null,
       "first_graduate": null,
-      "streams": null
+      "streams": null,
+      "requires": null
     },
     "documents": [
       "Aadhaar or mobile number"
@@ -425,7 +448,8 @@
       "max_age": null,
       "disability": null,
       "first_graduate": null,
-      "streams": null
+      "streams": null,
+      "requires": null
     },
     "documents": [
       "Certificate from headmaster that you studied Class 6-12 in government schools",
@@ -470,7 +494,8 @@
       "max_age": null,
       "disability": null,
       "first_graduate": null,
-      "streams": null
+      "streams": null,
+      "requires": null
     },
     "documents": [
       "College or school ID",
@@ -504,7 +529,8 @@
       "max_age": null,
       "disability": null,
       "first_graduate": null,
-      "streams": null
+      "streams": null,
+      "requires": null
     },
     "documents": [
       "Aadhaar card",
@@ -545,7 +571,8 @@
       "max_age": 45,
       "disability": null,
       "first_graduate": null,
-      "streams": null
+      "streams": null,
+      "requires": null
     },
     "documents": [
       "Aadhaar card",
@@ -584,7 +611,8 @@
       "max_age": 45,
       "disability": null,
       "first_graduate": null,
-      "streams": null
+      "streams": null,
+      "requires": null
     },
     "documents": [
       "Aadhaar card",
@@ -626,7 +654,8 @@
       "max_age": null,
       "disability": null,
       "first_graduate": null,
-      "streams": null
+      "streams": null,
+      "requires": null
     },
     "documents": [
       "Aadhaar card",

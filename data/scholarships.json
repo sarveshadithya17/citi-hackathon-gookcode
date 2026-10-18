@@ -28,7 +28,12 @@
       "max_age": null,
       "disability": null,
       "first_graduate": null,
-      "streams": null
+      "streams": null,
+      "requires": {
+        "en": "you cleared the NMMS exam in Class 8",
+        "ta": "8ஆம் வகுப்பில் NMMS தேர்வில் தேர்ச்சி பெற்றிருக்க வேண்டும்",
+        "hi": "कक्षा 8 में NMMS परीक्षा पास की हो"
+      }
     },
     "documents": [
       "Income certificate (from Tahsildar)",
@@ -71,7 +76,8 @@
       "max_age": null,
       "disability": null,
       "first_graduate": null,
-      "streams": null
+      "streams": null,
+      "requires": null
     },
     "documents": [
       "Income certificate (from Tahsildar)",
@@ -118,7 +124,8 @@
       "max_age": null,
       "disability": null,
       "first_graduate": null,
-      "streams": null
+      "streams": null,
+      "requires": null
     },
     "documents": [
       "Income certificate (from Tahsildar)",
@@ -159,7 +166,12 @@
       "max_age": null,
       "disability": null,
       "first_graduate": null,
-      "streams": null
+      "streams": null,
+      "requires": {
+        "en": "you score above the 80th percentile in your Class 12 board",
+        "ta": "12ஆம் வகுப்பு பொதுத் தேர்வில் 80வது சதமானத்துக்கு மேல் இருக்க வேண்டும்",
+        "hi": "कक्षा 12 बोर्ड में 80 पर्सेंटाइल से ऊपर होना"
+      }
     },
     "documents": [
       "Income certificate (from Tahsildar)",
@@ -204,7 +216,8 @@
       "max_age": null,
       "disability": null,
       "first_graduate": null,
-      "streams": null
+      "streams": null,
+      "requires": null
     },
     "documents": [
       "Income certificate (from Tahsildar)",
@@ -250,7 +263,8 @@
       "max_age": null,
       "disability": null,
       "first_graduate": null,
-      "streams": null
+      "streams": null,
+      "requires": null
     },
     "documents": [
       "Income certificate (from Tahsildar)",
@@ -293,7 +307,8 @@
       "max_age": null,
       "disability": null,
       "first_graduate": null,
-      "streams": null
+      "streams": null,
+      "requires": null
     },
     "documents": [
       "Income certificate (from Tahsildar)",
@@ -334,7 +349,8 @@
       "max_age": null,
       "disability": null,
       "first_graduate": null,
-      "streams": null
+      "streams": null,
+      "requires": null
     },
     "documents": [
       "Income certificate (from Tahsildar)",
@@ -379,7 +395,8 @@
       "max_age": null,
       "disability": null,
       "first_graduate": null,
-      "streams": null
+      "streams": null,
+      "requires": null
     },
     "documents": [
       "Income certificate (from Tahsildar)",
@@ -421,7 +438,12 @@
       "max_age": null,
       "disability": null,
       "first_graduate": null,
-      "streams": null
+      "streams": null,
+      "requires": {
+        "en": "you join an AICTE-approved diploma or degree course",
+        "ta": "AICTE அங்கீகாரம் பெற்ற டிப்ளமோ அல்லது பட்டப் படிப்பில் சேர வேண்டும்",
+        "hi": "AICTE से मान्य डिप्लोमा या डिग्री कोर्स में दाखिला"
+      }
     },
     "documents": [
       "Income certificate (from Tahsildar)",
@@ -463,7 +485,12 @@
       "max_age": null,
       "disability": true,
       "first_graduate": null,
-      "streams": null
+      "streams": null,
+      "requires": {
+        "en": "you join an AICTE-approved diploma or degree course",
+        "ta": "AICTE அங்கீகாரம் பெற்ற டிப்ளமோ அல்லது பட்டப் படிப்பில் சேர வேண்டும்",
+        "hi": "AICTE से मान्य डिप्लोमा या डिग्री कोर्स में दाखिला"
+      }
     },
     "documents": [
       "Disability certificate (40% or more)",
@@ -505,7 +532,12 @@
       "max_age": null,
       "disability": null,
       "first_graduate": null,
-      "streams": null
+      "streams": null,
+      "requires": {
+        "en": "you are an orphan, lost a parent to COVID-19, or are the child of a fallen soldier",
+        "ta": "நீங்கள் பெற்றோரை இழந்தவர் அல்லது வீரமரணம் அடைந்த படைவீரரின் குழந்தை",
+        "hi": "आप अनाथ हैं, या आपके माता-पिता में से किसी की कोविड या सेवा में मृत्यु हुई है"
+      }
     },
     "documents": [
       "Death certificate of parent(s) or martyr certificate",
@@ -547,7 +579,12 @@
       "streams": [
         "science_bio",
         "science_maths"
-      ]
+      ],
+      "requires": {
+        "en": "you are in the top 1% of your Class 12 board",
+        "ta": "12ஆம் வகுப்பு பொதுத் தேர்வில் முதல் 1% இடத்தில் இருக்க வேண்டும்",
+        "hi": "कक्षा 12 बोर्ड में शीर्ष 1% में होना"
+      }
     },
     "documents": [
       "Class 12 marksheet",
@@ -587,7 +624,12 @@
       "max_age": null,
       "disability": null,
       "first_graduate": null,
-      "streams": null
+      "streams": null,
+      "requires": {
+        "en": "your parent served in the armed forces, Coast Guard or CAPF",
+        "ta": "உங்கள் பெற்றோர் ராணுவம் அல்லது மத்திய ஆயுதப் படையில் பணியாற்றியவர்",
+        "hi": "आपके माता-पिता सेना, तटरक्षक या केंद्रीय सशस्त्र बल में रहे हैं"
+      }
     },
     "documents": [
       "Ex-servicemen / CAPF service certificate of parent",
@@ -632,7 +674,8 @@
       "max_age": null,
       "disability": true,
       "first_graduate": null,
-      "streams": null
+      "streams": null,
+      "requires": null
     },
     "documents": [
       "Disability certificate (40% or more)",
@@ -681,7 +724,8 @@
       "max_age": null,
       "disability": null,
       "first_graduate": null,
-      "streams": null
+      "streams": null,
+      "requires": null
     },
     "documents": [
       "Domicile certificate",
@@ -727,7 +771,8 @@
       "max_age": null,
       "disability": null,
       "first_graduate": null,
-      "streams": null
+      "streams": null,
+      "requires": null
     },
     "documents": [
       "Transfer certificate / school study certificate (Class 6-12)",
@@ -772,7 +817,8 @@
       "max_age": null,
       "disability": null,
       "first_graduate": null,
-      "streams": null
+      "streams": null,
+      "requires": null
     },
     "documents": [
       "Transfer certificate / school study certificate (Class 6-12)",
@@ -819,7 +865,8 @@
       "max_age": null,
       "disability": null,
       "first_graduate": null,
-      "streams": null
+      "streams": null,
+      "requires": null
     },
     "documents": [
       "Income certificate (from Tahsildar)",
@@ -868,7 +915,8 @@
       "max_age": null,
       "disability": null,
       "first_graduate": null,
-      "streams": null
+      "streams": null,
+      "requires": null
     },
     "documents": [
       "Income certificate (from Tahsildar)",
@@ -910,7 +958,8 @@
       "max_age": null,
       "disability": null,
       "first_graduate": true,
-      "streams": null
+      "streams": null,
+      "requires": null
     },
     "documents": [
       "First graduate certificate (from Tahsildar)",
@@ -956,7 +1005,8 @@
       "max_age": null,
       "disability": null,
       "first_graduate": null,
-      "streams": null
+      "streams": null,
+      "requires": null
     },
     "documents": [
       "Income certificate (from Tahsildar)",
@@ -995,7 +1045,8 @@
       "max_age": null,
       "disability": null,
       "first_graduate": null,
-      "streams": null
+      "streams": null,
+      "requires": null
     },
     "documents": [
       "Income certificate (from Tahsildar)",
@@ -1037,7 +1088,8 @@
       "max_age": null,
       "disability": null,
       "first_graduate": null,
-      "streams": null
+      "streams": null,
+      "requires": null
     },
     "documents": [
       "Income certificate (from Tahsildar)",

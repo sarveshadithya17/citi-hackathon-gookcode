@@ -155,6 +155,7 @@ def suggest(p: dict, lang: str, n: int = 8, use_ai: bool = True) -> list[dict]:
                 "For each career, write ONE short sentence (max 18 words) telling this student why it could suit "
                 "them, using only facts from their profile and the career description, plus a 'description' that "
                 "is the career description rewritten in the target language in at most 16 words. "
+                "Match the student's gender in grammar if it is given; otherwise use gender-neutral words. "
                 "Return JSON {\"<career id>\": {\"why\": \"...\", \"description\": \"...\"}}. "
                 + llm.lang_instruction(lang))},
             {"role": "user", "content": json.dumps({"profile": _public(p), "careers": brief}, ensure_ascii=False)},
@@ -173,6 +174,6 @@ def suggest(p: dict, lang: str, n: int = 8, use_ai: bool = True) -> list[dict]:
 
 
 def _public(p: dict) -> dict:
-    keep = ["education_level", "stream", "interests", "work_styles", "strengths", "aspirations",
+    keep = ["gender", "education_level", "stream", "interests", "work_styles", "strengths", "aspirations",
             "needs_income_soon", "can_relocate", "district", "marks_percent"]
     return {k: p[k] for k in keep if k in p}

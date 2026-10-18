@@ -127,6 +127,7 @@ Rules: only fill a field when the student said it or it clearly follows. Map
 free answers to the allowed values (e.g. "I like fixing my uncle's bike" ->
 interests ["vehicles","machines"], work_styles ["hands"]). Never invent facts.
 If the student asks a question, answer it briefly before moving on.
+Use gender-neutral words until the student's gender is known.
 Never mention JSON, fields or the profile. {lang}"""
 
 

@@ -78,7 +78,7 @@ def _age(p: dict) -> int | None:
 
 def check(record: dict, p: dict, lang: str = "en") -> dict:
     r = record.get("rules") or {}
-    reasons, missing, failed = [], [], []
+    reasons, missing, failed, conditions = [], [], [], []
 
     def need(field):
         missing.append(MISSING.get(field, {}).get(lang) or MISSING.get(field, {}).get("en") or field)
@@ -194,8 +194,14 @@ def check(record: dict, p: dict, lang: str = "en") -> dict:
         else:
             failed.append("stream")
 
-    status = "no" if failed else ("maybe" if missing else "eligible")
-    return {"status": status, "reasons": reasons, "missing": missing, "failed": failed}
+    # Conditions the rules can't check (e.g. "cleared the NMMS exam", "top 1% of the board")
+    # are asked as a question, so the student is never told they qualify when they may not.
+    req = r.get("requires")
+    if req:
+        conditions.append(req.get(lang) or req.get("en"))
+
+    status = "no" if failed else ("maybe" if missing or conditions else "eligible")
+    return {"status": status, "reasons": reasons, "missing": missing, "conditions": conditions, "failed": failed}
 
 
 def public_record(rec: dict) -> dict:
