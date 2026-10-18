@@ -305,7 +305,9 @@ th { font-size: 13px; color: var(--muted); font-weight: 600; }
 .lang-pick-btn:hover, .lang-pick-btn:focus-visible { border-color: var(--brand); transform: translateY(-1px); }
 
 /* "Back to dashboard" on inner pages */
-.backbar { margin: -4px 0 10px; }
+/* Sits outside the centred content column, lined up with the logo on the left edge. */
+.backbar { padding: 12px 16px 0; }
+.backbar + main { padding-top: 8px; }
 .backbar a {
   display: inline-flex; align-items: center; gap: 6px; text-decoration: none; color: var(--brand);
   font-weight: 650; font-size: 15px; padding: 6px 12px 6px 8px; border-radius: 999px; background: var(--brand-soft);

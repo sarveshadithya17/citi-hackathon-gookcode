@@ -104,9 +104,9 @@ function Shell() {
   return (
     <>
       <Topbar />
+      <BackBar />
       <main>
         <Banners />
-        <BackBar />
         <Routes>
           <Route path="/login" element={user ? <Navigate to={homeFor(user)} replace /> : <Login />} />
           <Route path="/home" element={S('student', <StudentHome />)} />
