@@ -36,6 +36,11 @@ export default function Login() {
     <>
       <h1>{t('login.title', 'Find what you are good at. Build it. Earn from it.')}</h1>
       <p className="muted">{t('login.sub', 'Talk to Thiran in your language. It is free for students.')}</p>
+      <div className="value-props">
+        <div><span>🎙️</span><b>{t('vp.discover', 'Discover')}</b><small>{t('vp.discover.s', 'Talk, and find your strengths')}</small></div>
+        <div><span>🪜</span><b>{t('vp.learn', 'Learn')}</b><small>{t('vp.learn.s', 'A free, step-by-step path')}</small></div>
+        <div><span>🎁</span><b>{t('vp.earn', 'Earn')}</b><small>{t('vp.earn.s', 'Scholarships, schemes and jobs')}</small></div>
+      </div>
       <h2>{t('login.lang', 'Choose your language')}</h2>
       <div className="langs" data-tour="langs">
         {LANGS.map((l) => <button key={l.code} className={`lang ${l.code === lang ? 'on' : ''}`} onClick={() => setLang(l.code)}>{l.name}</button>)}

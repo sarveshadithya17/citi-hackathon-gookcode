@@ -76,7 +76,7 @@ function Chat({ msgs }) {
     <div className="chat">
       {msgs.map((m, i) => (
         <div key={i} className={`msg ${m.role === 'user' ? 'me' : 'bot'} ${m.typing ? 'typing' : ''}`}>
-          {m.text}
+          {m.typing ? <span className="dots" aria-label="…"><i /><i /><i /></span> : m.text}
           {m.role !== 'user' && !m.typing && <button className="say" onClick={() => speak(m.text, lang)}>🔊</button>}
         </div>
       ))}

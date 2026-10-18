@@ -72,6 +72,8 @@
  "home.discover": "Discover what you are good at",
  "home.discover.sub": "Answer a few easy questions by voice",
  "home.hello": "Hello, {name}!",
+ "home.hero.new": "Start with Discover so Thiran can learn what you are good at.",
+ "home.hero.ready": "Your profile is ready. Explore careers and opportunities picked for you.",
  "home.modules": "Learn from teachers",
  "home.modules.sub": "Short lessons in your language",
  "home.opps": "Scholarships and jobs",
@@ -271,5 +273,11 @@
  "tour.t6.t": "You keep students safe",
  "voice.err": "Could not hear you. Please try again or type.",
  "voice.net": "Voice needs internet on this phone. Please tap an answer.",
- "voice.none": "Voice input is not available in this browser. Please type or tap an answer."
+ "voice.none": "Voice input is not available in this browser. Please type or tap an answer.",
+ "vp.discover": "Discover",
+ "vp.discover.s": "Talk, and find your strengths",
+ "vp.earn": "Earn",
+ "vp.earn.s": "Scholarships, schemes and jobs",
+ "vp.learn": "Learn",
+ "vp.learn.s": "A free, step-by-step path"
 }

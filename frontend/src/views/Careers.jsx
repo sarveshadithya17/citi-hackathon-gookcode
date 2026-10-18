@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { Async, Say, Stale } from '../components/ui.jsx';
+import { Async, Ring, Say, Stale } from '../components/ui.jsx';
 import { useApi, useStudentPath } from '../lib/app-state.js';
 import { inr, t, useLang } from '../lib/i18n.js';
 
@@ -29,7 +29,7 @@ export default function Careers() {
                   <span className="pill brand">{c.category_label}</span>{' '}
                   {c.local_demand === 'high' && <span className="pill accent">📍 {t('careers.local', 'Jobs nearby')}</span>}
                 </div>
-                <div className="fit">{c.fit}%<div className="small muted" style={{ fontWeight: 400 }}>{t('careers.match', 'match')}</div></div>
+                <div className="fit"><Ring pct={c.fit} size={54} stroke={6} /><div className="small muted" style={{ fontWeight: 400, textAlign: 'center' }}>{t('careers.match', 'match')}</div></div>
               </div>
               <p className="small">{c.description}</p>
               <div className="why">💡 {c.why}</div>

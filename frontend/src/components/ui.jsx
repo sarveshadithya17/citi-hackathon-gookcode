@@ -1,3 +1,4 @@
+import { useEffect, useRef, useState } from 'react';
 import { NavLink } from 'react-router-dom';
 import { t, inr, useLang } from '../lib/i18n.js';
 import { speak } from '../lib/voice.js';
@@ -21,8 +22,54 @@ export function Say({ text, className = 'icon-btn' }) {
   return <button className={className} aria-label={label} title={label} onClick={() => speak(text, lang)}>🔊</button>;
 }
 
+const reducedMotion = () => window.matchMedia?.('(prefers-reduced-motion: reduce)').matches;
+
+// Placeholder cards with a shimmer while a screen loads.
 export function Loading() {
-  return <p className="muted"><span className="spinner" /> {t('loading', 'Loading…')}</p>;
+  return (
+    <div className="skel-list" role="status" aria-label={t('loading', 'Loading…')}>
+      <div className="skel" style={{ height: 34, width: '55%' }} />
+      <div className="skel" style={{ height: 96 }} />
+      <div className="skel" style={{ height: 96 }} />
+      <div className="skel" style={{ height: 96, opacity: 0.6 }} />
+    </div>
+  );
+}
+
+// Counts up to a number when it first appears.
+export function CountUp({ value, ms = 800 }) {
+  const [shown, setShown] = useState(typeof value === 'number' && !reducedMotion() ? 0 : value);
+  const raf = useRef(0);
+  useEffect(() => {
+    if (typeof value !== 'number' || reducedMotion()) { setShown(value); return undefined; }
+    const start = performance.now();
+    const tick = (now) => {
+      const p = Math.min(1, (now - start) / ms);
+      setShown(Math.round(value * (1 - (1 - p) ** 3)));
+      if (p < 1) raf.current = requestAnimationFrame(tick);
+    };
+    raf.current = requestAnimationFrame(tick);
+    return () => cancelAnimationFrame(raf.current);
+  }, [value, ms]);
+  return <>{shown}</>;
+}
+
+// Circular progress, animating from empty to its value.
+export function Ring({ pct = 0, size = 64, stroke = 7, color = 'var(--brand)', track = 'var(--surface-2)', label }) {
+  const r = (size - stroke) / 2;
+  const c = 2 * Math.PI * r;
+  const [p, setP] = useState(0);
+  useEffect(() => { const id = requestAnimationFrame(() => setP(Math.max(0, Math.min(100, pct)))); return () => cancelAnimationFrame(id); }, [pct]);
+  return (
+    <span className="ring-wrap" style={{ width: size, height: size }}>
+      <svg className="ring" width={size} height={size} viewBox={`0 0 ${size} ${size}`} aria-hidden="true">
+        <circle cx={size / 2} cy={size / 2} r={r} fill="none" stroke={track} strokeWidth={stroke} />
+        <circle cx={size / 2} cy={size / 2} r={r} fill="none" stroke={color} strokeWidth={stroke} strokeLinecap="round"
+          strokeDasharray={c} strokeDashoffset={c * (1 - p / 100)} transform={`rotate(-90 ${size / 2} ${size / 2})`} />
+      </svg>
+      <b style={{ fontSize: Math.round(size / 4.5) }}>{label ?? `${Math.round(pct)}%`}</b>
+    </span>
+  );
 }
 
 export function ErrorView({ error }) {
@@ -65,7 +112,7 @@ export function PriceTag({ m }) {
 }
 
 export function Stat({ value, label }) {
-  return <div className="stat"><b>{value}</b><span>{label}</span></div>;
+  return <div className="stat"><b><CountUp value={value} /></b><span>{label}</span></div>;
 }
 
 export function Progress({ pct, color }) {

@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import { Async, Progress } from '../components/ui.jsx';
+import { Async, Ring } from '../components/ui.jsx';
 import { useApi, useStudentPath } from '../lib/app-state.js';
 import { t, useLang } from '../lib/i18n.js';
 import Tour from '../components/Tour.jsx';
@@ -20,11 +20,13 @@ export default function StudentHome() {
         );
         return (
           <>
-            <h1>{t('home.hello', 'Hello, {name}!', { name })}</h1>
-            <div className="row" style={{ marginBottom: 12 }}>
-              <Progress pct={p.profile.completeness} />
-              <span className="small muted">{t('home.profile', 'Profile {n}%', { n: p.profile.completeness || 0 })}</span>
-            </div>
+            <section className="hero">
+              <div className="grow">
+                <h1 className="hero-name">{t('home.hello', 'Hello, {name}!', { name })}</h1>
+                <p>{p.ready ? t('home.hero.ready', 'Your profile is ready. Explore careers and opportunities picked for you.') : t('home.hero.new', 'Start with Discover so Thiran can learn what you are good at.')}</p>
+              </div>
+              <Ring pct={p.profile.completeness || 0} size={72} stroke={7} color="#fdba74" track="rgba(255,255,255,.22)" />
+            </section>
             <div className="tiles">
               {tile('/discover', '🎙️',
                 p.ready ? t('home.talk', 'Talk to Thiran') : t('home.discover', 'Discover what you are good at'),

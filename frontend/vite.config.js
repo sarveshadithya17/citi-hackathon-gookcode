@@ -34,6 +34,12 @@ export default defineConfig({
         navigateFallbackDenylist: [/^\/api\//, /^\/docs/, /^\/openapi\.json/],
         runtimeCaching: [
           {
+            // Heading font: cached after the first visit so it works offline too.
+            urlPattern: ({ url }) => url.origin === 'https://fonts.googleapis.com' || url.origin === 'https://fonts.gstatic.com',
+            handler: 'CacheFirst',
+            options: { cacheName: 'thiran-fonts', expiration: { maxEntries: 20, maxAgeSeconds: 60 * 60 * 24 * 365 }, cacheableResponse: { statuses: [0, 200] } },
+          },
+          {
             urlPattern: ({ url }) => url.pathname.endsWith('/qr.svg'),
             handler: 'CacheFirst',
             options: { cacheName: 'thiran-qr', expiration: { maxEntries: 50 } },

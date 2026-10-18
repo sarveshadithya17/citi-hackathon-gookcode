@@ -99,6 +99,7 @@ function Toasts() {
 
 function Shell() {
   const { user } = useApp();
+  const { pathname } = useLocation();
   useEffect(() => () => stopSpeaking(), []);
   const S = (role, el) => <Guard role={role}>{el}</Guard>;
   return (
@@ -107,6 +108,7 @@ function Shell() {
       <BackBar />
       <main>
         <Banners />
+        <div className="page" key={pathname}>
         <Routes>
           <Route path="/login" element={user ? <Navigate to={homeFor(user)} replace /> : <Login />} />
           <Route path="/home" element={S('student', <StudentHome />)} />
@@ -129,6 +131,7 @@ function Shell() {
           <Route path="/m" element={S('mentor', <Mentor />)} />
           <Route path="*" element={<Navigate to={user ? homeFor(user) : '/login'} replace />} />
         </Routes>
+        </div>
       </main>
       <Toasts />
     </>
