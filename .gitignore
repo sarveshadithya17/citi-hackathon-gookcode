@@ -1,0 +1,22 @@
+# secrets
+.env
+.env.*
+!.env.example
+
+# python
+__pycache__/
+*.pyc
+.pytest_cache/
+*.egg-info/
+.venv/
+
+# runtime data
+backend/thiran.db
+*.db-journal
+
+# personal data of team members
+Team_details.pdf
+
+# office lock files
+~$*
+.~lock.*
