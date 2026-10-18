@@ -3,7 +3,13 @@
 set -euo pipefail
 cd "$(dirname "$0")"
 
-if [ ! -f frontend/dist/index.html ]; then
+# Node is installed with nvm; load it if npm isn't already on PATH.
+if ! command -v npm >/dev/null 2>&1 && [ -s "$HOME/.nvm/nvm.sh" ]; then
+  export NVM_DIR="$HOME/.nvm"
+  . "$NVM_DIR/nvm.sh"
+fi
+
+if [ "${1:-}" = "--build" ] || [ ! -f frontend/dist/index.html ]; then
   echo "Building the web app..."
   (cd frontend && npm install && npm run build)
 fi
