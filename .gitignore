@@ -20,3 +20,4 @@ Team_details.pdf
 # office lock files
 ~$*
 .~lock.*
+.claude/
