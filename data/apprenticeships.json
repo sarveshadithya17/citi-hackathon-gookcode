@@ -1,0 +1,401 @@
+[
+  {
+    "id": "appr_medlab_madurai",
+    "kind": "apprenticeship",
+    "org": "MedLab Diagnostics, Madurai",
+    "title": "Lab assistant apprentice",
+    "trade": "Medical Lab Technician",
+    "district": "Madurai",
+    "state": "Tamil Nadu",
+    "stipend_inr_month": 9000,
+    "duration": "12 months",
+    "min_education": "class12",
+    "interests": [
+      "biology",
+      "health"
+    ],
+    "careers": [
+      "lab_technician"
+    ],
+    "naps": true,
+    "demo": true,
+    "apply_url": "https://www.apprenticeshipindia.gov.in/",
+    "source_url": "https://www.apprenticeshipindia.gov.in/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "appr_vaigai_electricals_madurai",
+    "kind": "apprenticeship",
+    "org": "Vaigai Power Electricals, Madurai",
+    "title": "Electrician apprentice",
+    "trade": "Electrician",
+    "district": "Madurai",
+    "state": "Tamil Nadu",
+    "stipend_inr_month": 8500,
+    "duration": "12 months",
+    "min_education": "iti",
+    "interests": [
+      "electricity",
+      "repair",
+      "machines"
+    ],
+    "careers": [
+      "electrician"
+    ],
+    "naps": true,
+    "demo": true,
+    "apply_url": "https://www.apprenticeshipindia.gov.in/",
+    "source_url": "https://www.apprenticeshipindia.gov.in/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "appr_meenakshi_beauty_madurai",
+    "kind": "apprenticeship",
+    "org": "Meenakshi Beauty Studio, Madurai",
+    "title": "Beauty therapist apprentice",
+    "trade": "Beauty Therapist",
+    "district": "Madurai",
+    "state": "Tamil Nadu",
+    "stipend_inr_month": 7000,
+    "duration": "6 months",
+    "min_education": "class10",
+    "interests": [
+      "beauty",
+      "fashion",
+      "talking"
+    ],
+    "careers": [
+      "beautician"
+    ],
+    "naps": true,
+    "demo": true,
+    "apply_url": "https://www.apprenticeshipindia.gov.in/",
+    "source_url": "https://www.apprenticeshipindia.gov.in/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "appr_dindigul_precision_fitter",
+    "kind": "apprenticeship",
+    "org": "Dindigul Precision Engineering Works",
+    "title": "Fitter apprentice",
+    "trade": "Fitter",
+    "district": "Dindigul",
+    "state": "Tamil Nadu",
+    "stipend_inr_month": 8500,
+    "duration": "12 months",
+    "min_education": "iti",
+    "interests": [
+      "machines",
+      "building",
+      "repair"
+    ],
+    "careers": [
+      "fitter"
+    ],
+    "naps": true,
+    "demo": true,
+    "apply_url": "https://www.apprenticeshipindia.gov.in/",
+    "source_url": "https://www.apprenticeshipindia.gov.in/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "appr_kodai_foods_dindigul",
+    "kind": "apprenticeship",
+    "org": "Kodai Valley Fresh Foods, Dindigul",
+    "title": "Food processing apprentice",
+    "trade": "Food Processing Technician",
+    "district": "Dindigul",
+    "state": "Tamil Nadu",
+    "stipend_inr_month": 8000,
+    "duration": "12 months",
+    "min_education": "class12",
+    "interests": [
+      "cooking",
+      "chemistry",
+      "farming"
+    ],
+    "careers": [
+      "food_processing_technician"
+    ],
+    "naps": true,
+    "demo": true,
+    "apply_url": "https://www.apprenticeshipindia.gov.in/",
+    "source_url": "https://www.apprenticeshipindia.gov.in/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "appr_sivakasi_fabrication_welder",
+    "kind": "apprenticeship",
+    "org": "Sivakasi Steel Fabrication Works, Virudhunagar",
+    "title": "Welder apprentice",
+    "trade": "Welder",
+    "district": "Virudhunagar",
+    "state": "Tamil Nadu",
+    "stipend_inr_month": 8000,
+    "duration": "12 months",
+    "min_education": "iti",
+    "interests": [
+      "machines",
+      "building"
+    ],
+    "careers": [
+      "welder"
+    ],
+    "naps": true,
+    "demo": true,
+    "apply_url": "https://www.apprenticeshipindia.gov.in/",
+    "source_url": "https://www.apprenticeshipindia.gov.in/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "appr_virudhunagar_traders_accounts",
+    "kind": "apprenticeship",
+    "org": "Virudhunagar Agro Traders and Oil Mills",
+    "title": "Accounts assistant apprentice",
+    "trade": "Accounts Executive",
+    "district": "Virudhunagar",
+    "state": "Tamil Nadu",
+    "stipend_inr_month": 9000,
+    "duration": "12 months",
+    "min_education": "ug",
+    "interests": [
+      "accounts",
+      "maths",
+      "business"
+    ],
+    "careers": [
+      "accountant"
+    ],
+    "naps": true,
+    "demo": true,
+    "apply_url": "https://www.apprenticeshipindia.gov.in/",
+    "source_url": "https://www.apprenticeshipindia.gov.in/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "appr_theni_mobilecare",
+    "kind": "apprenticeship",
+    "org": "Theni Mobile Care Service Centre",
+    "title": "Mobile phone repair apprentice",
+    "trade": "Mobile Phone Hardware Repair Technician",
+    "district": "Theni",
+    "state": "Tamil Nadu",
+    "stipend_inr_month": 7000,
+    "duration": "6 months",
+    "min_education": "class10",
+    "interests": [
+      "repair",
+      "electricity",
+      "computers"
+    ],
+    "careers": [
+      "mobile_repair_technician"
+    ],
+    "naps": true,
+    "demo": true,
+    "apply_url": "https://www.apprenticeshipindia.gov.in/",
+    "source_url": "https://www.apprenticeshipindia.gov.in/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "appr_theni_threads_tailor",
+    "kind": "apprenticeship",
+    "org": "Theni Threads Garments",
+    "title": "Sewing machine operator apprentice",
+    "trade": "Sewing Machine Operator",
+    "district": "Theni",
+    "state": "Tamil Nadu",
+    "stipend_inr_month": 7000,
+    "duration": "6 months",
+    "min_education": "class8",
+    "interests": [
+      "sewing",
+      "fashion",
+      "crafts"
+    ],
+    "careers": [
+      "tailor_garment_maker"
+    ],
+    "naps": true,
+    "demo": true,
+    "apply_url": "https://www.apprenticeshipindia.gov.in/",
+    "source_url": "https://www.apprenticeshipindia.gov.in/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "appr_sivaganga_motors_2w",
+    "kind": "apprenticeship",
+    "org": "Sivaganga Two-Wheeler Service Point",
+    "title": "Two-wheeler mechanic apprentice",
+    "trade": "Two-Wheeler Service Technician",
+    "district": "Sivaganga",
+    "state": "Tamil Nadu",
+    "stipend_inr_month": 7500,
+    "duration": "12 months",
+    "min_education": "class10",
+    "interests": [
+      "vehicles",
+      "machines",
+      "repair"
+    ],
+    "careers": [
+      "two_wheeler_mechanic"
+    ],
+    "naps": true,
+    "demo": true,
+    "apply_url": "https://www.apprenticeshipindia.gov.in/",
+    "source_url": "https://www.apprenticeshipindia.gov.in/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "appr_sunharvest_solar_trichy",
+    "kind": "apprenticeship",
+    "org": "SunHarvest Solar Solutions, Tiruchirappalli",
+    "title": "Solar panel installer apprentice",
+    "trade": "Solar PV Installer",
+    "district": "Tiruchirappalli",
+    "state": "Tamil Nadu",
+    "stipend_inr_month": 9000,
+    "duration": "12 months",
+    "min_education": "iti",
+    "interests": [
+      "electricity",
+      "environment",
+      "building"
+    ],
+    "careers": [
+      "solar_pv_installer",
+      "electrician"
+    ],
+    "naps": true,
+    "demo": true,
+    "apply_url": "https://www.apprenticeshipindia.gov.in/",
+    "source_url": "https://www.apprenticeshipindia.gov.in/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "appr_arogya_hospital_trichy",
+    "kind": "apprenticeship",
+    "org": "Arogya Multispeciality Hospital, Tiruchirappalli",
+    "title": "General duty assistant apprentice",
+    "trade": "General Duty Assistant",
+    "district": "Tiruchirappalli",
+    "state": "Tamil Nadu",
+    "stipend_inr_month": 8500,
+    "duration": "12 months",
+    "min_education": "class12",
+    "interests": [
+      "health",
+      "helping_people",
+      "biology"
+    ],
+    "careers": [
+      "nurse",
+      "community_health_worker"
+    ],
+    "naps": true,
+    "demo": true,
+    "apply_url": "https://www.apprenticeshipindia.gov.in/",
+    "source_url": "https://www.apprenticeshipindia.gov.in/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "appr_kovai_precision_cnc",
+    "kind": "apprenticeship",
+    "org": "Kovai Precision Components, Coimbatore",
+    "title": "CNC machine operator apprentice",
+    "trade": "CNC Operator",
+    "district": "Coimbatore",
+    "state": "Tamil Nadu",
+    "stipend_inr_month": 10500,
+    "duration": "12 months",
+    "min_education": "iti",
+    "interests": [
+      "machines",
+      "computers",
+      "maths"
+    ],
+    "careers": [
+      "cnc_operator"
+    ],
+    "naps": true,
+    "demo": true,
+    "apply_url": "https://www.apprenticeshipindia.gov.in/",
+    "source_url": "https://www.apprenticeshipindia.gov.in/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "intern_kaveri_analytics_coimbatore",
+    "kind": "internship",
+    "org": "Kaveri Analytics, Coimbatore",
+    "title": "Data analyst intern",
+    "trade": "Data Analyst",
+    "district": "Coimbatore",
+    "state": "Tamil Nadu",
+    "stipend_inr_month": 12000,
+    "duration": "6 months",
+    "min_education": "ug",
+    "interests": [
+      "computers",
+      "maths",
+      "coding"
+    ],
+    "careers": [
+      "data_analyst"
+    ],
+    "naps": false,
+    "demo": true,
+    "apply_url": "https://www.ncs.gov.in/",
+    "source_url": "https://www.ncs.gov.in/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "appr_chennai_techserve_it",
+    "kind": "apprenticeship",
+    "org": "Chennai TechServe Solutions",
+    "title": "IT helpdesk apprentice",
+    "trade": "IT Support Technician",
+    "district": "Chennai",
+    "state": "Tamil Nadu",
+    "stipend_inr_month": 11000,
+    "duration": "12 months",
+    "min_education": "diploma",
+    "interests": [
+      "computers",
+      "repair"
+    ],
+    "careers": [
+      "it_support_technician"
+    ],
+    "naps": true,
+    "demo": true,
+    "apply_url": "https://www.apprenticeshipindia.gov.in/",
+    "source_url": "https://www.apprenticeshipindia.gov.in/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "job_callconnect_chennai",
+    "kind": "job",
+    "org": "CallConnect Customer Services, Chennai",
+    "title": "Customer support executive (Tamil and English)",
+    "trade": "Customer Support Executive",
+    "district": "Chennai",
+    "state": "Tamil Nadu",
+    "stipend_inr_month": 13000,
+    "duration": "Full-time",
+    "min_education": "class12",
+    "interests": [
+      "talking",
+      "languages",
+      "computers"
+    ],
+    "careers": [
+      "customer_support_executive"
+    ],
+    "naps": false,
+    "demo": true,
+    "apply_url": "https://www.ncs.gov.in/",
+    "source_url": "https://www.ncs.gov.in/",
+    "last_verified": "2026-10-18"
+  }
+]

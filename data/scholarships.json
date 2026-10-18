@@ -1,0 +1,1056 @@
+[
+  {
+    "id": "nmmss",
+    "kind": "scholarship",
+    "name": "National Means-cum-Merit Scholarship (NMMSS)",
+    "provider": "Ministry of Education, Government of India",
+    "level": "central",
+    "benefit": "Rs 12,000 per year (Rs 1,000 a month) from Class 9 to Class 12",
+    "summary": "For bright students from low-income families in government, aided and local-body schools. You write the NMMS exam in Class 8; you need 55% in Class 7 (50% for SC/ST) and must keep the marks up to continue.",
+    "rules": {
+      "education_levels": [
+        "class8",
+        "class9",
+        "class10",
+        "class11",
+        "class12"
+      ],
+      "categories": null,
+      "max_family_income": 350000,
+      "min_marks_percent": 55,
+      "gender": null,
+      "school_types": [
+        "government",
+        "aided"
+      ],
+      "states": null,
+      "min_age": null,
+      "max_age": null,
+      "disability": null,
+      "first_graduate": null,
+      "streams": null
+    },
+    "documents": [
+      "Income certificate (from Tahsildar)",
+      "Class 7 marksheet (and later class marksheets for renewal)",
+      "NMMS exam result",
+      "Community certificate (if SC/ST)",
+      "Aadhaar card",
+      "Bank account passbook (Aadhaar-linked)"
+    ],
+    "how_to_apply": "Write the NMMS exam conducted by the state exam board in Class 8. If you are selected, register on the National Scholarship Portal and renew every year.",
+    "apply_url": "https://scholarships.gov.in/",
+    "deadline_note": "NMMS exam usually in December-February; NSP usually opens between July and October",
+    "source_url": "https://scholarships.gov.in/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "pm_yasasvi_prematric",
+    "kind": "scholarship",
+    "name": "PM YASASVI Pre-Matric Scholarship for OBC, EBC and DNT Students",
+    "provider": "Ministry of Social Justice and Empowerment, Government of India",
+    "level": "central",
+    "benefit": "Rs 4,000 per year (verify on portal)",
+    "summary": "For OBC, EBC and denotified (DNT) students in Class 9 and 10 whose family income is up to Rs 2.5 lakh a year. It is given through the state government.",
+    "rules": {
+      "education_levels": [
+        "class9",
+        "class10"
+      ],
+      "categories": [
+        "obc",
+        "bc",
+        "mbc"
+      ],
+      "max_family_income": 250000,
+      "min_marks_percent": null,
+      "gender": null,
+      "school_types": null,
+      "states": null,
+      "min_age": null,
+      "max_age": null,
+      "disability": null,
+      "first_graduate": null,
+      "streams": null
+    },
+    "documents": [
+      "Income certificate (from Tahsildar)",
+      "Community certificate",
+      "Previous year marksheet",
+      "Bonafide certificate from school or college",
+      "Aadhaar card",
+      "Bank account passbook (Aadhaar-linked)"
+    ],
+    "how_to_apply": "Tell your school headmaster you want this scholarship; the school applies for you through the state scholarship system or the National Scholarship Portal.",
+    "apply_url": "https://scholarships.gov.in/",
+    "deadline_note": "Usually opens July-October",
+    "source_url": "https://socialjustice.gov.in/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "pm_yasasvi_postmatric",
+    "kind": "scholarship",
+    "name": "PM YASASVI Post-Matric Scholarship for OBC, EBC and DNT Students",
+    "provider": "Ministry of Social Justice and Empowerment, Government of India",
+    "level": "central",
+    "benefit": "Pays compulsory course fees and a yearly allowance, from Class 11 up to PhD; amount depends on the course (verify on portal)",
+    "summary": "For OBC, EBC and DNT students studying after Class 10 (Class 11-12, ITI, diploma, degree, PG) with family income up to Rs 2.5 lakh a year. In Tamil Nadu it reaches BC/MBC/DNC students through the state post-matric scholarship.",
+    "rules": {
+      "education_levels": [
+        "class11",
+        "class12",
+        "iti",
+        "diploma",
+        "ug",
+        "pg"
+      ],
+      "categories": [
+        "obc",
+        "bc",
+        "mbc"
+      ],
+      "max_family_income": 250000,
+      "min_marks_percent": null,
+      "gender": null,
+      "school_types": null,
+      "states": null,
+      "min_age": null,
+      "max_age": null,
+      "disability": null,
+      "first_graduate": null,
+      "streams": null
+    },
+    "documents": [
+      "Income certificate (from Tahsildar)",
+      "Community certificate",
+      "Previous exam marksheet",
+      "Bonafide certificate from school or college",
+      "Fee receipt",
+      "Aadhaar card",
+      "Bank account passbook (Aadhaar-linked)"
+    ],
+    "how_to_apply": "Apply through your school or college after admission; in Tamil Nadu the college submits it on the state scholarship portal for you.",
+    "apply_url": "https://scholarships.gov.in/",
+    "deadline_note": "Usually opens July-October",
+    "source_url": "https://socialjustice.gov.in/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "central_sector_scholarship",
+    "kind": "scholarship",
+    "name": "Central Sector Scheme of Scholarships for College and University Students",
+    "provider": "Department of Higher Education, Ministry of Education, Government of India",
+    "level": "central",
+    "benefit": "Rs 12,000 per year for the first 3 years of a degree and Rs 20,000 per year for PG (and for the 4th/5th year of professional courses)",
+    "summary": "For students who scored above the 80th percentile in their Class 12 board results and joined a regular (not correspondence) degree course, with family income up to Rs 4.5 lakh a year. The percentile cut-off is set by each board, so check your board's list.",
+    "rules": {
+      "education_levels": [
+        "class12",
+        "ug",
+        "pg"
+      ],
+      "categories": null,
+      "max_family_income": 450000,
+      "min_marks_percent": null,
+      "gender": null,
+      "school_types": null,
+      "states": null,
+      "min_age": null,
+      "max_age": null,
+      "disability": null,
+      "first_graduate": null,
+      "streams": null
+    },
+    "documents": [
+      "Income certificate (from Tahsildar)",
+      "Class 12 marksheet",
+      "Bonafide certificate from school or college",
+      "Community certificate (if reserved category)",
+      "Aadhaar card",
+      "Bank account passbook (Aadhaar-linked)"
+    ],
+    "how_to_apply": "Register on the National Scholarship Portal in the same year you join college, and renew every year with your marks.",
+    "apply_url": "https://scholarships.gov.in/",
+    "deadline_note": "NSP usually opens between July and October",
+    "source_url": "https://scholarships.gov.in/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "post_matric_sc",
+    "kind": "scholarship",
+    "name": "Post-Matric Scholarship for Scheduled Caste Students",
+    "provider": "Department of Social Justice and Empowerment, Government of India",
+    "level": "central",
+    "benefit": "Full non-refundable course fees plus a yearly academic allowance of about Rs 2,500 to Rs 13,500 depending on the course (verify on portal)",
+    "summary": "For SC students studying after Class 10 (Class 11 to PhD) with family income up to Rs 2.5 lakh a year. In Tamil Nadu it is given through the Adi Dravidar Welfare Department's scholarship, so you apply once.",
+    "rules": {
+      "education_levels": [
+        "class11",
+        "class12",
+        "iti",
+        "diploma",
+        "ug",
+        "pg"
+      ],
+      "categories": [
+        "sc"
+      ],
+      "max_family_income": 250000,
+      "min_marks_percent": null,
+      "gender": null,
+      "school_types": null,
+      "states": null,
+      "min_age": null,
+      "max_age": null,
+      "disability": null,
+      "first_graduate": null,
+      "streams": null
+    },
+    "documents": [
+      "Income certificate (from Tahsildar)",
+      "Community certificate",
+      "Previous exam marksheet",
+      "Bonafide certificate from school or college",
+      "Fee receipt",
+      "Aadhaar card",
+      "Bank account passbook (Aadhaar-linked)"
+    ],
+    "how_to_apply": "After you take admission, give your documents to your school or college scholarship office; they submit the application on the state portal.",
+    "apply_url": "https://scholarships.gov.in/",
+    "deadline_note": "Usually opens July-October",
+    "source_url": "https://socialjustice.gov.in/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "post_matric_st",
+    "kind": "scholarship",
+    "name": "Post-Matric Scholarship for Scheduled Tribe Students",
+    "provider": "Ministry of Tribal Affairs, Government of India",
+    "level": "central",
+    "benefit": "Course fees plus a monthly maintenance allowance (about Rs 230 to Rs 1,200 depending on course and hostel; verify on portal)",
+    "summary": "For ST students studying after Class 10 (Class 11 to PhD) with family income up to Rs 2.5 lakh a year.",
+    "rules": {
+      "education_levels": [
+        "class11",
+        "class12",
+        "iti",
+        "diploma",
+        "ug",
+        "pg"
+      ],
+      "categories": [
+        "st"
+      ],
+      "max_family_income": 250000,
+      "min_marks_percent": null,
+      "gender": null,
+      "school_types": null,
+      "states": null,
+      "min_age": null,
+      "max_age": null,
+      "disability": null,
+      "first_graduate": null,
+      "streams": null
+    },
+    "documents": [
+      "Income certificate (from Tahsildar)",
+      "Community certificate",
+      "Previous exam marksheet",
+      "Bonafide certificate from school or college",
+      "Fee receipt",
+      "Aadhaar card",
+      "Bank account passbook (Aadhaar-linked)"
+    ],
+    "how_to_apply": "Apply on the National Scholarship Portal or your state portal after admission, and ask your college to verify it.",
+    "apply_url": "https://scholarships.gov.in/",
+    "deadline_note": "Usually opens July-October",
+    "source_url": "https://tribal.nic.in/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "pre_matric_sc_st",
+    "kind": "scholarship",
+    "name": "Pre-Matric Scholarship for SC and ST Students (Class 9-10)",
+    "provider": "Department of Social Justice and Empowerment and Ministry of Tribal Affairs, Government of India",
+    "level": "central",
+    "benefit": "SC: Rs 3,500 a year for day scholars and Rs 7,000 a year for hostel students; ST: about Rs 2,250 to Rs 5,250 a year (verify on portal)",
+    "summary": "For SC and ST students in Class 9 and 10 whose family income is up to Rs 2.5 lakh a year.",
+    "rules": {
+      "education_levels": [
+        "class9",
+        "class10"
+      ],
+      "categories": [
+        "sc",
+        "st"
+      ],
+      "max_family_income": 250000,
+      "min_marks_percent": null,
+      "gender": null,
+      "school_types": null,
+      "states": null,
+      "min_age": null,
+      "max_age": null,
+      "disability": null,
+      "first_graduate": null,
+      "streams": null
+    },
+    "documents": [
+      "Income certificate (from Tahsildar)",
+      "Community certificate",
+      "Previous year marksheet",
+      "Bonafide certificate from school or college",
+      "Aadhaar card",
+      "Bank account passbook (Aadhaar-linked)"
+    ],
+    "how_to_apply": "Your school applies for you; give your community and income certificates and bank details to the headmaster.",
+    "apply_url": "https://scholarships.gov.in/",
+    "deadline_note": "Usually opens July-October",
+    "source_url": "https://socialjustice.gov.in/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "pre_matric_minority",
+    "kind": "scholarship",
+    "name": "Pre-Matric Scholarship for Minorities (Class 9-10)",
+    "provider": "Ministry of Minority Affairs, Government of India",
+    "level": "central",
+    "benefit": "Fee support plus a small monthly maintenance allowance (verify on portal)",
+    "summary": "For Muslim, Christian, Sikh, Buddhist, Jain and Parsi students in Class 9 and 10 with at least 50% marks in the previous exam and family income up to Rs 1 lakh a year.",
+    "rules": {
+      "education_levels": [
+        "class9",
+        "class10"
+      ],
+      "categories": [
+        "minority"
+      ],
+      "max_family_income": 100000,
+      "min_marks_percent": 50,
+      "gender": null,
+      "school_types": null,
+      "states": null,
+      "min_age": null,
+      "max_age": null,
+      "disability": null,
+      "first_graduate": null,
+      "streams": null
+    },
+    "documents": [
+      "Income certificate (from Tahsildar)",
+      "Self-declaration of minority community",
+      "Previous year marksheet",
+      "Bonafide certificate from school or college",
+      "Aadhaar card",
+      "Bank account passbook (Aadhaar-linked)"
+    ],
+    "how_to_apply": "Register on the National Scholarship Portal and apply; your school must verify the form.",
+    "apply_url": "https://scholarships.gov.in/",
+    "deadline_note": "NSP usually opens between July and October",
+    "source_url": "https://scholarships.gov.in/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "post_matric_minority",
+    "kind": "scholarship",
+    "name": "Post-Matric Scholarship for Minorities",
+    "provider": "Ministry of Minority Affairs, Government of India",
+    "level": "central",
+    "benefit": "Admission and tuition fees (up to about Rs 7,000-10,000 a year) plus a maintenance allowance of about Rs 230 to Rs 1,200 a month (verify on portal)",
+    "summary": "For minority-community students from Class 11 to PhD with at least 50% marks in the previous exam and family income up to Rs 2 lakh a year. 30% of the awards are kept for girls.",
+    "rules": {
+      "education_levels": [
+        "class11",
+        "class12",
+        "iti",
+        "diploma",
+        "ug",
+        "pg"
+      ],
+      "categories": [
+        "minority"
+      ],
+      "max_family_income": 200000,
+      "min_marks_percent": 50,
+      "gender": null,
+      "school_types": null,
+      "states": null,
+      "min_age": null,
+      "max_age": null,
+      "disability": null,
+      "first_graduate": null,
+      "streams": null
+    },
+    "documents": [
+      "Income certificate (from Tahsildar)",
+      "Self-declaration of minority community",
+      "Previous exam marksheet",
+      "Bonafide certificate from school or college",
+      "Fee receipt",
+      "Aadhaar card",
+      "Bank account passbook (Aadhaar-linked)"
+    ],
+    "how_to_apply": "Register on the National Scholarship Portal and apply after admission; your institution verifies it online.",
+    "apply_url": "https://scholarships.gov.in/",
+    "deadline_note": "NSP usually opens between July and October",
+    "source_url": "https://scholarships.gov.in/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "aicte_pragati",
+    "kind": "scholarship",
+    "name": "AICTE Pragati Scholarship for Girl Students",
+    "provider": "All India Council for Technical Education (AICTE)",
+    "level": "central",
+    "benefit": "Rs 50,000 per year for every year of the course",
+    "summary": "For girls admitted to the first year of an AICTE-approved diploma or degree course (or second year through lateral entry), with family income up to Rs 8 lakh a year. Up to two girls per family.",
+    "rules": {
+      "education_levels": [
+        "class10",
+        "class12",
+        "diploma",
+        "ug"
+      ],
+      "categories": null,
+      "max_family_income": 800000,
+      "min_marks_percent": null,
+      "gender": "female",
+      "school_types": null,
+      "states": null,
+      "min_age": null,
+      "max_age": null,
+      "disability": null,
+      "first_graduate": null,
+      "streams": null
+    },
+    "documents": [
+      "Income certificate (from Tahsildar)",
+      "Class 10 / Class 12 marksheet",
+      "Admission letter",
+      "Fee receipt",
+      "Bonafide certificate from school or college",
+      "Aadhaar card",
+      "Bank account passbook (Aadhaar-linked)"
+    ],
+    "how_to_apply": "After joining a diploma or engineering college, apply on the National Scholarship Portal under AICTE Pragati.",
+    "apply_url": "https://scholarships.gov.in/",
+    "deadline_note": "NSP usually opens between July and October",
+    "source_url": "https://www.aicte-india.org/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "aicte_saksham",
+    "kind": "scholarship",
+    "name": "AICTE Saksham Scholarship for Specially-Abled Students",
+    "provider": "All India Council for Technical Education (AICTE)",
+    "level": "central",
+    "benefit": "Rs 50,000 per year for every year of the course",
+    "summary": "For students with 40% or more disability admitted to an AICTE-approved diploma or degree course, with family income up to Rs 8 lakh a year.",
+    "rules": {
+      "education_levels": [
+        "class10",
+        "class12",
+        "diploma",
+        "ug"
+      ],
+      "categories": null,
+      "max_family_income": 800000,
+      "min_marks_percent": null,
+      "gender": null,
+      "school_types": null,
+      "states": null,
+      "min_age": null,
+      "max_age": null,
+      "disability": true,
+      "first_graduate": null,
+      "streams": null
+    },
+    "documents": [
+      "Disability certificate (40% or more)",
+      "Income certificate (from Tahsildar)",
+      "Class 10 / Class 12 marksheet",
+      "Admission letter",
+      "Fee receipt",
+      "Aadhaar card",
+      "Bank account passbook (Aadhaar-linked)"
+    ],
+    "how_to_apply": "After joining your diploma or degree course, apply on the National Scholarship Portal under AICTE Saksham.",
+    "apply_url": "https://scholarships.gov.in/",
+    "deadline_note": "NSP usually opens between July and October",
+    "source_url": "https://www.aicte-india.org/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "aicte_swanath",
+    "kind": "scholarship",
+    "name": "AICTE Swanath Scholarship",
+    "provider": "All India Council for Technical Education (AICTE)",
+    "level": "central",
+    "benefit": "Rs 50,000 per year for every year of the course",
+    "summary": "For orphans, students who lost a parent to COVID-19, and wards of armed forces or CAPF personnel martyred in action, studying an AICTE-approved diploma or degree course, with family income up to Rs 8 lakh a year.",
+    "rules": {
+      "education_levels": [
+        "class10",
+        "class12",
+        "diploma",
+        "ug"
+      ],
+      "categories": null,
+      "max_family_income": 800000,
+      "min_marks_percent": null,
+      "gender": null,
+      "school_types": null,
+      "states": null,
+      "min_age": null,
+      "max_age": null,
+      "disability": null,
+      "first_graduate": null,
+      "streams": null
+    },
+    "documents": [
+      "Death certificate of parent(s) or martyr certificate",
+      "Income certificate (from Tahsildar)",
+      "Admission letter",
+      "Fee receipt",
+      "Aadhaar card",
+      "Bank account passbook (Aadhaar-linked)"
+    ],
+    "how_to_apply": "Apply on the National Scholarship Portal under AICTE Swanath after joining your course.",
+    "apply_url": "https://scholarships.gov.in/",
+    "deadline_note": "NSP usually opens between July and October",
+    "source_url": "https://www.aicte-india.org/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "inspire_she",
+    "kind": "scholarship",
+    "name": "INSPIRE Scholarship for Higher Education (INSPIRE-SHE)",
+    "provider": "Department of Science and Technology, Government of India",
+    "level": "central",
+    "benefit": "Rs 80,000 per year (Rs 60,000 scholarship + Rs 20,000 summer research project) for up to 5 years",
+    "summary": "For students in the top 1% of their Class 12 board (or with a top JEE/NEET rank or a national science olympiad award) who study a B.Sc, BS or integrated M.Sc in basic and natural sciences. Age 17 to 22.",
+    "rules": {
+      "education_levels": [
+        "class12",
+        "ug"
+      ],
+      "categories": null,
+      "max_family_income": null,
+      "min_marks_percent": null,
+      "gender": null,
+      "school_types": null,
+      "states": null,
+      "min_age": 17,
+      "max_age": 22,
+      "disability": null,
+      "first_graduate": null,
+      "streams": [
+        "science_bio",
+        "science_maths"
+      ]
+    },
+    "documents": [
+      "Class 12 marksheet",
+      "Top 1% eligibility certificate from your board",
+      "Bonafide certificate from school or college",
+      "Endorsement form signed by college principal",
+      "Aadhaar card",
+      "Bank account passbook (Aadhaar-linked)"
+    ],
+    "how_to_apply": "After joining a B.Sc/BS course, register on the INSPIRE website and upload your marks and the college endorsement form.",
+    "apply_url": "https://online-inspire.gov.in/",
+    "deadline_note": "Usually opens around October-November",
+    "source_url": "https://online-inspire.gov.in/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "pm_scholarship_ex_servicemen",
+    "kind": "scholarship",
+    "name": "Prime Minister's Scholarship Scheme for Wards of Ex-Servicemen and CAPF",
+    "provider": "Kendriya Sainik Board (Ministry of Defence) / Ministry of Home Affairs",
+    "level": "central",
+    "benefit": "Rs 2,500 a month for boys and Rs 3,000 a month for girls",
+    "summary": "For children and widows of ex-servicemen, ex-Coast Guard and CAPF/Assam Rifles personnel joining the first year of a professional course (engineering, medicine, BBA, BCA, B.Pharm and similar) with at least 60% in Class 12, diploma or graduation.",
+    "rules": {
+      "education_levels": [
+        "class12",
+        "diploma",
+        "ug"
+      ],
+      "categories": null,
+      "max_family_income": null,
+      "min_marks_percent": 60,
+      "gender": null,
+      "school_types": null,
+      "states": null,
+      "min_age": null,
+      "max_age": null,
+      "disability": null,
+      "first_graduate": null,
+      "streams": null
+    },
+    "documents": [
+      "Ex-servicemen / CAPF service certificate of parent",
+      "Class 12 / diploma marksheet",
+      "Admission letter",
+      "Bonafide certificate from school or college",
+      "Aadhaar card",
+      "Bank account passbook (Aadhaar-linked)"
+    ],
+    "how_to_apply": "Apply online on the Kendriya Sainik Board website (ex-servicemen) or the National Scholarship Portal (CAPF) in your first year of the course.",
+    "apply_url": "https://ksb.gov.in/",
+    "deadline_note": "Usually opens July-October",
+    "source_url": "https://ksb.gov.in/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "pwd_scholarship",
+    "kind": "scholarship",
+    "name": "Scholarships for Students with Disabilities (Pre-Matric and Post-Matric)",
+    "provider": "Department of Empowerment of Persons with Disabilities, Government of India",
+    "level": "central",
+    "benefit": "Monthly allowance (about Rs 500 to Rs 1,600 depending on level) plus book and disability allowances; post-matric also covers fees (verify on portal)",
+    "summary": "For students with 40% or more disability, from Class 9 to PG, with family income up to Rs 2.5 lakh a year.",
+    "rules": {
+      "education_levels": [
+        "class9",
+        "class10",
+        "class11",
+        "class12",
+        "iti",
+        "diploma",
+        "ug",
+        "pg"
+      ],
+      "categories": null,
+      "max_family_income": 250000,
+      "min_marks_percent": null,
+      "gender": null,
+      "school_types": null,
+      "states": null,
+      "min_age": null,
+      "max_age": null,
+      "disability": true,
+      "first_graduate": null,
+      "streams": null
+    },
+    "documents": [
+      "Disability certificate (40% or more)",
+      "Income certificate (from Tahsildar)",
+      "Previous exam marksheet",
+      "Bonafide certificate from school or college",
+      "Fee receipt",
+      "Aadhaar card",
+      "Bank account passbook (Aadhaar-linked)"
+    ],
+    "how_to_apply": "Register on the National Scholarship Portal, choose the disability scholarship for your class, and get it verified by your school or college.",
+    "apply_url": "https://scholarships.gov.in/",
+    "deadline_note": "NSP usually opens between July and October",
+    "source_url": "https://depwd.gov.in/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "ishan_uday",
+    "kind": "scholarship",
+    "name": "Ishan Uday Special Scholarship for North Eastern Region",
+    "provider": "University Grants Commission (UGC)",
+    "level": "central",
+    "benefit": "Rs 5,400 a month for general degree courses and Rs 7,800 a month for technical, medical and professional courses",
+    "summary": "For students from the eight North Eastern states who passed Class 12 there and joined a regular degree course, with family income up to Rs 4.5 lakh a year.",
+    "rules": {
+      "education_levels": [
+        "class12",
+        "ug"
+      ],
+      "categories": null,
+      "max_family_income": 450000,
+      "min_marks_percent": null,
+      "gender": null,
+      "school_types": null,
+      "states": [
+        "Arunachal Pradesh",
+        "Assam",
+        "Manipur",
+        "Meghalaya",
+        "Mizoram",
+        "Nagaland",
+        "Sikkim",
+        "Tripura"
+      ],
+      "min_age": null,
+      "max_age": null,
+      "disability": null,
+      "first_graduate": null,
+      "streams": null
+    },
+    "documents": [
+      "Domicile certificate",
+      "Income certificate (from Tahsildar)",
+      "Class 12 marksheet",
+      "Bonafide certificate from school or college",
+      "Aadhaar card",
+      "Bank account passbook (Aadhaar-linked)"
+    ],
+    "how_to_apply": "Apply on the National Scholarship Portal in your first year of college.",
+    "apply_url": "https://scholarships.gov.in/",
+    "deadline_note": "NSP usually opens between July and October",
+    "source_url": "https://www.ugc.gov.in/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "pudhumai_penn",
+    "kind": "scholarship",
+    "name": "Pudhumai Penn (Moovalur Ramamirtham Ammaiyar Higher Education Assurance Scheme)",
+    "provider": "Social Welfare and Women Empowerment Department, Government of Tamil Nadu",
+    "level": "state",
+    "benefit": "Rs 1,000 a month until you finish your first degree, diploma or ITI course; given on top of other scholarships",
+    "summary": "For girls who studied Class 6 to 12 in Tamil Nadu government schools (and, since December 2024, Tamil-medium government-aided schools) and join college, diploma, ITI or paramedical courses. No income limit.",
+    "rules": {
+      "education_levels": [
+        "class12",
+        "iti",
+        "diploma",
+        "ug"
+      ],
+      "categories": null,
+      "max_family_income": null,
+      "min_marks_percent": null,
+      "gender": "female",
+      "school_types": [
+        "government",
+        "aided"
+      ],
+      "states": [
+        "Tamil Nadu"
+      ],
+      "min_age": null,
+      "max_age": null,
+      "disability": null,
+      "first_graduate": null,
+      "streams": null
+    },
+    "documents": [
+      "Transfer certificate / school study certificate (Class 6-12)",
+      "Class 12 marksheet",
+      "College bonafide certificate",
+      "Aadhaar card",
+      "Bank account passbook (Aadhaar-linked)"
+    ],
+    "how_to_apply": "After joining college, ask your college's Pudhumai Penn nodal officer to register you on the portal; the money comes to your bank account every month.",
+    "apply_url": "https://www.pudhumaipenn.tn.gov.in/",
+    "deadline_note": "Register soon after admission (July-September)",
+    "source_url": "https://www.pudhumaipenn.tn.gov.in/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "tamil_pudhalvan",
+    "kind": "scholarship",
+    "name": "Tamil Pudhalvan Scheme",
+    "provider": "Social Welfare and Women Empowerment Department, Government of Tamil Nadu",
+    "level": "state",
+    "benefit": "Rs 1,000 a month until you finish your first degree, diploma or ITI course",
+    "summary": "For boys who studied Class 6 to 12 in Tamil Nadu government schools (and Tamil-medium government-aided schools) and join a degree, diploma or ITI course. No income limit. Started in August 2024.",
+    "rules": {
+      "education_levels": [
+        "class12",
+        "iti",
+        "diploma",
+        "ug"
+      ],
+      "categories": null,
+      "max_family_income": null,
+      "min_marks_percent": null,
+      "gender": "male",
+      "school_types": [
+        "government",
+        "aided"
+      ],
+      "states": [
+        "Tamil Nadu"
+      ],
+      "min_age": null,
+      "max_age": null,
+      "disability": null,
+      "first_graduate": null,
+      "streams": null
+    },
+    "documents": [
+      "Transfer certificate / school study certificate (Class 6-12)",
+      "Class 12 marksheet",
+      "College bonafide certificate",
+      "Aadhaar card",
+      "Bank account passbook (Aadhaar-linked)"
+    ],
+    "how_to_apply": "After admission, your college registers you on the UMIS portal; the money is sent to your bank account every month.",
+    "apply_url": "https://umis.tn.gov.in/",
+    "deadline_note": "Register soon after admission (July-September)",
+    "source_url": "https://www.tn.gov.in/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "tn_postmatric_bc_mbc",
+    "kind": "scholarship",
+    "name": "Tamil Nadu Post-Matric Scholarship for BC, MBC and DNC Students",
+    "provider": "Backward Classes, Most Backward Classes and Minorities Welfare Department, Government of Tamil Nadu",
+    "level": "state",
+    "benefit": "Tuition, special and exam fees paid for government and aided institutions, fixed fee amounts for self-financing colleges, plus a maintenance allowance (verify on portal)",
+    "summary": "For BC, MBC and denotified community (DNC) students from Class 11 to PG in Tamil Nadu, with family income up to Rs 2.5 lakh a year. Some fee parts have no income limit for MBC and DNC students.",
+    "rules": {
+      "education_levels": [
+        "class11",
+        "class12",
+        "iti",
+        "diploma",
+        "ug",
+        "pg"
+      ],
+      "categories": [
+        "bc",
+        "mbc"
+      ],
+      "max_family_income": 250000,
+      "min_marks_percent": null,
+      "gender": null,
+      "school_types": null,
+      "states": [
+        "Tamil Nadu"
+      ],
+      "min_age": null,
+      "max_age": null,
+      "disability": null,
+      "first_graduate": null,
+      "streams": null
+    },
+    "documents": [
+      "Income certificate (from Tahsildar)",
+      "Community certificate",
+      "Previous exam marksheet",
+      "Bonafide certificate from school or college",
+      "Fee receipt",
+      "Aadhaar card",
+      "Bank account passbook (Aadhaar-linked)"
+    ],
+    "how_to_apply": "Give your documents to your school or college scholarship section after admission; they apply for you on the state portal.",
+    "apply_url": "https://bcmbcmw.tn.gov.in/",
+    "deadline_note": "Usually August-December",
+    "source_url": "https://bcmbcmw.tn.gov.in/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "tn_postmatric_sc_st",
+    "kind": "scholarship",
+    "name": "Tamil Nadu Post-Matric Scholarship for SC, ST and SC-Converted Christian Students",
+    "provider": "Adi Dravidar and Tribal Welfare Department, Government of Tamil Nadu",
+    "level": "state",
+    "benefit": "Full fees (tuition, special and exam fees) paid to the institution plus a maintenance allowance (verify on portal)",
+    "summary": "For SC, ST and SC-converted-Christian students from Class 11 to PG in Tamil Nadu with family income up to Rs 2.5 lakh a year. This is how Tamil Nadu students get the central SC/ST post-matric scholarship.",
+    "rules": {
+      "education_levels": [
+        "class11",
+        "class12",
+        "iti",
+        "diploma",
+        "ug",
+        "pg"
+      ],
+      "categories": [
+        "sc",
+        "st"
+      ],
+      "max_family_income": 250000,
+      "min_marks_percent": null,
+      "gender": null,
+      "school_types": null,
+      "states": [
+        "Tamil Nadu"
+      ],
+      "min_age": null,
+      "max_age": null,
+      "disability": null,
+      "first_graduate": null,
+      "streams": null
+    },
+    "documents": [
+      "Income certificate (from Tahsildar)",
+      "Community certificate",
+      "Previous exam marksheet",
+      "Bonafide certificate from school or college",
+      "Fee receipt",
+      "Aadhaar card",
+      "Bank account passbook (Aadhaar-linked)"
+    ],
+    "how_to_apply": "After admission, submit your documents to the college scholarship section; they apply on the state portal and the fee is paid directly.",
+    "apply_url": "https://adwelfare.tn.gov.in/",
+    "deadline_note": "Usually August-December",
+    "source_url": "https://adwelfare.tn.gov.in/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "tn_first_graduate",
+    "kind": "scholarship",
+    "name": "Tamil Nadu First Graduate Tuition Fee Concession",
+    "provider": "Higher Education Department, Government of Tamil Nadu",
+    "level": "state",
+    "benefit": "Full tuition fee waived for the whole course",
+    "summary": "For students who are the first in their family to go to college and join a professional course (engineering, medicine, agriculture, veterinary, law and similar) through government single-window counselling. No income limit.",
+    "rules": {
+      "education_levels": [
+        "class12",
+        "ug"
+      ],
+      "categories": null,
+      "max_family_income": null,
+      "min_marks_percent": null,
+      "gender": null,
+      "school_types": null,
+      "states": [
+        "Tamil Nadu"
+      ],
+      "min_age": null,
+      "max_age": null,
+      "disability": null,
+      "first_graduate": true,
+      "streams": null
+    },
+    "documents": [
+      "First graduate certificate (from Tahsildar)",
+      "Joint declaration by student and parent",
+      "Class 12 marksheet",
+      "Counselling allotment order",
+      "Aadhaar card",
+      "Bank account passbook (Aadhaar-linked)"
+    ],
+    "how_to_apply": "Get a first graduate certificate from the Tahsildar and upload it while applying for counselling (such as TNEA); the college then does not charge tuition fee.",
+    "apply_url": "https://www.tneaonline.org/",
+    "deadline_note": "Apply along with counselling registration (May-June)",
+    "source_url": "https://www.tn.gov.in/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "hdfc_parivartan_ecss",
+    "kind": "scholarship",
+    "name": "HDFC Bank Parivartan's ECSS Programme",
+    "provider": "HDFC Bank (CSR), run through Buddy4Study",
+    "level": "private",
+    "benefit": "Rs 15,000-18,000 for school, ITI and diploma students; Rs 30,000-50,000 for UG; Rs 35,000-75,000 for PG (verify on portal)",
+    "summary": "Need-based scholarship for students from Class 1 to PG (including ITI and diploma) with at least 55% in the previous exam and family income up to Rs 2.5 lakh a year; students whose family faced a crisis in the last 3 years get priority.",
+    "rules": {
+      "education_levels": [
+        "class8",
+        "class9",
+        "class10",
+        "class11",
+        "class12",
+        "iti",
+        "diploma",
+        "ug",
+        "pg"
+      ],
+      "categories": null,
+      "max_family_income": 250000,
+      "min_marks_percent": 55,
+      "gender": null,
+      "school_types": null,
+      "states": null,
+      "min_age": null,
+      "max_age": null,
+      "disability": null,
+      "first_graduate": null,
+      "streams": null
+    },
+    "documents": [
+      "Income certificate (from Tahsildar)",
+      "Previous year marksheet",
+      "Admission proof / fee receipt",
+      "Photograph",
+      "Aadhaar card",
+      "Bank account passbook (Aadhaar-linked)"
+    ],
+    "how_to_apply": "Apply online on the Buddy4Study page for the programme; shortlisted students get a phone interview.",
+    "apply_url": "https://www.buddy4study.com/page/hdfc-bank-parivartans-ecss-programme",
+    "deadline_note": "Usually opens July-September",
+    "source_url": "https://www.buddy4study.com/page/hdfc-bank-parivartans-ecss-programme",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "reliance_foundation_ug",
+    "kind": "scholarship",
+    "name": "Reliance Foundation Undergraduate Scholarship",
+    "provider": "Reliance Foundation",
+    "level": "private",
+    "benefit": "Up to Rs 2 lakh over the full degree, plus mentoring",
+    "summary": "For first-year full-time undergraduate students in any stream with at least 60% in Class 12 and family income below Rs 15 lakh a year (income below Rs 2.5 lakh gets preference). Selection is through an online aptitude test.",
+    "rules": {
+      "education_levels": [
+        "class12",
+        "ug"
+      ],
+      "categories": null,
+      "max_family_income": 1500000,
+      "min_marks_percent": 60,
+      "gender": null,
+      "school_types": null,
+      "states": null,
+      "min_age": null,
+      "max_age": null,
+      "disability": null,
+      "first_graduate": null,
+      "streams": null
+    },
+    "documents": [
+      "Income certificate (from Tahsildar)",
+      "Class 10 and Class 12 marksheets",
+      "College admission proof",
+      "Photograph",
+      "Aadhaar card",
+      "Bank account passbook (Aadhaar-linked)"
+    ],
+    "how_to_apply": "Apply online on the Reliance Foundation Scholarships website in your first year of college and take the online aptitude test.",
+    "apply_url": "https://www.scholarships.reliancefoundation.org/",
+    "deadline_note": "Usually opens August-October",
+    "source_url": "https://www.scholarships.reliancefoundation.org/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "tata_capital_pankh",
+    "kind": "scholarship",
+    "name": "Tata Capital Pankh Scholarship Programme",
+    "provider": "Tata Capital (CSR), run through Buddy4Study",
+    "level": "private",
+    "benefit": "Up to 80% of tuition fees, capped at about Rs 10,000-18,000 depending on the course (verify on portal)",
+    "summary": "For Class 11-12, ITI, diploma and undergraduate students with at least 60% in the previous exam and family income up to Rs 2.5 lakh a year.",
+    "rules": {
+      "education_levels": [
+        "class11",
+        "class12",
+        "iti",
+        "diploma",
+        "ug"
+      ],
+      "categories": null,
+      "max_family_income": 250000,
+      "min_marks_percent": 60,
+      "gender": null,
+      "school_types": null,
+      "states": null,
+      "min_age": null,
+      "max_age": null,
+      "disability": null,
+      "first_graduate": null,
+      "streams": null
+    },
+    "documents": [
+      "Income certificate (from Tahsildar)",
+      "Previous year marksheet",
+      "Admission proof / fee receipt",
+      "Photograph",
+      "Aadhaar card",
+      "Bank account passbook (Aadhaar-linked)"
+    ],
+    "how_to_apply": "Apply online on the Buddy4Study page for the Pankh programme; you need to apply again every year.",
+    "apply_url": "https://www.buddy4study.com/page/the-tata-capital-pankh-scholarship-programme",
+    "deadline_note": "Usually opens July-October",
+    "source_url": "https://www.buddy4study.com/page/the-tata-capital-pankh-scholarship-programme",
+    "last_verified": "2026-10-18"
+  }
+]

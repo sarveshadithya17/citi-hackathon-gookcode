@@ -1,0 +1,4431 @@
+[
+  {
+    "id": "electrician",
+    "name": {
+      "en": "Electrician",
+      "ta": "மின் பணியாளர் (எலக்ட்ரீஷியன்)",
+      "hi": "इलेक्ट्रीशियन"
+    },
+    "category": "vocational",
+    "nco_code": "7411",
+    "description": "Fixes and installs wiring, switches, fans and motors in homes, shops and factories.",
+    "interests": [
+      "electricity",
+      "repair",
+      "machines"
+    ],
+    "work_styles": [
+      "hands",
+      "outdoors"
+    ],
+    "min_education": "class10",
+    "stream_hint": "any",
+    "training_time": "2 years (ITI Electrician)",
+    "salary_inr_month": [
+      10000,
+      22000
+    ],
+    "cost_level": "low",
+    "local_demand": "high",
+    "pathway": [
+      {
+        "type": "education",
+        "title": "Finish Class 10",
+        "duration": "1-2 years"
+      },
+      {
+        "type": "course",
+        "ref": "sid_electrician_basics",
+        "title": "Free course: Domestic wiring and electrical safety",
+        "duration": "4-8 weeks"
+      },
+      {
+        "type": "exam",
+        "ref": "tn_iti_admission",
+        "title": "Apply for Government ITI admission in the Electrician trade",
+        "duration": "1 month"
+      },
+      {
+        "type": "education",
+        "title": "ITI course: Electrician",
+        "duration": "2 years"
+      },
+      {
+        "type": "exam",
+        "ref": "aitt_ncvt",
+        "title": "Pass the All India Trade Test to get the National Trade Certificate",
+        "duration": "1 month"
+      },
+      {
+        "type": "apprenticeship",
+        "title": "Apprenticeship in a factory or service company (NAPS)",
+        "duration": "6-12 months"
+      },
+      {
+        "type": "job",
+        "title": "Electrician in a factory, contractor firm or TANGEDCO contract work; later get a wireman/electrical contractor licence",
+        "duration": ""
+      }
+    ],
+    "source_url": "https://www.ncs.gov.in/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "fitter",
+    "name": {
+      "en": "Fitter",
+      "ta": "ஃபிட்டர்",
+      "hi": "फिटर"
+    },
+    "category": "vocational",
+    "description": "Measures, cuts, fits and assembles metal machine parts in workshops and factories.",
+    "interests": [
+      "machines",
+      "repair"
+    ],
+    "work_styles": [
+      "hands"
+    ],
+    "min_education": "class10",
+    "stream_hint": "any",
+    "training_time": "2 years (ITI Fitter)",
+    "salary_inr_month": [
+      12000,
+      22000
+    ],
+    "cost_level": "low",
+    "local_demand": "high",
+    "pathway": [
+      {
+        "type": "education",
+        "title": "Finish Class 10",
+        "duration": "1-2 years"
+      },
+      {
+        "type": "course",
+        "ref": "nm_fitting_machining",
+        "title": "Free course: Fitting and machining fundamentals",
+        "duration": "6-8 weeks"
+      },
+      {
+        "type": "exam",
+        "ref": "tn_iti_admission",
+        "title": "Apply for Government ITI admission in the Fitter trade",
+        "duration": "1 month"
+      },
+      {
+        "type": "education",
+        "title": "ITI course: Fitter",
+        "duration": "2 years"
+      },
+      {
+        "type": "exam",
+        "ref": "aitt_ncvt",
+        "title": "Pass the All India Trade Test to get the National Trade Certificate",
+        "duration": "1 month"
+      },
+      {
+        "type": "apprenticeship",
+        "title": "Apprenticeship in a factory or service company (NAPS)",
+        "duration": "6-12 months"
+      },
+      {
+        "type": "job",
+        "title": "Fitter in an automobile, pump or engineering factory (Coimbatore, Hosur, Chennai belts)",
+        "duration": ""
+      }
+    ],
+    "source_url": "https://www.ncs.gov.in/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "welder",
+    "name": {
+      "en": "Welder",
+      "ta": "வெல்டர் (பற்றவைப்பாளர்)",
+      "hi": "वेल्डर"
+    },
+    "category": "vocational",
+    "nco_code": "7212",
+    "description": "Joins metal pieces using heat to build gates, frames, machines and structures.",
+    "interests": [
+      "machines",
+      "building"
+    ],
+    "work_styles": [
+      "hands",
+      "outdoors"
+    ],
+    "min_education": "class8",
+    "stream_hint": "any",
+    "training_time": "1 year (ITI Welder)",
+    "salary_inr_month": [
+      12000,
+      25000
+    ],
+    "cost_level": "low",
+    "local_demand": "high",
+    "pathway": [
+      {
+        "type": "education",
+        "title": "Finish Class 10",
+        "duration": "1-2 years"
+      },
+      {
+        "type": "course",
+        "ref": "sid_welding_basics",
+        "title": "Free course: Arc and gas welding basics",
+        "duration": "4-8 weeks"
+      },
+      {
+        "type": "exam",
+        "ref": "tn_iti_admission",
+        "title": "Apply for Government ITI admission in the Welder trade",
+        "duration": "1 month"
+      },
+      {
+        "type": "education",
+        "title": "ITI course: Welder",
+        "duration": "1 year"
+      },
+      {
+        "type": "exam",
+        "ref": "aitt_ncvt",
+        "title": "Pass the All India Trade Test to get the National Trade Certificate",
+        "duration": "1 month"
+      },
+      {
+        "type": "apprenticeship",
+        "title": "Apprenticeship in a factory or service company (NAPS)",
+        "duration": "6-12 months"
+      },
+      {
+        "type": "job",
+        "title": "Welder in a fabrication unit, shipyard or construction company",
+        "duration": ""
+      }
+    ],
+    "source_url": "https://www.ncs.gov.in/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "plumber",
+    "name": {
+      "en": "Plumber",
+      "ta": "பிளம்பர் (குழாய் பணியாளர்)",
+      "hi": "प्लंबर"
+    },
+    "category": "vocational",
+    "nco_code": "7126",
+    "description": "Fits and repairs water pipes, taps, tanks and toilets in houses and buildings.",
+    "interests": [
+      "building",
+      "repair"
+    ],
+    "work_styles": [
+      "hands",
+      "outdoors"
+    ],
+    "min_education": "class8",
+    "stream_hint": "any",
+    "training_time": "3 months to 1 year",
+    "salary_inr_month": [
+      10000,
+      22000
+    ],
+    "cost_level": "low",
+    "local_demand": "high",
+    "pathway": [
+      {
+        "type": "education",
+        "title": "Finish Class 10",
+        "duration": "1-2 years"
+      },
+      {
+        "type": "course",
+        "ref": "pmkvy_plumber",
+        "title": "Free short-term plumbing training",
+        "duration": "3 months"
+      },
+      {
+        "type": "exam",
+        "ref": "tn_iti_admission",
+        "title": "Optional: Government ITI admission in the Plumber trade",
+        "duration": "1 month"
+      },
+      {
+        "type": "apprenticeship",
+        "title": "Work under an experienced plumber or building contractor",
+        "duration": "6-12 months"
+      },
+      {
+        "type": "job",
+        "title": "Plumber with a builder, hotel or hospital, or self-employed in your area",
+        "duration": ""
+      }
+    ],
+    "source_url": "https://www.ncs.gov.in/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "mobile_repair_technician",
+    "name": {
+      "en": "Mobile Phone Repair Technician",
+      "ta": "கைபேசி பழுதுநீக்கும் தொழில்நுட்பர்",
+      "hi": "मोबाइल रिपेयर तकनीशियन"
+    },
+    "category": "vocational",
+    "nco_code": "7422",
+    "description": "Finds and fixes problems in mobile phones, like broken screens, charging faults and software issues.",
+    "interests": [
+      "repair",
+      "electricity",
+      "computers"
+    ],
+    "work_styles": [
+      "hands",
+      "people"
+    ],
+    "min_education": "class10",
+    "stream_hint": "any",
+    "training_time": "2-6 months",
+    "salary_inr_month": [
+      8000,
+      20000
+    ],
+    "cost_level": "low",
+    "local_demand": "high",
+    "pathway": [
+      {
+        "type": "education",
+        "title": "Finish Class 10",
+        "duration": "1-2 years"
+      },
+      {
+        "type": "course",
+        "ref": "sid_mobile_repair",
+        "title": "Free course: Mobile phone hardware repair",
+        "duration": "6-8 weeks"
+      },
+      {
+        "type": "course",
+        "ref": "nptel_basic_electronics",
+        "title": "Free course: Basic electronics",
+        "duration": "8-12 weeks"
+      },
+      {
+        "type": "apprenticeship",
+        "title": "Work at a mobile service centre to gain experience",
+        "duration": "6 months"
+      },
+      {
+        "type": "job",
+        "title": "Technician at a brand service centre, or open your own repair shop",
+        "duration": ""
+      }
+    ],
+    "source_url": "https://www.ncs.gov.in/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "ac_refrigeration_technician",
+    "name": {
+      "en": "AC and Refrigeration Technician",
+      "ta": "குளிர்சாதன மற்றும் குளிர்பதன தொழில்நுட்பர்",
+      "hi": "एसी और रेफ्रिजरेशन तकनीशियन"
+    },
+    "category": "vocational",
+    "nco_code": "7127",
+    "description": "Installs, services and repairs air conditioners, fridges and cold storage units.",
+    "interests": [
+      "repair",
+      "machines",
+      "electricity"
+    ],
+    "work_styles": [
+      "hands",
+      "people"
+    ],
+    "min_education": "class10",
+    "stream_hint": "any",
+    "training_time": "2 years (ITI) or 3-4 months (short course)",
+    "salary_inr_month": [
+      12000,
+      25000
+    ],
+    "cost_level": "low",
+    "local_demand": "high",
+    "pathway": [
+      {
+        "type": "education",
+        "title": "Finish Class 10",
+        "duration": "1-2 years"
+      },
+      {
+        "type": "course",
+        "ref": "pmkvy_ac_technician",
+        "title": "Free short course: AC and refrigerator field technician",
+        "duration": "3-4 months"
+      },
+      {
+        "type": "exam",
+        "ref": "tn_iti_admission",
+        "title": "Apply for Government ITI admission in the Refrigeration and Air Conditioning Technician trade",
+        "duration": "1 month"
+      },
+      {
+        "type": "education",
+        "title": "ITI course: Refrigeration and Air Conditioning Technician",
+        "duration": "2 years"
+      },
+      {
+        "type": "exam",
+        "ref": "aitt_ncvt",
+        "title": "Pass the All India Trade Test to get the National Trade Certificate",
+        "duration": "1 month"
+      },
+      {
+        "type": "apprenticeship",
+        "title": "Apprenticeship with an AC service company (NAPS)",
+        "duration": "6-12 months"
+      },
+      {
+        "type": "job",
+        "title": "Service technician for an AC brand, dealer or cold storage plant",
+        "duration": ""
+      }
+    ],
+    "source_url": "https://www.ncs.gov.in/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "two_wheeler_mechanic",
+    "name": {
+      "en": "Two-Wheeler Mechanic",
+      "ta": "இருசக்கர வாகன மெக்கானிக்",
+      "hi": "दोपहिया वाहन मैकेनिक"
+    },
+    "category": "vocational",
+    "nco_code": "7231",
+    "description": "Services and repairs bikes and scooters, including engines, brakes and electricals.",
+    "interests": [
+      "vehicles",
+      "machines",
+      "repair"
+    ],
+    "work_styles": [
+      "hands"
+    ],
+    "min_education": "class10",
+    "stream_hint": "any",
+    "training_time": "1 year (ITI) or 2-3 months (short course)",
+    "salary_inr_month": [
+      8000,
+      18000
+    ],
+    "cost_level": "low",
+    "local_demand": "high",
+    "pathway": [
+      {
+        "type": "education",
+        "title": "Finish Class 10",
+        "duration": "1-2 years"
+      },
+      {
+        "type": "course",
+        "ref": "sid_two_wheeler_service",
+        "title": "Free course: Two-wheeler service and maintenance",
+        "duration": "6-8 weeks"
+      },
+      {
+        "type": "exam",
+        "ref": "tn_iti_admission",
+        "title": "Apply for Government ITI admission in the Mechanic Two and Three Wheeler trade",
+        "duration": "1 month"
+      },
+      {
+        "type": "education",
+        "title": "ITI course: Mechanic Two and Three Wheeler",
+        "duration": "1 year"
+      },
+      {
+        "type": "exam",
+        "ref": "aitt_ncvt",
+        "title": "Pass the All India Trade Test to get the National Trade Certificate",
+        "duration": "1 month"
+      },
+      {
+        "type": "apprenticeship",
+        "title": "Apprenticeship at an authorised two-wheeler service centre (NAPS)",
+        "duration": "6-12 months"
+      },
+      {
+        "type": "job",
+        "title": "Mechanic at a two-wheeler showroom service centre, or run your own workshop",
+        "duration": ""
+      }
+    ],
+    "source_url": "https://www.ncs.gov.in/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "solar_pv_installer",
+    "name": {
+      "en": "Solar Panel Installer",
+      "ta": "சூரிய மின் தகடு பொருத்துநர்",
+      "hi": "सोलर पैनल इंस्टॉलर"
+    },
+    "category": "vocational",
+    "description": "Fixes solar panels on rooftops and farms and connects them so they make electricity.",
+    "interests": [
+      "electricity",
+      "environment",
+      "building"
+    ],
+    "work_styles": [
+      "hands",
+      "outdoors"
+    ],
+    "min_education": "class10",
+    "stream_hint": "any",
+    "training_time": "3 months to 2 years",
+    "salary_inr_month": [
+      12000,
+      22000
+    ],
+    "cost_level": "low",
+    "local_demand": "high",
+    "pathway": [
+      {
+        "type": "education",
+        "title": "Finish Class 10",
+        "duration": "1-2 years"
+      },
+      {
+        "type": "course",
+        "ref": "sid_electrician_basics",
+        "title": "Free course: Domestic wiring and electrical safety",
+        "duration": "4-8 weeks"
+      },
+      {
+        "type": "course",
+        "ref": "pmkvy_solar_pv",
+        "title": "Free short-term training: Solar PV installation",
+        "duration": "3 months"
+      },
+      {
+        "type": "exam",
+        "ref": "tn_iti_admission",
+        "title": "Optional: ITI Electrician or Solar Technician trade admission",
+        "duration": "1 month"
+      },
+      {
+        "type": "apprenticeship",
+        "title": "Work with a solar installation company on rooftop and pump projects",
+        "duration": "6 months"
+      },
+      {
+        "type": "job",
+        "title": "Solar installer or maintenance technician (rooftop and PM-KUSUM pump projects)",
+        "duration": ""
+      }
+    ],
+    "source_url": "https://www.ncs.gov.in/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "cnc_operator",
+    "name": {
+      "en": "CNC Machine Operator",
+      "ta": "சிஎன்சி இயந்திர இயக்குநர்",
+      "hi": "सीएनसी ऑपरेटर"
+    },
+    "category": "vocational",
+    "nco_code": "7223",
+    "description": "Sets up and runs computer-controlled machines that cut metal parts very precisely.",
+    "interests": [
+      "machines",
+      "computers"
+    ],
+    "work_styles": [
+      "hands",
+      "computers"
+    ],
+    "min_education": "class10",
+    "stream_hint": "any",
+    "training_time": "2 years (ITI Machinist or Turner)",
+    "salary_inr_month": [
+      12000,
+      22000
+    ],
+    "cost_level": "low",
+    "local_demand": "medium",
+    "pathway": [
+      {
+        "type": "education",
+        "title": "Finish Class 10",
+        "duration": "1-2 years"
+      },
+      {
+        "type": "course",
+        "ref": "nptel_cnc_cadcam",
+        "title": "Free course: CNC machining and CAD/CAM basics",
+        "duration": "8-12 weeks"
+      },
+      {
+        "type": "exam",
+        "ref": "tn_iti_admission",
+        "title": "Apply for Government ITI admission in the Machinist trade",
+        "duration": "1 month"
+      },
+      {
+        "type": "education",
+        "title": "ITI course: Machinist",
+        "duration": "2 years"
+      },
+      {
+        "type": "exam",
+        "ref": "aitt_ncvt",
+        "title": "Pass the All India Trade Test to get the National Trade Certificate",
+        "duration": "1 month"
+      },
+      {
+        "type": "apprenticeship",
+        "title": "Apprenticeship in a factory or service company (NAPS)",
+        "duration": "6-12 months"
+      },
+      {
+        "type": "job",
+        "title": "CNC operator in an auto-parts or engineering factory; can grow to CNC programmer",
+        "duration": ""
+      }
+    ],
+    "source_url": "https://www.ncs.gov.in/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "tailor_garment_maker",
+    "name": {
+      "en": "Tailor / Garment Maker",
+      "ta": "தையல் கலைஞர்",
+      "hi": "दर्जी / परिधान निर्माता"
+    },
+    "category": "vocational",
+    "nco_code": "7531",
+    "description": "Measures, cuts and stitches clothes, either in a garment factory or at your own tailoring shop.",
+    "interests": [
+      "sewing",
+      "fashion",
+      "crafts"
+    ],
+    "work_styles": [
+      "hands",
+      "creative"
+    ],
+    "min_education": "class8",
+    "stream_hint": "any",
+    "training_time": "3 months to 1 year",
+    "salary_inr_month": [
+      7000,
+      18000
+    ],
+    "cost_level": "free",
+    "local_demand": "high",
+    "pathway": [
+      {
+        "type": "education",
+        "title": "Class 8 or above",
+        "duration": ""
+      },
+      {
+        "type": "course",
+        "ref": "pmkvy_tailoring",
+        "title": "Free training: Self-employed tailor",
+        "duration": "3 months"
+      },
+      {
+        "type": "course",
+        "ref": "sid_fashion_design",
+        "title": "Free course: Fashion design and pattern making basics",
+        "duration": "6-8 weeks"
+      },
+      {
+        "type": "exam",
+        "ref": "tn_iti_admission",
+        "title": "Optional: ITI admission in Sewing Technology / Dress Making",
+        "duration": "1 month"
+      },
+      {
+        "type": "practice",
+        "title": "Practise on your own sewing machine (check the free sewing machine scheme)",
+        "duration": "3-6 months"
+      },
+      {
+        "type": "job",
+        "title": "Tailor in a Tiruppur or local garment unit, or run a home tailoring business",
+        "duration": ""
+      }
+    ],
+    "source_url": "https://www.ncs.gov.in/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "beautician",
+    "name": {
+      "en": "Beautician",
+      "ta": "அழகுக் கலை நிபுணர்",
+      "hi": "ब्यूटीशियन"
+    },
+    "category": "vocational",
+    "nco_code": "5142",
+    "description": "Gives hair, skin, bridal makeup and grooming services at a salon or at customers' homes.",
+    "interests": [
+      "beauty",
+      "fashion",
+      "talking"
+    ],
+    "work_styles": [
+      "hands",
+      "people",
+      "creative"
+    ],
+    "min_education": "class10",
+    "stream_hint": "any",
+    "training_time": "3 months to 1 year",
+    "salary_inr_month": [
+      8000,
+      20000
+    ],
+    "cost_level": "low",
+    "local_demand": "medium",
+    "pathway": [
+      {
+        "type": "education",
+        "title": "Finish Class 10",
+        "duration": "1-2 years"
+      },
+      {
+        "type": "course",
+        "ref": "sid_beauty_therapy",
+        "title": "Free course: Beauty therapy basics",
+        "duration": "4-8 weeks"
+      },
+      {
+        "type": "exam",
+        "ref": "tn_iti_admission",
+        "title": "Optional: ITI admission in Cosmetology",
+        "duration": "1 month"
+      },
+      {
+        "type": "apprenticeship",
+        "title": "Work as a trainee in a salon or bridal makeup studio",
+        "duration": "6 months"
+      },
+      {
+        "type": "job",
+        "title": "Beautician in a salon, or start your own home salon or bridal makeup service",
+        "duration": ""
+      }
+    ],
+    "source_url": "https://www.ncs.gov.in/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "electronics_technician",
+    "name": {
+      "en": "Electronics Technician",
+      "ta": "மின்னணு தொழில்நுட்பர்",
+      "hi": "इलेक्ट्रॉनिक्स तकनीशियन"
+    },
+    "category": "vocational",
+    "nco_code": "7421",
+    "description": "Tests and repairs electronic items like TVs, inverters, set-top boxes and circuit boards.",
+    "interests": [
+      "electricity",
+      "repair",
+      "physics"
+    ],
+    "work_styles": [
+      "hands"
+    ],
+    "min_education": "class10",
+    "stream_hint": "any",
+    "training_time": "2 years (ITI Electronics Mechanic) or 3 years (diploma)",
+    "salary_inr_month": [
+      10000,
+      20000
+    ],
+    "cost_level": "low",
+    "local_demand": "medium",
+    "pathway": [
+      {
+        "type": "education",
+        "title": "Finish Class 10",
+        "duration": "1-2 years"
+      },
+      {
+        "type": "course",
+        "ref": "nptel_basic_electronics",
+        "title": "Free course: Basic electronics",
+        "duration": "8-12 weeks"
+      },
+      {
+        "type": "exam",
+        "ref": "tn_iti_admission",
+        "title": "Apply for Government ITI admission in the Electronics Mechanic trade",
+        "duration": "1 month"
+      },
+      {
+        "type": "education",
+        "title": "ITI course: Electronics Mechanic",
+        "duration": "2 years"
+      },
+      {
+        "type": "exam",
+        "ref": "aitt_ncvt",
+        "title": "Pass the All India Trade Test to get the National Trade Certificate",
+        "duration": "1 month"
+      },
+      {
+        "type": "apprenticeship",
+        "title": "Apprenticeship in a factory or service company (NAPS)",
+        "duration": "6-12 months"
+      },
+      {
+        "type": "job",
+        "title": "Technician in an electronics manufacturing unit (Sriperumbudur, Hosur) or service centre",
+        "duration": ""
+      }
+    ],
+    "source_url": "https://www.ncs.gov.in/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "carpenter",
+    "name": {
+      "en": "Carpenter",
+      "ta": "தச்சர்",
+      "hi": "बढ़ई"
+    },
+    "category": "vocational",
+    "nco_code": "7115",
+    "description": "Makes and fixes wooden doors, windows, furniture and interiors.",
+    "interests": [
+      "building",
+      "crafts"
+    ],
+    "work_styles": [
+      "hands",
+      "creative"
+    ],
+    "min_education": "class8",
+    "stream_hint": "any",
+    "training_time": "1 year (ITI Carpenter)",
+    "salary_inr_month": [
+      10000,
+      22000
+    ],
+    "cost_level": "low",
+    "local_demand": "medium",
+    "pathway": [
+      {
+        "type": "education",
+        "title": "Finish Class 10",
+        "duration": "1-2 years"
+      },
+      {
+        "type": "course",
+        "ref": "sid_carpentry",
+        "title": "Free course: Carpentry and furniture making basics",
+        "duration": "4-8 weeks"
+      },
+      {
+        "type": "exam",
+        "ref": "tn_iti_admission",
+        "title": "Apply for Government ITI admission in the Carpenter trade",
+        "duration": "1 month"
+      },
+      {
+        "type": "education",
+        "title": "ITI course: Carpenter",
+        "duration": "1 year"
+      },
+      {
+        "type": "exam",
+        "ref": "aitt_ncvt",
+        "title": "Pass the All India Trade Test to get the National Trade Certificate",
+        "duration": "1 month"
+      },
+      {
+        "type": "apprenticeship",
+        "title": "Work under an experienced carpenter or furniture unit",
+        "duration": "6-12 months"
+      },
+      {
+        "type": "job",
+        "title": "Carpenter with a furniture maker or interior contractor, or self-employed",
+        "duration": ""
+      }
+    ],
+    "source_url": "https://www.ncs.gov.in/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "construction_supervisor",
+    "name": {
+      "en": "Construction Site Supervisor",
+      "ta": "கட்டுமான மேற்பார்வையாளர்",
+      "hi": "निर्माण पर्यवेक्षक"
+    },
+    "category": "vocational",
+    "nco_code": "3123",
+    "description": "Checks daily work at a building site so that workers, materials and quality stay on track.",
+    "interests": [
+      "building",
+      "maths"
+    ],
+    "work_styles": [
+      "outdoors",
+      "people"
+    ],
+    "min_education": "class10",
+    "stream_hint": "science_maths",
+    "training_time": "3 years (Diploma in Civil Engineering)",
+    "salary_inr_month": [
+      15000,
+      28000
+    ],
+    "cost_level": "low",
+    "local_demand": "high",
+    "pathway": [
+      {
+        "type": "education",
+        "title": "Finish Class 10",
+        "duration": "1-2 years"
+      },
+      {
+        "type": "exam",
+        "ref": "tn_polytechnic",
+        "title": "Apply for polytechnic admission (Diploma in Civil Engineering)",
+        "duration": "1 month"
+      },
+      {
+        "type": "education",
+        "title": "Diploma in Civil Engineering",
+        "duration": "3 years"
+      },
+      {
+        "type": "course",
+        "ref": "nptel_construction_mgmt",
+        "title": "Free course: Construction planning and site management",
+        "duration": "8-12 weeks"
+      },
+      {
+        "type": "apprenticeship",
+        "title": "Diploma apprenticeship with a construction company (NATS)",
+        "duration": "1 year"
+      },
+      {
+        "type": "job",
+        "title": "Site supervisor with a builder, contractor or PWD contract project",
+        "duration": ""
+      }
+    ],
+    "source_url": "https://www.ncs.gov.in/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "lab_technician",
+    "name": {
+      "en": "Medical Lab Technician",
+      "ta": "மருத்துவ ஆய்வக தொழில்நுட்பர்",
+      "hi": "मेडिकल लैब तकनीशियन"
+    },
+    "category": "healthcare",
+    "nco_code": "3212",
+    "description": "Runs blood, urine and other tests in hospital and diagnostic labs.",
+    "interests": [
+      "biology",
+      "chemistry",
+      "health"
+    ],
+    "work_styles": [
+      "hands",
+      "numbers"
+    ],
+    "min_education": "class12",
+    "stream_hint": "science_bio",
+    "training_time": "2 years (DMLT)",
+    "salary_inr_month": [
+      12000,
+      30000
+    ],
+    "cost_level": "low",
+    "local_demand": "high",
+    "pathway": [
+      {
+        "type": "education",
+        "title": "Finish Class 12 with Biology",
+        "duration": "2 years"
+      },
+      {
+        "type": "course",
+        "ref": "swayam_lab_safety",
+        "title": "Free course: Basics of lab safety",
+        "duration": "4 weeks"
+      },
+      {
+        "type": "exam",
+        "ref": "tn_paramedical",
+        "title": "Apply for paramedical diploma admission",
+        "duration": "1 month"
+      },
+      {
+        "type": "education",
+        "title": "DMLT diploma",
+        "duration": "2 years"
+      },
+      {
+        "type": "apprenticeship",
+        "title": "Apprenticeship in a hospital or diagnostic lab (NAPS)",
+        "duration": "6-12 months"
+      },
+      {
+        "type": "job",
+        "title": "Lab technician in a hospital or diagnostic chain",
+        "duration": ""
+      }
+    ],
+    "source_url": "https://www.ncs.gov.in/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "nurse",
+    "name": {
+      "en": "Nurse",
+      "ta": "செவிலியர்",
+      "hi": "नर्स"
+    },
+    "category": "healthcare",
+    "nco_code": "2221",
+    "description": "Cares for patients in hospitals and health centres, gives medicines and helps doctors.",
+    "interests": [
+      "biology",
+      "health",
+      "helping_people"
+    ],
+    "work_styles": [
+      "hands",
+      "people"
+    ],
+    "min_education": "class12",
+    "stream_hint": "science_bio",
+    "training_time": "3-4 years (GNM diploma or B.Sc Nursing)",
+    "salary_inr_month": [
+      12000,
+      30000
+    ],
+    "cost_level": "low",
+    "local_demand": "high",
+    "pathway": [
+      {
+        "type": "education",
+        "title": "Finish Class 12 with Physics, Chemistry and Biology",
+        "duration": "2 years"
+      },
+      {
+        "type": "course",
+        "ref": "swayam_anatomy_physiology",
+        "title": "Free course: Human anatomy and physiology basics",
+        "duration": "8-12 weeks"
+      },
+      {
+        "type": "exam",
+        "ref": "tn_paramedical",
+        "title": "Apply for nursing admission through DME counselling",
+        "duration": "1-2 months"
+      },
+      {
+        "type": "education",
+        "title": "B.Sc Nursing (4 years) or GNM diploma (3 years)",
+        "duration": "3-4 years"
+      },
+      {
+        "type": "practice",
+        "title": "Register with the Tamil Nadu Nurses and Midwives Council",
+        "duration": "1 month"
+      },
+      {
+        "type": "job",
+        "title": "Staff nurse in a government or private hospital; govt posts via MRB recruitment",
+        "duration": ""
+      }
+    ],
+    "source_url": "https://www.ncs.gov.in/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "pharmacist",
+    "name": {
+      "en": "Pharmacist",
+      "ta": "மருந்தாளுநர்",
+      "hi": "फार्मासिस्ट"
+    },
+    "category": "healthcare",
+    "nco_code": "2262",
+    "description": "Gives out medicines correctly in pharmacies and hospitals and explains how to take them.",
+    "interests": [
+      "chemistry",
+      "biology",
+      "health"
+    ],
+    "work_styles": [
+      "people",
+      "numbers"
+    ],
+    "min_education": "class12",
+    "stream_hint": "science_bio",
+    "training_time": "2 years (D.Pharm) or 4 years (B.Pharm)",
+    "salary_inr_month": [
+      12000,
+      25000
+    ],
+    "cost_level": "low",
+    "local_demand": "medium",
+    "pathway": [
+      {
+        "type": "education",
+        "title": "Finish Class 12 with Physics, Chemistry and Biology or Maths",
+        "duration": "2 years"
+      },
+      {
+        "type": "course",
+        "ref": "swayam_pharmacy_basics",
+        "title": "Free course: Introduction to pharmaceutics",
+        "duration": "8-12 weeks"
+      },
+      {
+        "type": "exam",
+        "ref": "tn_paramedical",
+        "title": "Apply for D.Pharm / B.Pharm admission through DME counselling",
+        "duration": "1-2 months"
+      },
+      {
+        "type": "education",
+        "title": "D.Pharm (2 years) or B.Pharm (4 years)",
+        "duration": "2-4 years"
+      },
+      {
+        "type": "practice",
+        "title": "Register with the Tamil Nadu Pharmacy Council",
+        "duration": "1 month"
+      },
+      {
+        "type": "job",
+        "title": "Pharmacist in a hospital, medical shop or Jan Aushadhi Kendra, or open your own pharmacy",
+        "duration": ""
+      }
+    ],
+    "source_url": "https://www.ncs.gov.in/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "physiotherapist",
+    "name": {
+      "en": "Physiotherapist",
+      "ta": "இயன்முறை மருத்துவர்",
+      "hi": "फिजियोथेरेपिस्ट"
+    },
+    "category": "healthcare",
+    "nco_code": "2264",
+    "description": "Helps people recover from injuries, pain and stroke through exercises and therapy.",
+    "interests": [
+      "biology",
+      "health",
+      "fitness"
+    ],
+    "work_styles": [
+      "hands",
+      "people"
+    ],
+    "min_education": "class12",
+    "stream_hint": "science_bio",
+    "training_time": "4.5 years (BPT with internship)",
+    "salary_inr_month": [
+      15000,
+      30000
+    ],
+    "cost_level": "medium",
+    "local_demand": "medium",
+    "pathway": [
+      {
+        "type": "education",
+        "title": "Finish Class 12 with Physics, Chemistry and Biology",
+        "duration": "2 years"
+      },
+      {
+        "type": "course",
+        "ref": "swayam_anatomy_physiology",
+        "title": "Free course: Human anatomy and physiology basics",
+        "duration": "8-12 weeks"
+      },
+      {
+        "type": "exam",
+        "ref": "tn_paramedical",
+        "title": "Apply for BPT admission through DME counselling",
+        "duration": "1-2 months"
+      },
+      {
+        "type": "education",
+        "title": "Bachelor of Physiotherapy (BPT) including internship",
+        "duration": "4.5 years"
+      },
+      {
+        "type": "job",
+        "title": "Physiotherapist in a hospital, sports clinic or home-visit practice",
+        "duration": ""
+      }
+    ],
+    "source_url": "https://www.ncs.gov.in/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "radiology_technician",
+    "name": {
+      "en": "Radiology (X-ray) Technician",
+      "ta": "கதிரியக்கத் தொழில்நுட்பர்",
+      "hi": "रेडियोलॉजी तकनीशियन"
+    },
+    "category": "healthcare",
+    "nco_code": "3211",
+    "description": "Operates X-ray, CT and scan machines to take pictures of the inside of the body.",
+    "interests": [
+      "physics",
+      "biology",
+      "health",
+      "machines"
+    ],
+    "work_styles": [
+      "hands",
+      "people"
+    ],
+    "min_education": "class12",
+    "stream_hint": "science_bio",
+    "training_time": "2-3 years (diploma or B.Sc)",
+    "salary_inr_month": [
+      12000,
+      25000
+    ],
+    "cost_level": "low",
+    "local_demand": "medium",
+    "pathway": [
+      {
+        "type": "education",
+        "title": "Finish Class 12 with Physics, Chemistry and Biology",
+        "duration": "2 years"
+      },
+      {
+        "type": "course",
+        "ref": "sid_radiology_assistant",
+        "title": "Free course: Medical imaging (X-ray) assistant basics",
+        "duration": "4-8 weeks"
+      },
+      {
+        "type": "exam",
+        "ref": "tn_paramedical",
+        "title": "Apply for radiology diploma / B.Sc admission through DME counselling",
+        "duration": "1-2 months"
+      },
+      {
+        "type": "education",
+        "title": "Diploma or B.Sc in Radiology and Imaging Technology",
+        "duration": "2-3 years"
+      },
+      {
+        "type": "apprenticeship",
+        "title": "Internship in a hospital imaging department",
+        "duration": "6-12 months"
+      },
+      {
+        "type": "job",
+        "title": "Radiology technician in a hospital or scan centre",
+        "duration": ""
+      }
+    ],
+    "source_url": "https://www.ncs.gov.in/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "community_health_worker",
+    "name": {
+      "en": "Community Health Worker",
+      "ta": "சமுதாய சுகாதாரப் பணியாளர்",
+      "hi": "सामुदायिक स्वास्थ्य कार्यकर्ता"
+    },
+    "category": "healthcare",
+    "nco_code": "3253",
+    "description": "Visits families in villages to help with vaccination, pregnancy care, nutrition and basic health.",
+    "interests": [
+      "health",
+      "helping_people",
+      "talking"
+    ],
+    "work_styles": [
+      "people",
+      "outdoors"
+    ],
+    "min_education": "class10",
+    "stream_hint": "any",
+    "training_time": "1-6 months",
+    "salary_inr_month": [
+      6000,
+      15000
+    ],
+    "cost_level": "free",
+    "local_demand": "high",
+    "pathway": [
+      {
+        "type": "education",
+        "title": "Finish Class 10",
+        "duration": "1-2 years"
+      },
+      {
+        "type": "course",
+        "ref": "sid_community_health",
+        "title": "Free course: Community health and home care basics",
+        "duration": "4-8 weeks"
+      },
+      {
+        "type": "course",
+        "ref": "sid_general_duty_assistant",
+        "title": "Free course: General duty assistant",
+        "duration": "4-8 weeks"
+      },
+      {
+        "type": "practice",
+        "title": "Volunteer with the local primary health centre or an NGO",
+        "duration": "3-6 months"
+      },
+      {
+        "type": "job",
+        "title": "Health worker with the National Health Mission, an NGO or a hospital outreach team",
+        "duration": ""
+      }
+    ],
+    "source_url": "https://www.ncs.gov.in/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "doctor",
+    "name": {
+      "en": "Doctor (MBBS)",
+      "ta": "மருத்துவர்",
+      "hi": "डॉक्टर"
+    },
+    "category": "healthcare",
+    "nco_code": "2211",
+    "description": "Examines sick people, finds out what is wrong and treats them with medicines or procedures.",
+    "interests": [
+      "biology",
+      "chemistry",
+      "health",
+      "helping_people"
+    ],
+    "work_styles": [
+      "people",
+      "hands"
+    ],
+    "min_education": "class12",
+    "stream_hint": "science_bio",
+    "training_time": "5.5 years (MBBS with internship)",
+    "salary_inr_month": [
+      50000,
+      90000
+    ],
+    "cost_level": "medium",
+    "local_demand": "high",
+    "pathway": [
+      {
+        "type": "education",
+        "title": "Finish Class 12 with Physics, Chemistry and Biology",
+        "duration": "2 years"
+      },
+      {
+        "type": "course",
+        "ref": "diksha_science_maths",
+        "title": "Free lessons: Class 11-12 science on DIKSHA",
+        "duration": "Self-paced"
+      },
+      {
+        "type": "exam",
+        "ref": "neet_ug",
+        "title": "Write NEET-UG",
+        "duration": "1 year of preparation"
+      },
+      {
+        "type": "exam",
+        "ref": "tn_mbbs_counselling",
+        "title": "Tamil Nadu MBBS counselling (7.5% seats for govt school students)",
+        "duration": "1-2 months"
+      },
+      {
+        "type": "education",
+        "title": "MBBS including 1-year internship",
+        "duration": "5.5 years"
+      },
+      {
+        "type": "job",
+        "title": "Doctor in a government or private hospital; later specialise through NEET-PG",
+        "duration": ""
+      }
+    ],
+    "source_url": "https://www.ncs.gov.in/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "optometrist",
+    "name": {
+      "en": "Optometrist",
+      "ta": "கண்பார்வை பரிசோதகர்",
+      "hi": "ऑप्टोमेट्रिस्ट"
+    },
+    "category": "healthcare",
+    "nco_code": "2267",
+    "description": "Tests people's eyesight, prescribes glasses and spots eye problems early.",
+    "interests": [
+      "biology",
+      "physics",
+      "health"
+    ],
+    "work_styles": [
+      "people",
+      "hands"
+    ],
+    "min_education": "class12",
+    "stream_hint": "science_bio",
+    "training_time": "2-4 years (diploma or B.Optom)",
+    "salary_inr_month": [
+      12000,
+      25000
+    ],
+    "cost_level": "low",
+    "local_demand": "medium",
+    "pathway": [
+      {
+        "type": "education",
+        "title": "Finish Class 12 with Physics, Chemistry and Biology",
+        "duration": "2 years"
+      },
+      {
+        "type": "course",
+        "ref": "swayam_eye_care",
+        "title": "Free course: Eye health and vision care basics",
+        "duration": "4-8 weeks"
+      },
+      {
+        "type": "exam",
+        "ref": "tn_paramedical",
+        "title": "Apply for optometry admission through DME counselling",
+        "duration": "1-2 months"
+      },
+      {
+        "type": "education",
+        "title": "Diploma or B.Sc / B.Optom in Optometry",
+        "duration": "2-4 years"
+      },
+      {
+        "type": "job",
+        "title": "Optometrist in an eye hospital, optical shop or eye camp programme",
+        "duration": ""
+      }
+    ],
+    "source_url": "https://www.ncs.gov.in/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "software_developer",
+    "name": {
+      "en": "Software Developer",
+      "ta": "மென்பொருள் உருவாக்குநர்",
+      "hi": "सॉफ्टवेयर डेवलपर"
+    },
+    "category": "stem",
+    "nco_code": "2512",
+    "description": "Writes computer programs and apps that people use on phones, computers and websites.",
+    "interests": [
+      "coding",
+      "computers",
+      "maths"
+    ],
+    "work_styles": [
+      "computers"
+    ],
+    "min_education": "class12",
+    "stream_hint": "science_maths",
+    "training_time": "3-4 years (BCA, B.Sc CS or B.E.)",
+    "salary_inr_month": [
+      20000,
+      50000
+    ],
+    "cost_level": "medium",
+    "local_demand": "medium",
+    "pathway": [
+      {
+        "type": "education",
+        "title": "Finish Class 12 with Maths",
+        "duration": "2 years"
+      },
+      {
+        "type": "course",
+        "ref": "nptel_python",
+        "title": "Free course: Programming basics with Python",
+        "duration": "12 weeks"
+      },
+      {
+        "type": "exam",
+        "ref": "tnea",
+        "title": "Apply for B.E./B.Tech through TNEA, or BCA/B.Sc CS through TNGASA",
+        "duration": "1-2 months"
+      },
+      {
+        "type": "education",
+        "title": "B.E. CSE / IT, BCA or B.Sc Computer Science",
+        "duration": "3-4 years"
+      },
+      {
+        "type": "course",
+        "ref": "nptel_dsa",
+        "title": "Free course: Data structures and algorithms",
+        "duration": "12 weeks"
+      },
+      {
+        "type": "practice",
+        "title": "Build 2-3 small projects and put them on GitHub",
+        "duration": "3-6 months"
+      },
+      {
+        "type": "job",
+        "title": "Junior software developer in an IT company (Chennai, Coimbatore, Madurai) or remote",
+        "duration": ""
+      }
+    ],
+    "source_url": "https://www.ncs.gov.in/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "data_analyst",
+    "name": {
+      "en": "Data Analyst",
+      "ta": "தரவு பகுப்பாய்வாளர்",
+      "hi": "डेटा एनालिस्ट"
+    },
+    "category": "stem",
+    "description": "Studies numbers and data to find patterns that help a business make better decisions.",
+    "interests": [
+      "maths",
+      "computers",
+      "coding"
+    ],
+    "work_styles": [
+      "computers",
+      "numbers"
+    ],
+    "min_education": "class12",
+    "stream_hint": "science_maths",
+    "training_time": "3 years (degree) plus 3-6 months of skills",
+    "salary_inr_month": [
+      18000,
+      40000
+    ],
+    "cost_level": "low",
+    "local_demand": "medium",
+    "pathway": [
+      {
+        "type": "education",
+        "title": "Finish Class 12 with Maths",
+        "duration": "2 years"
+      },
+      {
+        "type": "exam",
+        "ref": "tngasa",
+        "title": "Apply for B.Sc Maths/Statistics/CS or B.Com through TNGASA or CUET-UG",
+        "duration": "1-2 months"
+      },
+      {
+        "type": "education",
+        "title": "Degree in Maths, Statistics, Computer Science or Commerce",
+        "duration": "3 years"
+      },
+      {
+        "type": "course",
+        "ref": "swayam_data_analytics",
+        "title": "Free course: Data analytics with spreadsheets and Python",
+        "duration": "8-12 weeks"
+      },
+      {
+        "type": "course",
+        "ref": "nptel_python",
+        "title": "Free course: Programming basics with Python",
+        "duration": "12 weeks"
+      },
+      {
+        "type": "practice",
+        "title": "Analyse public datasets and build a small portfolio",
+        "duration": "3 months"
+      },
+      {
+        "type": "job",
+        "title": "Junior data analyst or MIS executive in a company or bank",
+        "duration": ""
+      }
+    ],
+    "source_url": "https://www.ncs.gov.in/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "civil_engineer",
+    "name": {
+      "en": "Civil Engineer",
+      "ta": "சிவில் பொறியாளர்",
+      "hi": "सिविल इंजीनियर"
+    },
+    "category": "stem",
+    "nco_code": "2142",
+    "description": "Plans and builds roads, bridges, buildings, dams and water systems.",
+    "interests": [
+      "building",
+      "maths",
+      "physics"
+    ],
+    "work_styles": [
+      "outdoors",
+      "numbers"
+    ],
+    "min_education": "class12",
+    "stream_hint": "science_maths",
+    "training_time": "4 years (B.E.) or 3 years (diploma)",
+    "salary_inr_month": [
+      15000,
+      30000
+    ],
+    "cost_level": "medium",
+    "local_demand": "medium",
+    "pathway": [
+      {
+        "type": "education",
+        "title": "Finish Class 12 with Physics, Chemistry and Maths",
+        "duration": "2 years"
+      },
+      {
+        "type": "exam",
+        "ref": "tnea",
+        "title": "Apply for B.E. Civil through TNEA (or JEE Main for NITs)",
+        "duration": "1-2 months"
+      },
+      {
+        "type": "education",
+        "title": "B.E. Civil Engineering (or diploma then lateral entry)",
+        "duration": "4 years"
+      },
+      {
+        "type": "course",
+        "ref": "nptel_engg_mechanics",
+        "title": "Free course: Engineering mechanics",
+        "duration": "12 weeks"
+      },
+      {
+        "type": "apprenticeship",
+        "title": "Graduate apprenticeship with a construction firm or PWD (NATS)",
+        "duration": "1 year"
+      },
+      {
+        "type": "job",
+        "title": "Site or design engineer; government posts via TNPSC engineering exams",
+        "duration": ""
+      }
+    ],
+    "source_url": "https://www.ncs.gov.in/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "mechanical_engineer",
+    "name": {
+      "en": "Mechanical Engineer",
+      "ta": "இயந்திரவியல் பொறியாளர்",
+      "hi": "मैकेनिकल इंजीनियर"
+    },
+    "category": "stem",
+    "nco_code": "2144",
+    "description": "Designs and improves machines, engines and factory equipment.",
+    "interests": [
+      "machines",
+      "physics",
+      "maths"
+    ],
+    "work_styles": [
+      "hands",
+      "numbers"
+    ],
+    "min_education": "class12",
+    "stream_hint": "science_maths",
+    "training_time": "4 years (B.E.) or 3 years (diploma)",
+    "salary_inr_month": [
+      15000,
+      30000
+    ],
+    "cost_level": "medium",
+    "local_demand": "medium",
+    "pathway": [
+      {
+        "type": "education",
+        "title": "Finish Class 12 with Physics, Chemistry and Maths",
+        "duration": "2 years"
+      },
+      {
+        "type": "exam",
+        "ref": "tnea",
+        "title": "Apply for B.E. Mechanical through TNEA (or JEE Main for NITs)",
+        "duration": "1-2 months"
+      },
+      {
+        "type": "education",
+        "title": "B.E. Mechanical Engineering (or diploma then lateral entry)",
+        "duration": "4 years"
+      },
+      {
+        "type": "course",
+        "ref": "nptel_cnc_cadcam",
+        "title": "Free course: CNC machining and CAD/CAM basics",
+        "duration": "8-12 weeks"
+      },
+      {
+        "type": "apprenticeship",
+        "title": "Graduate apprenticeship in a manufacturing company (NATS)",
+        "duration": "1 year"
+      },
+      {
+        "type": "job",
+        "title": "Production, maintenance or design engineer in a factory",
+        "duration": ""
+      }
+    ],
+    "source_url": "https://www.ncs.gov.in/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "electrical_engineer",
+    "name": {
+      "en": "Electrical Engineer",
+      "ta": "மின் பொறியாளர்",
+      "hi": "इलेक्ट्रिकल इंजीनियर"
+    },
+    "category": "stem",
+    "nco_code": "2151",
+    "description": "Designs and maintains systems that make, carry and use electricity, from power plants to solar farms.",
+    "interests": [
+      "electricity",
+      "physics",
+      "maths"
+    ],
+    "work_styles": [
+      "numbers",
+      "hands"
+    ],
+    "min_education": "class12",
+    "stream_hint": "science_maths",
+    "training_time": "4 years (B.E.) or 3 years (diploma)",
+    "salary_inr_month": [
+      15000,
+      30000
+    ],
+    "cost_level": "medium",
+    "local_demand": "medium",
+    "pathway": [
+      {
+        "type": "education",
+        "title": "Finish Class 12 with Physics, Chemistry and Maths",
+        "duration": "2 years"
+      },
+      {
+        "type": "exam",
+        "ref": "tnea",
+        "title": "Apply for B.E. EEE through TNEA (or JEE Main for NITs)",
+        "duration": "1-2 months"
+      },
+      {
+        "type": "education",
+        "title": "B.E. Electrical and Electronics Engineering (or diploma then lateral entry)",
+        "duration": "4 years"
+      },
+      {
+        "type": "course",
+        "ref": "nptel_electrical_machines",
+        "title": "Free course: Basic electrical circuits and machines",
+        "duration": "12 weeks"
+      },
+      {
+        "type": "apprenticeship",
+        "title": "Graduate apprenticeship with a power or solar company (NATS)",
+        "duration": "1 year"
+      },
+      {
+        "type": "job",
+        "title": "Electrical engineer in power, solar, EV or manufacturing companies",
+        "duration": ""
+      }
+    ],
+    "source_url": "https://www.ncs.gov.in/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "drone_pilot",
+    "name": {
+      "en": "Drone Pilot",
+      "ta": "ட்ரோன் இயக்குநர்",
+      "hi": "ड्रोन पायलट"
+    },
+    "category": "stem",
+    "description": "Flies drones to spray crops, survey land, take aerial photos or inspect power lines.",
+    "interests": [
+      "machines",
+      "farming",
+      "photography"
+    ],
+    "work_styles": [
+      "outdoors",
+      "hands"
+    ],
+    "min_education": "class10",
+    "stream_hint": "any",
+    "training_time": "1-2 weeks of certified training",
+    "salary_inr_month": [
+      15000,
+      35000
+    ],
+    "cost_level": "medium",
+    "local_demand": "medium",
+    "pathway": [
+      {
+        "type": "education",
+        "title": "Finish Class 10",
+        "duration": "1-2 years"
+      },
+      {
+        "type": "course",
+        "ref": "sid_drone_basics",
+        "title": "Free course: Drone technology basics and safe flying rules",
+        "duration": "2-4 weeks"
+      },
+      {
+        "type": "exam",
+        "ref": "dgca_remote_pilot",
+        "title": "Train at a DGCA-authorised RPTO and get the Remote Pilot Certificate",
+        "duration": "1-2 weeks"
+      },
+      {
+        "type": "practice",
+        "title": "Practise agri-spraying or survey flights under a senior pilot",
+        "duration": "3 months"
+      },
+      {
+        "type": "job",
+        "title": "Drone pilot for agri-spraying, survey or media firms, or self-employed drone service",
+        "duration": ""
+      }
+    ],
+    "source_url": "https://www.ncs.gov.in/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "research_scientist",
+    "name": {
+      "en": "Research Scientist",
+      "ta": "ஆராய்ச்சி விஞ்ஞானி",
+      "hi": "शोध वैज्ञानिक"
+    },
+    "category": "stem",
+    "description": "Does experiments and studies to discover new knowledge in science, farming or medicine.",
+    "interests": [
+      "physics",
+      "chemistry",
+      "biology",
+      "maths"
+    ],
+    "work_styles": [
+      "numbers",
+      "computers"
+    ],
+    "min_education": "class12",
+    "stream_hint": "science_maths",
+    "training_time": "5-10 years (degree, master's and PhD)",
+    "salary_inr_month": [
+      25000,
+      60000
+    ],
+    "cost_level": "low",
+    "local_demand": "low",
+    "pathway": [
+      {
+        "type": "education",
+        "title": "Finish Class 12 in Science",
+        "duration": "2 years"
+      },
+      {
+        "type": "course",
+        "ref": "diksha_science_maths",
+        "title": "Free lessons: Class 11-12 science on DIKSHA",
+        "duration": "Self-paced"
+      },
+      {
+        "type": "exam",
+        "ref": "cuet_ug",
+        "title": "Write CUET-UG or JEE Main for a good science college",
+        "duration": "1 year"
+      },
+      {
+        "type": "education",
+        "title": "B.Sc / B.Tech then M.Sc",
+        "duration": "5 years"
+      },
+      {
+        "type": "course",
+        "ref": "swayam_research_methods",
+        "title": "Free course: Research methodology",
+        "duration": "8-12 weeks"
+      },
+      {
+        "type": "job",
+        "title": "Junior Research Fellow (with stipend) in a lab, then scientist after PhD",
+        "duration": ""
+      }
+    ],
+    "source_url": "https://www.ncs.gov.in/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "it_support_technician",
+    "name": {
+      "en": "IT Support Technician",
+      "ta": "கணினி தொழில்நுட்ப உதவியாளர்",
+      "hi": "आईटी सपोर्ट तकनीशियन"
+    },
+    "category": "stem",
+    "nco_code": "3512",
+    "description": "Sets up and fixes computers, printers and internet for offices, schools and shops.",
+    "interests": [
+      "computers",
+      "repair"
+    ],
+    "work_styles": [
+      "computers",
+      "people"
+    ],
+    "min_education": "class10",
+    "stream_hint": "any",
+    "training_time": "1 year (ITI COPA) or 2-6 months",
+    "salary_inr_month": [
+      12000,
+      22000
+    ],
+    "cost_level": "low",
+    "local_demand": "medium",
+    "pathway": [
+      {
+        "type": "education",
+        "title": "Finish Class 10",
+        "duration": "1-2 years"
+      },
+      {
+        "type": "course",
+        "ref": "eskill_digital_literacy",
+        "title": "Free course: Basic computer and digital literacy",
+        "duration": "2-4 weeks"
+      },
+      {
+        "type": "exam",
+        "ref": "tn_iti_admission",
+        "title": "Apply for ITI COPA (Computer Operator and Programming Assistant)",
+        "duration": "1 month"
+      },
+      {
+        "type": "course",
+        "ref": "sid_it_helpdesk",
+        "title": "Free course: IT helpdesk and computer hardware support",
+        "duration": "6-8 weeks"
+      },
+      {
+        "type": "apprenticeship",
+        "title": "Apprenticeship with an IT service firm or office (NAPS)",
+        "duration": "6-12 months"
+      },
+      {
+        "type": "job",
+        "title": "IT support or desktop engineer in a company, school or e-Sevai centre",
+        "duration": ""
+      }
+    ],
+    "source_url": "https://www.ncs.gov.in/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "web_designer",
+    "name": {
+      "en": "Web Designer",
+      "ta": "இணையதள வடிவமைப்பாளர்",
+      "hi": "वेब डिज़ाइनर"
+    },
+    "category": "stem",
+    "nco_code": "2513",
+    "description": "Designs and builds good-looking, easy-to-use websites for shops, schools and businesses.",
+    "interests": [
+      "computers",
+      "coding",
+      "drawing"
+    ],
+    "work_styles": [
+      "computers",
+      "creative"
+    ],
+    "min_education": "class10",
+    "stream_hint": "any",
+    "training_time": "6 months to 3 years",
+    "salary_inr_month": [
+      12000,
+      30000
+    ],
+    "cost_level": "low",
+    "local_demand": "medium",
+    "pathway": [
+      {
+        "type": "education",
+        "title": "Finish Class 10",
+        "duration": "1-2 years"
+      },
+      {
+        "type": "course",
+        "ref": "nm_web_development",
+        "title": "Free course: Web development with HTML, CSS and JavaScript",
+        "duration": "6-8 weeks"
+      },
+      {
+        "type": "course",
+        "ref": "nm_graphic_design",
+        "title": "Free course: Graphic design with free tools",
+        "duration": "6-8 weeks"
+      },
+      {
+        "type": "practice",
+        "title": "Build websites for 3 local shops or friends as a portfolio",
+        "duration": "3 months"
+      },
+      {
+        "type": "job",
+        "title": "Junior web designer at an agency, or freelance for local businesses",
+        "duration": ""
+      }
+    ],
+    "source_url": "https://www.ncs.gov.in/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "teacher",
+    "name": {
+      "en": "School Teacher",
+      "ta": "ஆசிரியர்",
+      "hi": "शिक्षक"
+    },
+    "category": "non_stem",
+    "nco_code": "2341",
+    "description": "Teaches children in school and helps them learn and grow.",
+    "interests": [
+      "teaching",
+      "helping_people",
+      "talking"
+    ],
+    "work_styles": [
+      "people"
+    ],
+    "min_education": "class12",
+    "stream_hint": "any",
+    "training_time": "2 years (D.El.Ed) or 3+2 years (degree + B.Ed)",
+    "salary_inr_month": [
+      10000,
+      35000
+    ],
+    "cost_level": "low",
+    "local_demand": "high",
+    "pathway": [
+      {
+        "type": "education",
+        "title": "Finish Class 12",
+        "duration": "2 years"
+      },
+      {
+        "type": "education",
+        "title": "D.El.Ed (for Classes 1-5) or a degree followed by B.Ed (for Classes 6-12)",
+        "duration": "2-5 years"
+      },
+      {
+        "type": "course",
+        "ref": "swayam_child_development",
+        "title": "Free course: Child development and pedagogy",
+        "duration": "8-12 weeks"
+      },
+      {
+        "type": "course",
+        "ref": "diksha_nishtha_teaching",
+        "title": "Free modules: Classroom teaching practices (NISHTHA)",
+        "duration": "Self-paced"
+      },
+      {
+        "type": "exam",
+        "ref": "tn_tet",
+        "title": "Pass TN TET (and CTET for central schools)",
+        "duration": "6 months of preparation"
+      },
+      {
+        "type": "job",
+        "title": "Teacher in a private school; government posts via TRB recruitment",
+        "duration": ""
+      }
+    ],
+    "source_url": "https://www.ncs.gov.in/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "lawyer",
+    "name": {
+      "en": "Lawyer",
+      "ta": "வழக்கறிஞர்",
+      "hi": "वकील"
+    },
+    "category": "non_stem",
+    "nco_code": "2611",
+    "description": "Advises people on their legal rights and argues their cases in court.",
+    "interests": [
+      "law",
+      "talking",
+      "writing"
+    ],
+    "work_styles": [
+      "people"
+    ],
+    "min_education": "class12",
+    "stream_hint": "any",
+    "training_time": "5 years (BA LLB) or 3 years after a degree",
+    "salary_inr_month": [
+      10000,
+      30000
+    ],
+    "cost_level": "low",
+    "local_demand": "medium",
+    "pathway": [
+      {
+        "type": "education",
+        "title": "Finish Class 12",
+        "duration": "2 years"
+      },
+      {
+        "type": "course",
+        "ref": "swayam_constitution_law",
+        "title": "Free course: Introduction to the Indian Constitution and law",
+        "duration": "8-12 weeks"
+      },
+      {
+        "type": "exam",
+        "ref": "tndalu_admission",
+        "title": "Apply for 5-year LLB through TNDALU (or write CLAT for NLUs)",
+        "duration": "1-2 months"
+      },
+      {
+        "type": "education",
+        "title": "5-year BA LLB",
+        "duration": "5 years"
+      },
+      {
+        "type": "practice",
+        "title": "Enrol with the Bar Council and pass the All India Bar Exam",
+        "duration": "6 months"
+      },
+      {
+        "type": "apprenticeship",
+        "title": "Junior under a senior advocate in district court",
+        "duration": "1-2 years"
+      },
+      {
+        "type": "job",
+        "title": "Advocate, legal officer in a company or bank, or government legal posts",
+        "duration": ""
+      }
+    ],
+    "source_url": "https://www.ncs.gov.in/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "accountant",
+    "name": {
+      "en": "Accountant",
+      "ta": "கணக்காளர்",
+      "hi": "लेखाकार (अकाउंटेंट)"
+    },
+    "category": "non_stem",
+    "nco_code": "2411",
+    "description": "Keeps track of money coming in and going out of a business, and handles GST and tax filing.",
+    "interests": [
+      "accounts",
+      "maths",
+      "business"
+    ],
+    "work_styles": [
+      "numbers",
+      "computers"
+    ],
+    "min_education": "class12",
+    "stream_hint": "commerce",
+    "training_time": "3 years (B.Com) plus 2-3 months software skills",
+    "salary_inr_month": [
+      12000,
+      25000
+    ],
+    "cost_level": "low",
+    "local_demand": "high",
+    "pathway": [
+      {
+        "type": "education",
+        "title": "Finish Class 12 in Commerce",
+        "duration": "2 years"
+      },
+      {
+        "type": "exam",
+        "ref": "tngasa",
+        "title": "Apply for B.Com through TNGASA (or start CA Foundation)",
+        "duration": "1-2 months"
+      },
+      {
+        "type": "education",
+        "title": "B.Com",
+        "duration": "3 years"
+      },
+      {
+        "type": "course",
+        "ref": "sid_accounting_gst",
+        "title": "Free course: Accounting, GST and accounting software",
+        "duration": "6-8 weeks"
+      },
+      {
+        "type": "apprenticeship",
+        "title": "Articleship or assistant job at an auditor's office",
+        "duration": "6-12 months"
+      },
+      {
+        "type": "job",
+        "title": "Accountant in a business, auditor's office or cooperative society",
+        "duration": ""
+      }
+    ],
+    "source_url": "https://www.ncs.gov.in/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "social_worker",
+    "name": {
+      "en": "Social Worker",
+      "ta": "சமூகப் பணியாளர்",
+      "hi": "सामाजिक कार्यकर्ता"
+    },
+    "category": "non_stem",
+    "nco_code": "2635",
+    "description": "Helps families and communities deal with problems like poverty, child rights and health through NGOs and government programmes.",
+    "interests": [
+      "helping_people",
+      "talking"
+    ],
+    "work_styles": [
+      "people",
+      "outdoors"
+    ],
+    "min_education": "class12",
+    "stream_hint": "arts",
+    "training_time": "3 years (BSW or BA) and optional MSW",
+    "salary_inr_month": [
+      12000,
+      25000
+    ],
+    "cost_level": "low",
+    "local_demand": "medium",
+    "pathway": [
+      {
+        "type": "education",
+        "title": "Finish Class 12",
+        "duration": "2 years"
+      },
+      {
+        "type": "exam",
+        "ref": "tngasa",
+        "title": "Apply for BSW / BA through TNGASA or CUET-UG",
+        "duration": "1-2 months"
+      },
+      {
+        "type": "education",
+        "title": "Bachelor of Social Work (BSW) or BA Sociology",
+        "duration": "3 years"
+      },
+      {
+        "type": "course",
+        "ref": "swayam_social_work",
+        "title": "Free course: Introduction to social work",
+        "duration": "8-12 weeks"
+      },
+      {
+        "type": "practice",
+        "title": "Field work with an NGO or self-help group federation",
+        "duration": "6 months"
+      },
+      {
+        "type": "job",
+        "title": "Field officer in an NGO, CSR project or government welfare scheme",
+        "duration": ""
+      }
+    ],
+    "source_url": "https://www.ncs.gov.in/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "journalist",
+    "name": {
+      "en": "Journalist",
+      "ta": "பத்திரிகையாளர்",
+      "hi": "पत्रकार"
+    },
+    "category": "non_stem",
+    "nco_code": "2642",
+    "description": "Finds out news, talks to people and writes or records stories for newspapers, TV and websites.",
+    "interests": [
+      "writing",
+      "talking",
+      "video"
+    ],
+    "work_styles": [
+      "people",
+      "creative"
+    ],
+    "min_education": "class12",
+    "stream_hint": "arts",
+    "training_time": "3 years (BA Journalism or any degree)",
+    "salary_inr_month": [
+      12000,
+      25000
+    ],
+    "cost_level": "low",
+    "local_demand": "low",
+    "pathway": [
+      {
+        "type": "education",
+        "title": "Finish Class 12",
+        "duration": "2 years"
+      },
+      {
+        "type": "exam",
+        "ref": "cuet_ug",
+        "title": "Apply for BA Journalism / Mass Communication through TNGASA or CUET-UG",
+        "duration": "1-2 months"
+      },
+      {
+        "type": "education",
+        "title": "BA Journalism and Mass Communication",
+        "duration": "3 years"
+      },
+      {
+        "type": "course",
+        "ref": "swayam_journalism",
+        "title": "Free course: Journalism and mass communication basics",
+        "duration": "8-12 weeks"
+      },
+      {
+        "type": "apprenticeship",
+        "title": "Internship with a Tamil newspaper, TV channel or news website",
+        "duration": "3-6 months"
+      },
+      {
+        "type": "job",
+        "title": "District reporter, sub-editor or digital news journalist",
+        "duration": ""
+      }
+    ],
+    "source_url": "https://www.ncs.gov.in/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "translator",
+    "name": {
+      "en": "Translator",
+      "ta": "மொழிபெயர்ப்பாளர்",
+      "hi": "अनुवादक"
+    },
+    "category": "non_stem",
+    "nco_code": "2643",
+    "description": "Changes writing or speech from one language to another, for example English to Tamil.",
+    "interests": [
+      "languages",
+      "writing"
+    ],
+    "work_styles": [
+      "computers",
+      "creative"
+    ],
+    "min_education": "class12",
+    "stream_hint": "arts",
+    "training_time": "3 years (BA in a language)",
+    "salary_inr_month": [
+      12000,
+      30000
+    ],
+    "cost_level": "low",
+    "local_demand": "low",
+    "pathway": [
+      {
+        "type": "education",
+        "title": "Finish Class 12",
+        "duration": "2 years"
+      },
+      {
+        "type": "exam",
+        "ref": "tngasa",
+        "title": "Apply for BA English / Tamil / Hindi through TNGASA or CUET-UG",
+        "duration": "1-2 months"
+      },
+      {
+        "type": "education",
+        "title": "BA in English, Tamil or another language",
+        "duration": "3 years"
+      },
+      {
+        "type": "course",
+        "ref": "swayam_translation",
+        "title": "Free course: Translation studies",
+        "duration": "8-12 weeks"
+      },
+      {
+        "type": "practice",
+        "title": "Translate sample documents and build a portfolio",
+        "duration": "3 months"
+      },
+      {
+        "type": "job",
+        "title": "Translator for publishers, government offices, courts or online platforms",
+        "duration": ""
+      }
+    ],
+    "source_url": "https://www.ncs.gov.in/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "hotel_management",
+    "name": {
+      "en": "Hotel Management Professional",
+      "ta": "ஹோட்டல் மேலாண்மை நிபுணர்",
+      "hi": "होटल प्रबंधन पेशेवर"
+    },
+    "category": "non_stem",
+    "nco_code": "1411",
+    "description": "Runs hotel services like the front desk, rooms, restaurant and guest care.",
+    "interests": [
+      "travel",
+      "talking",
+      "cooking"
+    ],
+    "work_styles": [
+      "people"
+    ],
+    "min_education": "class12",
+    "stream_hint": "any",
+    "training_time": "3 years (B.Sc Hospitality) or 1-1.5 years (diploma)",
+    "salary_inr_month": [
+      12000,
+      25000
+    ],
+    "cost_level": "medium",
+    "local_demand": "medium",
+    "pathway": [
+      {
+        "type": "education",
+        "title": "Finish Class 12",
+        "duration": "2 years"
+      },
+      {
+        "type": "course",
+        "ref": "sid_hospitality",
+        "title": "Free course: Hospitality basics",
+        "duration": "4-8 weeks"
+      },
+      {
+        "type": "exam",
+        "ref": "nchm_jee",
+        "title": "Write NCHM JEE for Institutes of Hotel Management",
+        "duration": "1-2 months"
+      },
+      {
+        "type": "education",
+        "title": "B.Sc Hospitality and Hotel Administration",
+        "duration": "3 years"
+      },
+      {
+        "type": "apprenticeship",
+        "title": "Industrial training in a hotel",
+        "duration": "6 months"
+      },
+      {
+        "type": "job",
+        "title": "Front office, housekeeping or F&B executive in a hotel or resort",
+        "duration": ""
+      }
+    ],
+    "source_url": "https://www.ncs.gov.in/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "chef",
+    "name": {
+      "en": "Chef",
+      "ta": "சமையல் கலைஞர்",
+      "hi": "शेफ (रसोइया)"
+    },
+    "category": "non_stem",
+    "nco_code": "3434",
+    "description": "Cooks and plans dishes in hotels, restaurants, canteens and catering services.",
+    "interests": [
+      "cooking",
+      "crafts"
+    ],
+    "work_styles": [
+      "hands",
+      "creative"
+    ],
+    "min_education": "class10",
+    "stream_hint": "any",
+    "training_time": "3 months to 1.5 years",
+    "salary_inr_month": [
+      10000,
+      25000
+    ],
+    "cost_level": "low",
+    "local_demand": "medium",
+    "pathway": [
+      {
+        "type": "education",
+        "title": "Finish Class 10",
+        "duration": "1-2 years"
+      },
+      {
+        "type": "course",
+        "ref": "pmkvy_commis_chef",
+        "title": "Free training: Commis chef kitchen basics",
+        "duration": "3 months"
+      },
+      {
+        "type": "exam",
+        "ref": "nchm_jee",
+        "title": "Optional: write NCHM JEE after Class 12 for an IHM course",
+        "duration": "1-2 months"
+      },
+      {
+        "type": "apprenticeship",
+        "title": "Work as a kitchen trainee in a hotel or restaurant",
+        "duration": "6-12 months"
+      },
+      {
+        "type": "job",
+        "title": "Commis chef, then chef de partie; or start your own catering business",
+        "duration": ""
+      }
+    ],
+    "source_url": "https://www.ncs.gov.in/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "tour_guide",
+    "name": {
+      "en": "Tour Guide",
+      "ta": "சுற்றுலா வழிகாட்டி",
+      "hi": "पर्यटक गाइड"
+    },
+    "category": "non_stem",
+    "nco_code": "5113",
+    "description": "Shows visitors around temples, heritage sites and nature spots and tells them the stories behind them.",
+    "interests": [
+      "travel",
+      "talking",
+      "languages"
+    ],
+    "work_styles": [
+      "people",
+      "outdoors"
+    ],
+    "min_education": "class10",
+    "stream_hint": "any",
+    "training_time": "1-3 months",
+    "salary_inr_month": [
+      10000,
+      25000
+    ],
+    "cost_level": "low",
+    "local_demand": "medium",
+    "pathway": [
+      {
+        "type": "education",
+        "title": "Finish Class 10",
+        "duration": "1-2 years"
+      },
+      {
+        "type": "course",
+        "ref": "sid_tour_guide",
+        "title": "Free course: Local tour guide and tourism basics",
+        "duration": "4 weeks"
+      },
+      {
+        "type": "course",
+        "ref": "nm_communication_english",
+        "title": "Free course: Spoken English and workplace communication",
+        "duration": "6-8 weeks"
+      },
+      {
+        "type": "practice",
+        "title": "Learn the history of local sites (Madurai, Thanjavur, Mamallapuram, etc.)",
+        "duration": "3 months"
+      },
+      {
+        "type": "job",
+        "title": "Guide with a travel agency or heritage site; apply for state/central guide licensing",
+        "duration": ""
+      }
+    ],
+    "source_url": "https://www.ncs.gov.in/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "retail_store_manager",
+    "name": {
+      "en": "Retail Store Manager",
+      "ta": "சில்லறை விற்பனைக் கடை மேலாளர்",
+      "hi": "रिटेल स्टोर मैनेजर"
+    },
+    "category": "non_stem",
+    "nco_code": "1420",
+    "description": "Runs a shop or supermarket: manages stock, staff, sales and customers.",
+    "interests": [
+      "selling",
+      "business",
+      "talking"
+    ],
+    "work_styles": [
+      "people",
+      "numbers"
+    ],
+    "min_education": "class10",
+    "stream_hint": "any",
+    "training_time": "3-6 months training, then 2-4 years experience",
+    "salary_inr_month": [
+      12000,
+      25000
+    ],
+    "cost_level": "low",
+    "local_demand": "high",
+    "pathway": [
+      {
+        "type": "education",
+        "title": "Finish Class 10",
+        "duration": "1-2 years"
+      },
+      {
+        "type": "course",
+        "ref": "sid_retail_sales",
+        "title": "Free course: Retail sales and store operations",
+        "duration": "4-8 weeks"
+      },
+      {
+        "type": "course",
+        "ref": "eskill_digital_literacy",
+        "title": "Free course: Basic computer and digital literacy",
+        "duration": "2-4 weeks"
+      },
+      {
+        "type": "job",
+        "title": "Sales associate in a supermarket, textile or electronics showroom",
+        "duration": "1-2 years"
+      },
+      {
+        "type": "job",
+        "title": "Promotion to floor supervisor and then store manager",
+        "duration": ""
+      }
+    ],
+    "source_url": "https://www.ncs.gov.in/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "customer_support_executive",
+    "name": {
+      "en": "Customer Support Executive",
+      "ta": "வாடிக்கையாளர் சேவை அலுவலர்",
+      "hi": "ग्राहक सेवा कार्यकारी"
+    },
+    "category": "non_stem",
+    "nco_code": "4222",
+    "description": "Answers customer calls, chats and emails for companies and solves their problems.",
+    "interests": [
+      "talking",
+      "languages",
+      "computers"
+    ],
+    "work_styles": [
+      "people",
+      "computers"
+    ],
+    "min_education": "class12",
+    "stream_hint": "any",
+    "training_time": "1-3 months",
+    "salary_inr_month": [
+      12000,
+      22000
+    ],
+    "cost_level": "free",
+    "local_demand": "medium",
+    "pathway": [
+      {
+        "type": "education",
+        "title": "Finish Class 12",
+        "duration": "2 years"
+      },
+      {
+        "type": "course",
+        "ref": "nm_communication_english",
+        "title": "Free course: Spoken English and workplace communication",
+        "duration": "6-8 weeks"
+      },
+      {
+        "type": "course",
+        "ref": "eskill_digital_literacy",
+        "title": "Free course: Basic computer and digital literacy",
+        "duration": "2-4 weeks"
+      },
+      {
+        "type": "practice",
+        "title": "Practise mock calls in Tamil and English",
+        "duration": "1 month"
+      },
+      {
+        "type": "job",
+        "title": "Customer support executive in a BPO, bank or e-commerce company (Tamil voice process)",
+        "duration": ""
+      }
+    ],
+    "source_url": "https://www.ncs.gov.in/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "logistics_executive",
+    "name": {
+      "en": "Logistics Executive",
+      "ta": "சரக்கு போக்குவரத்து அலுவலர்",
+      "hi": "लॉजिस्टिक्स एग्जीक्यूटिव"
+    },
+    "category": "non_stem",
+    "description": "Plans and tracks how goods are stored in warehouses and delivered to shops and customers.",
+    "interests": [
+      "business",
+      "vehicles",
+      "computers"
+    ],
+    "work_styles": [
+      "numbers",
+      "people"
+    ],
+    "min_education": "class12",
+    "stream_hint": "any",
+    "training_time": "1-3 months",
+    "salary_inr_month": [
+      13000,
+      25000
+    ],
+    "cost_level": "free",
+    "local_demand": "medium",
+    "pathway": [
+      {
+        "type": "education",
+        "title": "Finish Class 12",
+        "duration": "2 years"
+      },
+      {
+        "type": "course",
+        "ref": "sid_logistics",
+        "title": "Free course: Warehouse, supply chain and delivery operations",
+        "duration": "4-8 weeks"
+      },
+      {
+        "type": "course",
+        "ref": "eskill_digital_literacy",
+        "title": "Free course: Basic computer and digital literacy",
+        "duration": "2-4 weeks"
+      },
+      {
+        "type": "apprenticeship",
+        "title": "Apprenticeship in a warehouse or courier company (NAPS)",
+        "duration": "6-12 months"
+      },
+      {
+        "type": "job",
+        "title": "Logistics or warehouse executive with a courier, e-commerce or transport company",
+        "duration": ""
+      }
+    ],
+    "source_url": "https://www.ncs.gov.in/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "insurance_advisor",
+    "name": {
+      "en": "Insurance Advisor",
+      "ta": "காப்பீட்டு ஆலோசகர்",
+      "hi": "बीमा सलाहकार"
+    },
+    "category": "non_stem",
+    "nco_code": "3321",
+    "description": "Explains life, health and crop insurance to families and helps them buy and claim policies.",
+    "interests": [
+      "selling",
+      "talking",
+      "accounts"
+    ],
+    "work_styles": [
+      "people"
+    ],
+    "min_education": "class10",
+    "stream_hint": "any",
+    "training_time": "1-2 months (licence training)",
+    "salary_inr_month": [
+      8000,
+      25000
+    ],
+    "cost_level": "low",
+    "local_demand": "high",
+    "pathway": [
+      {
+        "type": "education",
+        "title": "Finish Class 10",
+        "duration": "1-2 years"
+      },
+      {
+        "type": "course",
+        "ref": "sid_insurance_basics",
+        "title": "Free course: Insurance products and customer service basics",
+        "duration": "4 weeks"
+      },
+      {
+        "type": "course",
+        "ref": "swayam_banking_finance",
+        "title": "Free course: Banking and financial awareness",
+        "duration": "8 weeks"
+      },
+      {
+        "type": "practice",
+        "title": "Complete the insurer's training and pass the IRDAI agent exam",
+        "duration": "1 month"
+      },
+      {
+        "type": "job",
+        "title": "Insurance advisor (agent) with LIC or a private insurer; commission-based income",
+        "duration": ""
+      }
+    ],
+    "source_url": "https://www.ncs.gov.in/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "graphic_designer",
+    "name": {
+      "en": "Graphic Designer",
+      "ta": "வரைகலை வடிவமைப்பாளர்",
+      "hi": "ग्राफिक डिज़ाइनर"
+    },
+    "category": "creative",
+    "nco_code": "2166",
+    "description": "Creates posters, logos, banners and social media designs using a computer.",
+    "interests": [
+      "drawing",
+      "computers",
+      "social_media"
+    ],
+    "work_styles": [
+      "creative",
+      "computers"
+    ],
+    "min_education": "class10",
+    "stream_hint": "any",
+    "training_time": "3-6 months to 3 years",
+    "salary_inr_month": [
+      12000,
+      25000
+    ],
+    "cost_level": "low",
+    "local_demand": "medium",
+    "pathway": [
+      {
+        "type": "education",
+        "title": "Finish Class 10",
+        "duration": "1-2 years"
+      },
+      {
+        "type": "course",
+        "ref": "nm_graphic_design",
+        "title": "Free course: Graphic design with free tools",
+        "duration": "6-8 weeks"
+      },
+      {
+        "type": "course",
+        "ref": "swayam_animation",
+        "title": "Free course: 2D animation and multimedia basics",
+        "duration": "8-12 weeks"
+      },
+      {
+        "type": "exam",
+        "ref": "nid_dat",
+        "title": "Optional: write NID DAT after Class 12 for a design degree",
+        "duration": "1-2 months"
+      },
+      {
+        "type": "practice",
+        "title": "Design for local shops and events to build a portfolio",
+        "duration": "3 months"
+      },
+      {
+        "type": "job",
+        "title": "Graphic designer at a print shop, ad agency or as a freelancer",
+        "duration": ""
+      }
+    ],
+    "source_url": "https://www.ncs.gov.in/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "textile_designer",
+    "name": {
+      "en": "Textile Designer",
+      "ta": "ஜவுளி வடிவமைப்பாளர்",
+      "hi": "वस्त्र डिज़ाइनर"
+    },
+    "category": "creative",
+    "nco_code": "2163",
+    "description": "Creates patterns, colours and weaves for fabrics like sarees, dhotis and dress materials.",
+    "interests": [
+      "fashion",
+      "drawing",
+      "crafts"
+    ],
+    "work_styles": [
+      "creative",
+      "hands"
+    ],
+    "min_education": "class10",
+    "stream_hint": "any",
+    "training_time": "3 years (diploma) or 4 years (B.Des)",
+    "salary_inr_month": [
+      15000,
+      30000
+    ],
+    "cost_level": "low",
+    "local_demand": "medium",
+    "pathway": [
+      {
+        "type": "education",
+        "title": "Finish Class 10",
+        "duration": "1-2 years"
+      },
+      {
+        "type": "course",
+        "ref": "swayam_textile_design",
+        "title": "Free course: Textile and apparel design basics",
+        "duration": "8-12 weeks"
+      },
+      {
+        "type": "exam",
+        "ref": "tn_polytechnic",
+        "title": "Apply for Diploma in Textile Technology at a polytechnic (or NIFT after Class 12)",
+        "duration": "1 month"
+      },
+      {
+        "type": "education",
+        "title": "Diploma in Textile Technology / Design",
+        "duration": "3 years"
+      },
+      {
+        "type": "apprenticeship",
+        "title": "Apprenticeship in a textile mill or handloom cooperative",
+        "duration": "6-12 months"
+      },
+      {
+        "type": "job",
+        "title": "Textile designer in mills or export houses (Tiruppur, Karur, Erode, Kanchipuram)",
+        "duration": ""
+      }
+    ],
+    "source_url": "https://www.ncs.gov.in/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "fashion_designer",
+    "name": {
+      "en": "Fashion Designer",
+      "ta": "ஆடை வடிவமைப்பாளர்",
+      "hi": "फैशन डिज़ाइनर"
+    },
+    "category": "creative",
+    "nco_code": "2163",
+    "description": "Designs new clothes and styles and gets them made in boutiques or garment factories.",
+    "interests": [
+      "fashion",
+      "drawing",
+      "sewing"
+    ],
+    "work_styles": [
+      "creative",
+      "hands"
+    ],
+    "min_education": "class12",
+    "stream_hint": "any",
+    "training_time": "3-4 years (B.Des / B.Sc Fashion)",
+    "salary_inr_month": [
+      15000,
+      30000
+    ],
+    "cost_level": "medium",
+    "local_demand": "medium",
+    "pathway": [
+      {
+        "type": "education",
+        "title": "Finish Class 12",
+        "duration": "2 years"
+      },
+      {
+        "type": "course",
+        "ref": "sid_fashion_design",
+        "title": "Free course: Fashion design and pattern making basics",
+        "duration": "6-8 weeks"
+      },
+      {
+        "type": "exam",
+        "ref": "nift_entrance",
+        "title": "Write the NIFT entrance (NIFT Chennai campus)",
+        "duration": "2 months"
+      },
+      {
+        "type": "education",
+        "title": "B.Des Fashion Design or B.Sc Costume Design",
+        "duration": "3-4 years"
+      },
+      {
+        "type": "apprenticeship",
+        "title": "Internship with a garment exporter or boutique",
+        "duration": "3-6 months"
+      },
+      {
+        "type": "job",
+        "title": "Assistant designer at an export house or brand, or start your own boutique",
+        "duration": ""
+      }
+    ],
+    "source_url": "https://www.ncs.gov.in/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "photographer_videographer",
+    "name": {
+      "en": "Photographer / Videographer",
+      "ta": "புகைப்படக் கலைஞர் / காணொளிப் பதிவாளர்",
+      "hi": "फोटोग्राफर / वीडियोग्राफर"
+    },
+    "category": "creative",
+    "nco_code": "3431",
+    "description": "Takes photos and videos for weddings, events, shops and media.",
+    "interests": [
+      "photography",
+      "video"
+    ],
+    "work_styles": [
+      "creative",
+      "outdoors"
+    ],
+    "min_education": "class10",
+    "stream_hint": "any",
+    "training_time": "3-6 months",
+    "salary_inr_month": [
+      10000,
+      30000
+    ],
+    "cost_level": "medium",
+    "local_demand": "medium",
+    "pathway": [
+      {
+        "type": "education",
+        "title": "Finish Class 10",
+        "duration": "1-2 years"
+      },
+      {
+        "type": "course",
+        "ref": "sid_photo_video",
+        "title": "Free course: Photography and video shooting basics",
+        "duration": "4-8 weeks"
+      },
+      {
+        "type": "course",
+        "ref": "nm_content_creation",
+        "title": "Free course: Social media content creation and video editing",
+        "duration": "4-6 weeks"
+      },
+      {
+        "type": "apprenticeship",
+        "title": "Assist a local wedding or studio photographer",
+        "duration": "6-12 months"
+      },
+      {
+        "type": "job",
+        "title": "Studio or wedding photographer/videographer, or freelance",
+        "duration": ""
+      }
+    ],
+    "source_url": "https://www.ncs.gov.in/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "content_creator",
+    "name": {
+      "en": "Content Creator",
+      "ta": "உள்ளடக்க படைப்பாளர்",
+      "hi": "कंटेंट क्रिएटर"
+    },
+    "category": "creative",
+    "description": "Makes videos, reels and posts for YouTube and Instagram and earns from ads and brand deals.",
+    "interests": [
+      "social_media",
+      "video",
+      "talking"
+    ],
+    "work_styles": [
+      "creative",
+      "computers"
+    ],
+    "min_education": "class10",
+    "stream_hint": "any",
+    "training_time": "3-6 months",
+    "salary_inr_month": [
+      5000,
+      30000
+    ],
+    "cost_level": "low",
+    "local_demand": "medium",
+    "pathway": [
+      {
+        "type": "education",
+        "title": "Finish Class 10",
+        "duration": "1-2 years"
+      },
+      {
+        "type": "course",
+        "ref": "nm_content_creation",
+        "title": "Free course: Social media content creation and video editing",
+        "duration": "4-6 weeks"
+      },
+      {
+        "type": "course",
+        "ref": "swayam_digital_marketing",
+        "title": "Free course: Digital marketing",
+        "duration": "8-12 weeks"
+      },
+      {
+        "type": "practice",
+        "title": "Post regularly on one topic you love (farming, cooking, tech, studies)",
+        "duration": "6-12 months"
+      },
+      {
+        "type": "job",
+        "title": "Creator earning from ads and sponsorships, or social media executive at a company",
+        "duration": ""
+      }
+    ],
+    "source_url": "https://www.ncs.gov.in/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "animator",
+    "name": {
+      "en": "Animator",
+      "ta": "அசைவூட்டக் கலைஞர்",
+      "hi": "एनिमेटर"
+    },
+    "category": "creative",
+    "nco_code": "2166",
+    "description": "Draws and moves characters on a computer to make cartoons, ads and game scenes.",
+    "interests": [
+      "drawing",
+      "computers",
+      "video"
+    ],
+    "work_styles": [
+      "creative",
+      "computers"
+    ],
+    "min_education": "class12",
+    "stream_hint": "any",
+    "training_time": "1-3 years",
+    "salary_inr_month": [
+      15000,
+      30000
+    ],
+    "cost_level": "medium",
+    "local_demand": "low",
+    "pathway": [
+      {
+        "type": "education",
+        "title": "Finish Class 12",
+        "duration": "2 years"
+      },
+      {
+        "type": "course",
+        "ref": "swayam_animation",
+        "title": "Free course: 2D animation and multimedia basics",
+        "duration": "8-12 weeks"
+      },
+      {
+        "type": "exam",
+        "ref": "nid_dat",
+        "title": "Optional: write NID DAT for a design degree",
+        "duration": "1-2 months"
+      },
+      {
+        "type": "education",
+        "title": "B.Sc Animation / Visual Communication or a diploma",
+        "duration": "1-3 years"
+      },
+      {
+        "type": "practice",
+        "title": "Make a showreel of short animations",
+        "duration": "3-6 months"
+      },
+      {
+        "type": "job",
+        "title": "Junior animator at an animation, VFX or gaming studio (Chennai, Hyderabad) or freelance",
+        "duration": ""
+      }
+    ],
+    "source_url": "https://www.ncs.gov.in/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "musician",
+    "name": {
+      "en": "Musician",
+      "ta": "இசைக் கலைஞர்",
+      "hi": "संगीतकार"
+    },
+    "category": "creative",
+    "nco_code": "2652",
+    "description": "Sings or plays instruments at concerts, temples, events, films or online.",
+    "interests": [
+      "music"
+    ],
+    "work_styles": [
+      "creative",
+      "people"
+    ],
+    "min_education": "class8",
+    "stream_hint": "any",
+    "training_time": "Several years of practice",
+    "salary_inr_month": [
+      8000,
+      25000
+    ],
+    "cost_level": "low",
+    "local_demand": "low",
+    "pathway": [
+      {
+        "type": "education",
+        "title": "Continue school while learning music",
+        "duration": ""
+      },
+      {
+        "type": "course",
+        "ref": "swayam_music",
+        "title": "Free course: Fundamentals of Indian music",
+        "duration": "8-12 weeks"
+      },
+      {
+        "type": "practice",
+        "title": "Train with a guru or at a government music school, and practise daily",
+        "duration": "2-4 years"
+      },
+      {
+        "type": "education",
+        "title": "Optional: BA / Diploma in Music",
+        "duration": "3 years"
+      },
+      {
+        "type": "job",
+        "title": "Performer at events and temples, music teacher, or online creator",
+        "duration": ""
+      }
+    ],
+    "source_url": "https://www.ncs.gov.in/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "handicraft_artisan",
+    "name": {
+      "en": "Handicraft Artisan",
+      "ta": "கைவினைக் கலைஞர்",
+      "hi": "हस्तशिल्प कारीगर"
+    },
+    "category": "creative",
+    "description": "Makes handmade products like pottery, palm-leaf items, bronze, wood carvings or handloom goods.",
+    "interests": [
+      "crafts",
+      "drawing",
+      "selling"
+    ],
+    "work_styles": [
+      "hands",
+      "creative"
+    ],
+    "min_education": "class8",
+    "stream_hint": "any",
+    "training_time": "3-12 months",
+    "salary_inr_month": [
+      6000,
+      18000
+    ],
+    "cost_level": "free",
+    "local_demand": "medium",
+    "pathway": [
+      {
+        "type": "education",
+        "title": "Class 8 or above",
+        "duration": ""
+      },
+      {
+        "type": "course",
+        "ref": "sid_handicrafts",
+        "title": "Free course: Handicraft production and marketing",
+        "duration": "4-8 weeks"
+      },
+      {
+        "type": "practice",
+        "title": "Learn under a master craftsperson in your area",
+        "duration": "6-12 months"
+      },
+      {
+        "type": "course",
+        "ref": "sid_ecommerce_selling",
+        "title": "Free course: Selling online for small sellers",
+        "duration": "2-4 weeks"
+      },
+      {
+        "type": "job",
+        "title": "Sell through Poompuhar, craft fairs, self-help groups and online stores",
+        "duration": ""
+      }
+    ],
+    "source_url": "https://www.ncs.gov.in/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "police_constable",
+    "name": {
+      "en": "Police Constable",
+      "ta": "காவல் துறை காவலர்",
+      "hi": "पुलिस कांस्टेबल"
+    },
+    "category": "government",
+    "nco_code": "5412",
+    "description": "Keeps people safe, controls traffic and crime, and helps the public in emergencies.",
+    "interests": [
+      "uniform_service",
+      "fitness",
+      "helping_people"
+    ],
+    "work_styles": [
+      "outdoors",
+      "people"
+    ],
+    "min_education": "class10",
+    "stream_hint": "any",
+    "training_time": "6-12 months exam prep plus police training",
+    "salary_inr_month": [
+      25000,
+      35000
+    ],
+    "cost_level": "free",
+    "local_demand": "high",
+    "pathway": [
+      {
+        "type": "education",
+        "title": "Finish Class 10",
+        "duration": "1-2 years"
+      },
+      {
+        "type": "course",
+        "ref": "sid_fitness_basics",
+        "title": "Free course: Fitness training basics",
+        "duration": "4-8 weeks"
+      },
+      {
+        "type": "course",
+        "ref": "tn_career_services_coaching",
+        "title": "Free coaching: TNUSRB and SSC exam preparation",
+        "duration": "6 months"
+      },
+      {
+        "type": "exam",
+        "ref": "tnusrb_constable",
+        "title": "Write the TNUSRB Grade II Police Constable exam and physical test",
+        "duration": "3-6 months"
+      },
+      {
+        "type": "exam",
+        "ref": "ssc_gd",
+        "title": "Also try SSC GD Constable for central armed police forces",
+        "duration": "3-6 months"
+      },
+      {
+        "type": "education",
+        "title": "Police training school",
+        "duration": "7-9 months"
+      },
+      {
+        "type": "job",
+        "title": "Grade II Police Constable in Tamil Nadu Police",
+        "duration": ""
+      }
+    ],
+    "source_url": "https://www.ncs.gov.in/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "army_soldier",
+    "name": {
+      "en": "Army Soldier (Agniveer)",
+      "ta": "இராணுவ வீரர்",
+      "hi": "सेना सैनिक (अग्निवीर)"
+    },
+    "category": "government",
+    "nco_code": "0310",
+    "description": "Serves in the Indian Army to protect the country, with strict training and discipline.",
+    "interests": [
+      "uniform_service",
+      "fitness",
+      "sports"
+    ],
+    "work_styles": [
+      "outdoors",
+      "hands"
+    ],
+    "min_education": "class10",
+    "stream_hint": "any",
+    "training_time": "6-12 months prep plus army training",
+    "salary_inr_month": [
+      21000,
+      30000
+    ],
+    "cost_level": "free",
+    "local_demand": "medium",
+    "pathway": [
+      {
+        "type": "education",
+        "title": "Finish Class 10",
+        "duration": "1-2 years"
+      },
+      {
+        "type": "course",
+        "ref": "sid_fitness_basics",
+        "title": "Free course: Fitness training basics",
+        "duration": "4-8 weeks"
+      },
+      {
+        "type": "course",
+        "ref": "nm_competitive_exams",
+        "title": "Free coaching: aptitude and general studies",
+        "duration": "6 months"
+      },
+      {
+        "type": "exam",
+        "ref": "agniveer_army",
+        "title": "Register and write the Agniveer online entrance exam, then the rally",
+        "duration": "6 months"
+      },
+      {
+        "type": "education",
+        "title": "Army basic and trade training",
+        "duration": "6-10 months"
+      },
+      {
+        "type": "job",
+        "title": "Agniveer for 4 years with Seva Nidhi package; some selected for permanent service",
+        "duration": ""
+      }
+    ],
+    "source_url": "https://www.ncs.gov.in/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "railway_staff",
+    "name": {
+      "en": "Railway Staff",
+      "ta": "இரயில்வே பணியாளர்",
+      "hi": "रेलवे कर्मचारी"
+    },
+    "category": "government",
+    "description": "Works in Indian Railways as a track maintainer, technician, clerk, ticket checker or station staff.",
+    "interests": [
+      "vehicles",
+      "machines",
+      "uniform_service"
+    ],
+    "work_styles": [
+      "outdoors",
+      "hands",
+      "people"
+    ],
+    "min_education": "class10",
+    "stream_hint": "any",
+    "training_time": "6-12 months exam preparation",
+    "salary_inr_month": [
+      25000,
+      45000
+    ],
+    "cost_level": "free",
+    "local_demand": "medium",
+    "pathway": [
+      {
+        "type": "education",
+        "title": "Finish Class 10",
+        "duration": "1-2 years"
+      },
+      {
+        "type": "course",
+        "ref": "tn_career_services_coaching",
+        "title": "Free coaching: railway exam preparation",
+        "duration": "6 months"
+      },
+      {
+        "type": "exam",
+        "ref": "rrb_group_d",
+        "title": "Write RRB Group D (Class 10 / ITI)",
+        "duration": "6 months"
+      },
+      {
+        "type": "exam",
+        "ref": "rrb_alp",
+        "title": "With ITI, also write RRB ALP and Technician",
+        "duration": "6 months"
+      },
+      {
+        "type": "exam",
+        "ref": "rrb_ntpc",
+        "title": "After Class 12 or a degree, write RRB NTPC for clerk and station posts",
+        "duration": "6 months"
+      },
+      {
+        "type": "job",
+        "title": "Railway employee with pay, pension and free travel benefits",
+        "duration": ""
+      }
+    ],
+    "source_url": "https://www.ncs.gov.in/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "bank_officer",
+    "name": {
+      "en": "Bank Officer / Clerk",
+      "ta": "வங்கி அலுவலர்",
+      "hi": "बैंक अधिकारी"
+    },
+    "category": "government",
+    "description": "Helps customers open accounts, take loans and use banking services in public sector banks.",
+    "interests": [
+      "accounts",
+      "maths",
+      "talking"
+    ],
+    "work_styles": [
+      "people",
+      "numbers"
+    ],
+    "min_education": "ug",
+    "stream_hint": "any",
+    "training_time": "3 years degree plus 6-12 months exam prep",
+    "salary_inr_month": [
+      30000,
+      60000
+    ],
+    "cost_level": "low",
+    "local_demand": "medium",
+    "pathway": [
+      {
+        "type": "education",
+        "title": "Finish Class 12",
+        "duration": "2 years"
+      },
+      {
+        "type": "exam",
+        "ref": "tngasa",
+        "title": "Apply for any degree (B.Com, B.Sc, BA) through TNGASA",
+        "duration": "1-2 months"
+      },
+      {
+        "type": "education",
+        "title": "Any bachelor's degree",
+        "duration": "3 years"
+      },
+      {
+        "type": "course",
+        "ref": "swayam_banking_finance",
+        "title": "Free course: Banking and financial awareness",
+        "duration": "8 weeks"
+      },
+      {
+        "type": "exam",
+        "ref": "ibps_clerk",
+        "title": "Write IBPS Clerk (state language Tamil) for clerk posts",
+        "duration": "6-12 months"
+      },
+      {
+        "type": "exam",
+        "ref": "ibps_po",
+        "title": "Write IBPS PO for officer posts",
+        "duration": "6-12 months"
+      },
+      {
+        "type": "job",
+        "title": "Clerk or probationary officer in a public sector bank",
+        "duration": ""
+      }
+    ],
+    "source_url": "https://www.ncs.gov.in/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "tnpsc_group4_clerk",
+    "name": {
+      "en": "Government Office Assistant (TNPSC Group 4)",
+      "ta": "அரசு அலுவலக இளநிலை உதவியாளர் (குரூப் 4)",
+      "hi": "सरकारी कार्यालय सहायक (TNPSC ग्रुप 4)"
+    },
+    "category": "government",
+    "nco_code": "4110",
+    "description": "Works in Tamil Nadu government offices handling files, records and public applications.",
+    "interests": [
+      "languages",
+      "computers",
+      "accounts"
+    ],
+    "work_styles": [
+      "people",
+      "numbers"
+    ],
+    "min_education": "class10",
+    "stream_hint": "any",
+    "training_time": "6-12 months exam preparation",
+    "salary_inr_month": [
+      25000,
+      40000
+    ],
+    "cost_level": "free",
+    "local_demand": "high",
+    "pathway": [
+      {
+        "type": "education",
+        "title": "Finish Class 10",
+        "duration": "1-2 years"
+      },
+      {
+        "type": "course",
+        "ref": "tamilvu_tamil",
+        "title": "Free lessons: Tamil language and grammar",
+        "duration": "Self-paced"
+      },
+      {
+        "type": "course",
+        "ref": "tn_career_services_coaching",
+        "title": "Free coaching: TNPSC Group 4 preparation",
+        "duration": "6-12 months"
+      },
+      {
+        "type": "course",
+        "ref": "eskill_digital_literacy",
+        "title": "Free course: Basic computer and digital literacy",
+        "duration": "2-4 weeks"
+      },
+      {
+        "type": "exam",
+        "ref": "tnpsc_group4",
+        "title": "Write TNPSC Group 4",
+        "duration": "6-12 months"
+      },
+      {
+        "type": "job",
+        "title": "Junior Assistant, Typist or Bill Collector in a state government office",
+        "duration": ""
+      }
+    ],
+    "source_url": "https://www.ncs.gov.in/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "village_administrative_officer",
+    "name": {
+      "en": "Village Administrative Officer (VAO)",
+      "ta": "கிராம நிர்வாக அலுவலர்",
+      "hi": "ग्राम प्रशासनिक अधिकारी"
+    },
+    "category": "government",
+    "description": "Looks after land records, certificates and government work for a village.",
+    "interests": [
+      "helping_people",
+      "law",
+      "languages"
+    ],
+    "work_styles": [
+      "people",
+      "outdoors"
+    ],
+    "min_education": "class10",
+    "stream_hint": "any",
+    "training_time": "6-12 months exam preparation",
+    "salary_inr_month": [
+      25000,
+      40000
+    ],
+    "cost_level": "free",
+    "local_demand": "medium",
+    "pathway": [
+      {
+        "type": "education",
+        "title": "Finish Class 10",
+        "duration": "1-2 years"
+      },
+      {
+        "type": "course",
+        "ref": "tamilvu_tamil",
+        "title": "Free lessons: Tamil language and grammar",
+        "duration": "Self-paced"
+      },
+      {
+        "type": "course",
+        "ref": "nm_competitive_exams",
+        "title": "Free coaching: TNPSC Group 4 / VAO preparation",
+        "duration": "6-12 months"
+      },
+      {
+        "type": "course",
+        "ref": "swayam_constitution_law",
+        "title": "Free course: Introduction to the Indian Constitution",
+        "duration": "8-12 weeks"
+      },
+      {
+        "type": "exam",
+        "ref": "tnpsc_vao",
+        "title": "Write TNPSC Group 4 and opt for VAO (minimum age 21)",
+        "duration": "6-12 months"
+      },
+      {
+        "type": "job",
+        "title": "Village Administrative Officer under the Revenue Department",
+        "duration": ""
+      }
+    ],
+    "source_url": "https://www.ncs.gov.in/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "postal_assistant",
+    "name": {
+      "en": "Postal Assistant / Gramin Dak Sevak",
+      "ta": "அஞ்சல் உதவியாளர்",
+      "hi": "डाक सहायक"
+    },
+    "category": "government",
+    "nco_code": "4412",
+    "description": "Runs post office counters, savings accounts and mail delivery in villages and towns.",
+    "interests": [
+      "helping_people",
+      "computers",
+      "accounts"
+    ],
+    "work_styles": [
+      "people",
+      "numbers"
+    ],
+    "min_education": "class10",
+    "stream_hint": "any",
+    "training_time": "No extra training for GDS; exam prep for Postal Assistant",
+    "salary_inr_month": [
+      10000,
+      40000
+    ],
+    "cost_level": "free",
+    "local_demand": "medium",
+    "pathway": [
+      {
+        "type": "education",
+        "title": "Finish Class 10",
+        "duration": "1-2 years"
+      },
+      {
+        "type": "course",
+        "ref": "eskill_digital_literacy",
+        "title": "Free course: Basic computer and digital literacy (needed for GDS)",
+        "duration": "2-4 weeks"
+      },
+      {
+        "type": "exam",
+        "ref": "india_post_gds",
+        "title": "Apply for India Post GDS (selected on Class 10 marks)",
+        "duration": "1 month"
+      },
+      {
+        "type": "exam",
+        "ref": "ssc_chsl",
+        "title": "After Class 12, write SSC CHSL for Postal/Sorting Assistant",
+        "duration": "6-12 months"
+      },
+      {
+        "type": "job",
+        "title": "Branch Postmaster / Dak Sevak in a village, or Postal Assistant in a post office",
+        "duration": ""
+      }
+    ],
+    "source_url": "https://www.ncs.gov.in/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "forest_guard",
+    "name": {
+      "en": "Forest Guard",
+      "ta": "வனக் காவலர்",
+      "hi": "वन रक्षक"
+    },
+    "category": "government",
+    "description": "Protects forests and wild animals, stops illegal tree cutting and helps with conservation.",
+    "interests": [
+      "nature",
+      "animals",
+      "uniform_service",
+      "environment"
+    ],
+    "work_styles": [
+      "outdoors"
+    ],
+    "min_education": "class12",
+    "stream_hint": "any",
+    "training_time": "6-12 months exam prep plus forest training",
+    "salary_inr_month": [
+      25000,
+      35000
+    ],
+    "cost_level": "free",
+    "local_demand": "low",
+    "pathway": [
+      {
+        "type": "education",
+        "title": "Finish Class 12",
+        "duration": "2 years"
+      },
+      {
+        "type": "course",
+        "ref": "swayam_forestry",
+        "title": "Free course: Forest and wildlife conservation basics",
+        "duration": "8-12 weeks"
+      },
+      {
+        "type": "course",
+        "ref": "sid_fitness_basics",
+        "title": "Free course: Fitness training basics",
+        "duration": "4-8 weeks"
+      },
+      {
+        "type": "exam",
+        "ref": "tn_forest_guard",
+        "title": "Apply for Forest Guard recruitment and walking test",
+        "duration": "6 months"
+      },
+      {
+        "type": "education",
+        "title": "Forest training",
+        "duration": "6 months"
+      },
+      {
+        "type": "job",
+        "title": "Forest Guard in the Tamil Nadu Forest Department",
+        "duration": ""
+      }
+    ],
+    "source_url": "https://www.ncs.gov.in/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "agri_entrepreneur",
+    "name": {
+      "en": "Agri-Entrepreneur",
+      "ta": "வேளாண் தொழில்முனைவோர்",
+      "hi": "कृषि उद्यमी"
+    },
+    "category": "agriculture",
+    "description": "Runs a farm-related business such as a nursery, seed shop, drone spraying, or selling farm produce directly.",
+    "interests": [
+      "farming",
+      "business",
+      "selling"
+    ],
+    "work_styles": [
+      "outdoors",
+      "people"
+    ],
+    "min_education": "class10",
+    "stream_hint": "any",
+    "training_time": "3-6 months training, or 4 years (B.Sc Agri)",
+    "salary_inr_month": [
+      10000,
+      40000
+    ],
+    "cost_level": "medium",
+    "local_demand": "high",
+    "pathway": [
+      {
+        "type": "education",
+        "title": "Finish Class 10",
+        "duration": "1-2 years"
+      },
+      {
+        "type": "course",
+        "ref": "sid_agri_entrepreneurship",
+        "title": "Free course: Agri-entrepreneurship and farm business planning",
+        "duration": "4-8 weeks"
+      },
+      {
+        "type": "course",
+        "ref": "swayam_food_processing",
+        "title": "Free course: Food processing and preservation",
+        "duration": "8-12 weeks"
+      },
+      {
+        "type": "exam",
+        "ref": "tnau_ug_admission",
+        "title": "Optional: B.Sc Agriculture admission at TNAU after Class 12",
+        "duration": "1-2 months"
+      },
+      {
+        "type": "practice",
+        "title": "Start small with support from the local KVK and agri department schemes",
+        "duration": "6-12 months"
+      },
+      {
+        "type": "job",
+        "title": "Run your own agri-business or farmer producer organisation (FPO)",
+        "duration": ""
+      }
+    ],
+    "source_url": "https://www.ncs.gov.in/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "dairy_farmer",
+    "name": {
+      "en": "Dairy Farmer",
+      "ta": "பால்பண்ணையாளர்",
+      "hi": "डेयरी किसान"
+    },
+    "category": "agriculture",
+    "nco_code": "6121",
+    "description": "Raises cows or buffaloes and sells milk to Aavin or local dairies.",
+    "interests": [
+      "animals",
+      "farming"
+    ],
+    "work_styles": [
+      "hands",
+      "outdoors"
+    ],
+    "min_education": "class8",
+    "stream_hint": "any",
+    "training_time": "1-3 months",
+    "salary_inr_month": [
+      8000,
+      25000
+    ],
+    "cost_level": "medium",
+    "local_demand": "high",
+    "pathway": [
+      {
+        "type": "education",
+        "title": "Class 8 or above",
+        "duration": ""
+      },
+      {
+        "type": "course",
+        "ref": "sid_dairy_farming",
+        "title": "Free course: Dairy farming and cattle care",
+        "duration": "4-8 weeks"
+      },
+      {
+        "type": "course",
+        "ref": "sid_livestock_health",
+        "title": "Free course: Livestock health and first aid",
+        "duration": "4-8 weeks"
+      },
+      {
+        "type": "practice",
+        "title": "Start with 2-3 animals with bank loan or scheme support; join the Aavin society",
+        "duration": "6-12 months"
+      },
+      {
+        "type": "job",
+        "title": "Dairy farmer supplying milk to a cooperative society",
+        "duration": ""
+      }
+    ],
+    "source_url": "https://www.ncs.gov.in/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "organic_farmer",
+    "name": {
+      "en": "Organic Farmer",
+      "ta": "இயற்கை விவசாயி",
+      "hi": "जैविक किसान"
+    },
+    "category": "agriculture",
+    "nco_code": "6111",
+    "description": "Grows vegetables, rice and fruits without chemical fertilisers and sells them at better prices.",
+    "interests": [
+      "farming",
+      "nature",
+      "environment"
+    ],
+    "work_styles": [
+      "outdoors",
+      "hands"
+    ],
+    "min_education": "class8",
+    "stream_hint": "any",
+    "training_time": "3-12 months",
+    "salary_inr_month": [
+      8000,
+      25000
+    ],
+    "cost_level": "low",
+    "local_demand": "medium",
+    "pathway": [
+      {
+        "type": "education",
+        "title": "Class 8 or above",
+        "duration": ""
+      },
+      {
+        "type": "course",
+        "ref": "swayam_organic_farming",
+        "title": "Free course: Organic farming practices",
+        "duration": "8-12 weeks"
+      },
+      {
+        "type": "course",
+        "ref": "sid_agri_entrepreneurship",
+        "title": "Free course: Agri-entrepreneurship and farm business planning",
+        "duration": "4-8 weeks"
+      },
+      {
+        "type": "practice",
+        "title": "Work on an organic farm or with the local KVK; apply for organic certification",
+        "duration": "1 season"
+      },
+      {
+        "type": "job",
+        "title": "Organic farmer selling at farmers' markets (Uzhavar Sandhai), online or to stores",
+        "duration": ""
+      }
+    ],
+    "source_url": "https://www.ncs.gov.in/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "food_processing_technician",
+    "name": {
+      "en": "Food Processing Technician",
+      "ta": "உணவு பதப்படுத்தும் தொழில்நுட்பர்",
+      "hi": "खाद्य प्रसंस्करण तकनीशियन"
+    },
+    "category": "agriculture",
+    "description": "Turns farm produce into packaged foods like pickles, juices, flour and snacks safely and hygienically.",
+    "interests": [
+      "cooking",
+      "chemistry",
+      "farming"
+    ],
+    "work_styles": [
+      "hands"
+    ],
+    "min_education": "class10",
+    "stream_hint": "any",
+    "training_time": "3 months to 4 years",
+    "salary_inr_month": [
+      10000,
+      20000
+    ],
+    "cost_level": "low",
+    "local_demand": "medium",
+    "pathway": [
+      {
+        "type": "education",
+        "title": "Finish Class 10",
+        "duration": "1-2 years"
+      },
+      {
+        "type": "course",
+        "ref": "swayam_food_processing",
+        "title": "Free course: Food processing and preservation",
+        "duration": "8-12 weeks"
+      },
+      {
+        "type": "course",
+        "ref": "pmkvy_commis_chef",
+        "title": "Free training: Kitchen basics and food hygiene",
+        "duration": "3 months"
+      },
+      {
+        "type": "exam",
+        "ref": "tnau_ug_admission",
+        "title": "Optional: B.Tech Food Technology at TNAU after Class 12",
+        "duration": "1-2 months"
+      },
+      {
+        "type": "apprenticeship",
+        "title": "Apprenticeship in a food processing unit (NAPS)",
+        "duration": "6-12 months"
+      },
+      {
+        "type": "job",
+        "title": "Production or quality assistant in a food factory, or start a small unit (FSSAI licence)",
+        "duration": ""
+      }
+    ],
+    "source_url": "https://www.ncs.gov.in/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "fisheries_aquaculture",
+    "name": {
+      "en": "Fish Farmer / Aquaculture Technician",
+      "ta": "மீன் வளர்ப்பாளர்",
+      "hi": "मत्स्य पालक"
+    },
+    "category": "agriculture",
+    "nco_code": "6221",
+    "description": "Raises fish or shrimp in ponds and tanks and sells them to markets.",
+    "interests": [
+      "animals",
+      "farming",
+      "nature"
+    ],
+    "work_styles": [
+      "outdoors",
+      "hands"
+    ],
+    "min_education": "class10",
+    "stream_hint": "any",
+    "training_time": "1-3 months, or 4 years (B.F.Sc)",
+    "salary_inr_month": [
+      10000,
+      25000
+    ],
+    "cost_level": "medium",
+    "local_demand": "medium",
+    "pathway": [
+      {
+        "type": "education",
+        "title": "Finish Class 10",
+        "duration": "1-2 years"
+      },
+      {
+        "type": "course",
+        "ref": "sid_aquaculture",
+        "title": "Free course: Freshwater fish farming basics",
+        "duration": "4-8 weeks"
+      },
+      {
+        "type": "exam",
+        "ref": "tnjfu_admission",
+        "title": "Optional: B.F.Sc admission at TNJFU after Class 12",
+        "duration": "1-2 months"
+      },
+      {
+        "type": "practice",
+        "title": "Train at a fisheries department farm; check PMMSY scheme support",
+        "duration": "3-6 months"
+      },
+      {
+        "type": "job",
+        "title": "Fish farm owner or technician in a hatchery or aquaculture company",
+        "duration": ""
+      }
+    ],
+    "source_url": "https://www.ncs.gov.in/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "veterinary_assistant",
+    "name": {
+      "en": "Veterinary Assistant",
+      "ta": "கால்நடை மருத்துவ உதவியாளர்",
+      "hi": "पशु चिकित्सा सहायक"
+    },
+    "category": "agriculture",
+    "nco_code": "3240",
+    "description": "Helps vets treat cows, goats, poultry and pets, and gives vaccines and first aid to animals.",
+    "interests": [
+      "animals",
+      "health",
+      "biology"
+    ],
+    "work_styles": [
+      "hands",
+      "outdoors"
+    ],
+    "min_education": "class10",
+    "stream_hint": "any",
+    "training_time": "3 months to 2 years",
+    "salary_inr_month": [
+      10000,
+      18000
+    ],
+    "cost_level": "low",
+    "local_demand": "medium",
+    "pathway": [
+      {
+        "type": "education",
+        "title": "Finish Class 10",
+        "duration": "1-2 years"
+      },
+      {
+        "type": "course",
+        "ref": "sid_livestock_health",
+        "title": "Free course: Livestock health and first aid",
+        "duration": "4-8 weeks"
+      },
+      {
+        "type": "course",
+        "ref": "sid_dairy_farming",
+        "title": "Free course: Dairy farming and cattle care",
+        "duration": "4-8 weeks"
+      },
+      {
+        "type": "exam",
+        "ref": "tanuvas_admission",
+        "title": "Optional: TANUVAS courses (B.V.Sc after Class 12 with Biology)",
+        "duration": "1-2 months"
+      },
+      {
+        "type": "apprenticeship",
+        "title": "Work at a veterinary hospital or dairy cooperative",
+        "duration": "6 months"
+      },
+      {
+        "type": "job",
+        "title": "Veterinary assistant at a clinic, dairy cooperative or poultry farm",
+        "duration": ""
+      }
+    ],
+    "source_url": "https://www.ncs.gov.in/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "small_business_owner",
+    "name": {
+      "en": "Small Business Owner",
+      "ta": "சிறு தொழில் உரிமையாளர்",
+      "hi": "लघु व्यवसाय मालिक"
+    },
+    "category": "entrepreneurship",
+    "description": "Starts and runs your own shop or small business, like a provision store, tiffin centre or repair shop.",
+    "interests": [
+      "business",
+      "selling",
+      "accounts"
+    ],
+    "work_styles": [
+      "people",
+      "numbers"
+    ],
+    "min_education": "class8",
+    "stream_hint": "any",
+    "training_time": "1-3 months training",
+    "salary_inr_month": [
+      8000,
+      40000
+    ],
+    "cost_level": "medium",
+    "local_demand": "high",
+    "pathway": [
+      {
+        "type": "education",
+        "title": "Class 8 or above (finish Class 10 if you can)",
+        "duration": ""
+      },
+      {
+        "type": "course",
+        "ref": "sid_entrepreneurship",
+        "title": "Free course: Entrepreneurship development basics",
+        "duration": "4-6 weeks"
+      },
+      {
+        "type": "course",
+        "ref": "sid_accounting_gst",
+        "title": "Free course: Accounting and GST basics",
+        "duration": "6-8 weeks"
+      },
+      {
+        "type": "practice",
+        "title": "Make a simple business plan and apply for a Mudra or state scheme loan",
+        "duration": "1-3 months"
+      },
+      {
+        "type": "job",
+        "title": "Run your own business and register on Udyam",
+        "duration": ""
+      }
+    ],
+    "source_url": "https://www.ncs.gov.in/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "digital_marketing_freelancer",
+    "name": {
+      "en": "Digital Marketing Freelancer",
+      "ta": "டிஜிட்டல் சந்தைப்படுத்தல் சுயதொழில் நிபுணர்",
+      "hi": "डिजिटल मार्केटिंग फ्रीलांसर"
+    },
+    "category": "entrepreneurship",
+    "nco_code": "2431",
+    "description": "Helps shops and businesses get customers online through social media, Google and WhatsApp.",
+    "interests": [
+      "social_media",
+      "business",
+      "writing"
+    ],
+    "work_styles": [
+      "computers",
+      "creative"
+    ],
+    "min_education": "class10",
+    "stream_hint": "any",
+    "training_time": "3-6 months",
+    "salary_inr_month": [
+      10000,
+      35000
+    ],
+    "cost_level": "low",
+    "local_demand": "medium",
+    "pathway": [
+      {
+        "type": "education",
+        "title": "Finish Class 10",
+        "duration": "1-2 years"
+      },
+      {
+        "type": "course",
+        "ref": "swayam_digital_marketing",
+        "title": "Free course: Digital marketing",
+        "duration": "8-12 weeks"
+      },
+      {
+        "type": "course",
+        "ref": "nm_graphic_design",
+        "title": "Free course: Graphic design with free tools",
+        "duration": "6-8 weeks"
+      },
+      {
+        "type": "practice",
+        "title": "Run social media pages for 2-3 local businesses for free to build results",
+        "duration": "3 months"
+      },
+      {
+        "type": "job",
+        "title": "Freelance digital marketer, or social media executive at an agency",
+        "duration": ""
+      }
+    ],
+    "source_url": "https://www.ncs.gov.in/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "ecommerce_seller",
+    "name": {
+      "en": "E-commerce Seller",
+      "ta": "இணைய வணிக விற்பனையாளர்",
+      "hi": "ई-कॉमर्स विक्रेता"
+    },
+    "category": "entrepreneurship",
+    "description": "Sells products like handicrafts, food or clothes online through marketplaces, ONDC or WhatsApp.",
+    "interests": [
+      "selling",
+      "business",
+      "computers"
+    ],
+    "work_styles": [
+      "computers",
+      "numbers"
+    ],
+    "min_education": "class10",
+    "stream_hint": "any",
+    "training_time": "1-3 months",
+    "salary_inr_month": [
+      5000,
+      30000
+    ],
+    "cost_level": "low",
+    "local_demand": "medium",
+    "pathway": [
+      {
+        "type": "education",
+        "title": "Finish Class 10",
+        "duration": "1-2 years"
+      },
+      {
+        "type": "course",
+        "ref": "sid_ecommerce_selling",
+        "title": "Free course: Selling online for small sellers",
+        "duration": "2-4 weeks"
+      },
+      {
+        "type": "course",
+        "ref": "sid_logistics",
+        "title": "Free course: Warehouse and delivery operations basics",
+        "duration": "4-8 weeks"
+      },
+      {
+        "type": "course",
+        "ref": "swayam_digital_marketing",
+        "title": "Free course: Digital marketing",
+        "duration": "8-12 weeks"
+      },
+      {
+        "type": "practice",
+        "title": "List 10 products, get GST/Udyam registration if needed, and learn from reviews",
+        "duration": "3 months"
+      },
+      {
+        "type": "job",
+        "title": "Run your own online store",
+        "duration": ""
+      }
+    ],
+    "source_url": "https://www.ncs.gov.in/",
+    "last_verified": "2026-10-18"
+  }
+]

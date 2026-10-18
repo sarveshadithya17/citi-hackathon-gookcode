@@ -1,0 +1,704 @@
+[
+  {
+    "id": "neet_ug",
+    "name": "NEET-UG",
+    "conducted_by": "National Testing Agency (NTA)",
+    "purpose": "National entrance test for MBBS, BDS, AYUSH, veterinary and some nursing seats",
+    "min_education": "class12",
+    "eligibility": "Class 12 with Physics, Chemistry, Biology and English; minimum age 17",
+    "typical_month": "May",
+    "fee_note": "Lower fee for SC/ST/PwD; verify on portal",
+    "url": "https://neet.nta.nic.in/",
+    "careers": [
+      "doctor",
+      "nurse"
+    ],
+    "source_url": "https://neet.nta.nic.in/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "tn_mbbs_counselling",
+    "name": "Tamil Nadu MBBS/BDS counselling (DME Selection Committee)",
+    "conducted_by": "Selection Committee, Directorate of Medical Education, Tamil Nadu",
+    "purpose": "Allots state-quota MBBS and BDS seats in Tamil Nadu using NEET-UG scores; 7.5% of seats are reserved for government school students",
+    "min_education": "class12",
+    "eligibility": "Qualified NEET-UG; Tamil Nadu nativity rules apply for state quota",
+    "typical_month": "July-August",
+    "fee_note": "Government college fees are low; verify on portal",
+    "url": "https://tnmedicalselection.net/",
+    "careers": [
+      "doctor"
+    ],
+    "source_url": "https://tnmedicalselection.net/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "tn_paramedical",
+    "name": "Tamil Nadu paramedical and nursing admission (DME counselling)",
+    "conducted_by": "Selection Committee, Directorate of Medical Education, Tamil Nadu",
+    "purpose": "Merit-based admission to nursing, pharmacy, physiotherapy, optometry, radiology, lab technology and other paramedical degree and diploma courses",
+    "min_education": "class12",
+    "eligibility": "Class 12 marks (usually Physics, Chemistry, Biology; some courses accept other groups); merit list, no separate entrance exam for most courses",
+    "typical_month": "July-September",
+    "fee_note": "Government college fees are low; verify on portal",
+    "url": "https://tnmedicalselection.net/",
+    "careers": [
+      "lab_technician",
+      "nurse",
+      "pharmacist",
+      "physiotherapist",
+      "radiology_technician",
+      "optometrist"
+    ],
+    "source_url": "https://tnmedicalselection.net/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "jee_main",
+    "name": "JEE Main",
+    "conducted_by": "National Testing Agency (NTA)",
+    "purpose": "Admission to NITs, IIITs and other engineering colleges; qualifying step for JEE Advanced (IITs)",
+    "min_education": "class12",
+    "eligibility": "Class 12 with Physics, Chemistry and Mathematics",
+    "typical_month": "January and April (two sessions)",
+    "fee_note": "Lower fee for SC/ST/PwD and girls; verify on portal",
+    "url": "https://jeemain.nta.nic.in/",
+    "careers": [
+      "civil_engineer",
+      "mechanical_engineer",
+      "electrical_engineer",
+      "software_developer",
+      "research_scientist",
+      "data_analyst"
+    ],
+    "source_url": "https://jeemain.nta.nic.in/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "tnea",
+    "name": "TNEA (Tamil Nadu Engineering Admissions)",
+    "conducted_by": "Directorate of Technical Education (DOTE), Tamil Nadu",
+    "purpose": "Single-window counselling for B.E./B.Tech seats in Tamil Nadu based on Class 12 marks, with 7.5% preferential reservation for government school students",
+    "min_education": "class12",
+    "eligibility": "Class 12 with Physics, Chemistry and Mathematics; no entrance exam, merit on Class 12 marks",
+    "typical_month": "May-July",
+    "fee_note": "Registration fee is lower for SC/SCA/ST; verify on portal",
+    "url": "https://www.tneaonline.org/",
+    "careers": [
+      "civil_engineer",
+      "mechanical_engineer",
+      "electrical_engineer",
+      "software_developer",
+      "data_analyst",
+      "food_processing_technician"
+    ],
+    "source_url": "https://www.tneaonline.org/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "cuet_ug",
+    "name": "CUET-UG",
+    "conducted_by": "National Testing Agency (NTA)",
+    "purpose": "Admission to undergraduate courses in central universities and many other participating universities",
+    "min_education": "class12",
+    "eligibility": "Class 12 in any stream; subject choice depends on the course you want",
+    "typical_month": "May-June",
+    "fee_note": "Lower fee for SC/ST/PwD; verify on portal",
+    "url": "https://cuet.nta.nic.in/",
+    "careers": [
+      "data_analyst",
+      "research_scientist",
+      "accountant",
+      "journalist",
+      "translator",
+      "social_worker",
+      "teacher",
+      "agri_entrepreneur",
+      "lawyer"
+    ],
+    "source_url": "https://cuet.nta.nic.in/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "tngasa",
+    "name": "TNGASA (Tamil Nadu Government Arts and Science College admission)",
+    "conducted_by": "Department of Collegiate Education, Government of Tamil Nadu",
+    "purpose": "Online merit-based admission to B.A., B.Sc., B.Com., BBA and BCA seats in government arts and science colleges",
+    "min_education": "class12",
+    "eligibility": "Class 12 pass; merit on Class 12 marks with Tamil Nadu reservation",
+    "typical_month": "May-June",
+    "fee_note": "Very low application fee; verify on portal",
+    "url": "https://www.tngasa.in/",
+    "careers": [
+      "accountant",
+      "social_worker",
+      "journalist",
+      "translator",
+      "teacher",
+      "data_analyst",
+      "research_scientist",
+      "software_developer",
+      "bank_officer"
+    ],
+    "source_url": "https://www.tngasa.in/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "tn_polytechnic",
+    "name": "Tamil Nadu polytechnic diploma admission",
+    "conducted_by": "Directorate of Technical Education (DOTE), Tamil Nadu",
+    "purpose": "Merit-based admission to 3-year diploma courses in government and aided polytechnic colleges; lateral entry to second year for Class 12 / ITI holders",
+    "min_education": "class10",
+    "eligibility": "Class 10 pass for first year; Class 12 (vocational/science) or ITI for lateral entry",
+    "typical_month": "May-June",
+    "fee_note": "Government polytechnic fees are low; verify on portal",
+    "url": "https://www.tnpoly.in/",
+    "careers": [
+      "civil_engineer",
+      "mechanical_engineer",
+      "electrical_engineer",
+      "electronics_technician",
+      "construction_supervisor",
+      "cnc_operator",
+      "it_support_technician",
+      "textile_designer",
+      "ac_refrigeration_technician",
+      "solar_pv_installer"
+    ],
+    "source_url": "https://www.tnpoly.in/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "tn_iti_admission",
+    "name": "Tamil Nadu Government ITI admission",
+    "conducted_by": "Department of Employment and Training, Government of Tamil Nadu",
+    "purpose": "Online admission to 1-2 year NCVT/SCVT trade courses (electrician, fitter, welder, mechanic, COPA, etc.) in government and private ITIs",
+    "min_education": "class8",
+    "eligibility": "Class 8 or Class 10 depending on the trade; minimum age 14",
+    "typical_month": "May-July",
+    "fee_note": "Government ITIs are free and trainees get a monthly stipend and free kit; verify current amounts on portal",
+    "url": "https://skilltraining.tn.gov.in/",
+    "careers": [
+      "electrician",
+      "fitter",
+      "welder",
+      "plumber",
+      "mobile_repair_technician",
+      "ac_refrigeration_technician",
+      "two_wheeler_mechanic",
+      "solar_pv_installer",
+      "cnc_operator",
+      "tailor_garment_maker",
+      "beautician",
+      "electronics_technician",
+      "carpenter",
+      "it_support_technician"
+    ],
+    "source_url": "https://skilltraining.tn.gov.in/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "aitt_ncvt",
+    "name": "All India Trade Test (AITT) for ITI trainees",
+    "conducted_by": "Directorate General of Training (DGT), Ministry of Skill Development and Entrepreneurship",
+    "purpose": "Final exam for ITI trainees; passing gives the National Trade Certificate (NTC) accepted for jobs and apprenticeships",
+    "min_education": "class8",
+    "eligibility": "Enrolled ITI trainee who completed the trade course",
+    "typical_month": "End of each training year (verify on portal)",
+    "fee_note": "Paid through the ITI; verify on portal",
+    "url": "https://dgt.gov.in/",
+    "careers": [
+      "electrician",
+      "fitter",
+      "welder",
+      "plumber",
+      "mobile_repair_technician",
+      "ac_refrigeration_technician",
+      "two_wheeler_mechanic",
+      "solar_pv_installer",
+      "cnc_operator",
+      "tailor_garment_maker",
+      "beautician",
+      "electronics_technician",
+      "carpenter",
+      "it_support_technician"
+    ],
+    "source_url": "https://dgt.gov.in/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "nchm_jee",
+    "name": "NCHM JEE",
+    "conducted_by": "National Testing Agency (NTA) for NCHMCT",
+    "purpose": "Admission to B.Sc Hospitality and Hotel Administration at Institutes of Hotel Management (IHMs)",
+    "min_education": "class12",
+    "eligibility": "Class 12 in any stream with English",
+    "typical_month": "April",
+    "fee_note": "Lower fee for SC/ST/PwD; verify on portal",
+    "url": "https://nchmjee.nta.nic.in/",
+    "careers": [
+      "hotel_management",
+      "chef"
+    ],
+    "source_url": "https://nchm.gov.in/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "nift_entrance",
+    "name": "NIFT entrance exam",
+    "conducted_by": "National Institute of Fashion Technology (NIFT)",
+    "purpose": "Admission to B.Des (fashion, textile, accessory design) and B.FTech at NIFT campuses including Chennai",
+    "min_education": "class12",
+    "eligibility": "Class 12 in any stream for B.Des; age limits apply; verify on portal",
+    "typical_month": "February",
+    "fee_note": "Lower fee for SC/ST/PwD; verify on portal",
+    "url": "https://www.nift.ac.in/",
+    "careers": [
+      "fashion_designer",
+      "textile_designer"
+    ],
+    "source_url": "https://www.nift.ac.in/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "nid_dat",
+    "name": "NID DAT (Design Aptitude Test)",
+    "conducted_by": "National Institute of Design (NID)",
+    "purpose": "Admission to B.Des at NID campuses (communication, textile, product, animation design)",
+    "min_education": "class12",
+    "eligibility": "Class 12 in any stream; age limits apply",
+    "typical_month": "December-January (prelims)",
+    "fee_note": "Fee concession for some categories; verify on portal",
+    "url": "https://admissions.nid.edu/",
+    "careers": [
+      "graphic_designer",
+      "textile_designer",
+      "animator",
+      "fashion_designer"
+    ],
+    "source_url": "https://admissions.nid.edu/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "clat",
+    "name": "CLAT (Common Law Admission Test)",
+    "conducted_by": "Consortium of National Law Universities",
+    "purpose": "Admission to 5-year integrated LLB at National Law Universities",
+    "min_education": "class12",
+    "eligibility": "Class 12 in any stream with at least 45% (40% for SC/ST)",
+    "typical_month": "December",
+    "fee_note": "Lower fee for SC/ST/BPL; verify on portal",
+    "url": "https://consortiumofnlus.ac.in/",
+    "careers": [
+      "lawyer"
+    ],
+    "source_url": "https://consortiumofnlus.ac.in/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "tndalu_admission",
+    "name": "Tamil Nadu law admission (TNDALU)",
+    "conducted_by": "The Tamil Nadu Dr. Ambedkar Law University",
+    "purpose": "Merit-based admission to 5-year and 3-year LLB courses at the university and government law colleges in Tamil Nadu",
+    "min_education": "class12",
+    "eligibility": "Class 12 for 5-year LLB; a degree for 3-year LLB; merit on marks, no national entrance test",
+    "typical_month": "May-July",
+    "fee_note": "Government law college fees are low; verify on portal",
+    "url": "https://www.tndalu.ac.in/",
+    "careers": [
+      "lawyer"
+    ],
+    "source_url": "https://www.tndalu.ac.in/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "ca_foundation",
+    "name": "CA Foundation",
+    "conducted_by": "The Institute of Chartered Accountants of India (ICAI)",
+    "purpose": "First level of the Chartered Accountancy course",
+    "min_education": "class12",
+    "eligibility": "Register after Class 10; appear after passing Class 12 (any stream, commerce helps)",
+    "typical_month": "More than once a year; verify on portal",
+    "fee_note": "Registration and exam fees apply; verify on portal",
+    "url": "https://www.icai.org/",
+    "careers": [
+      "accountant"
+    ],
+    "source_url": "https://www.icai.org/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "tnpsc_group4",
+    "name": "TNPSC Group 4 (Combined Civil Services Exam IV)",
+    "conducted_by": "Tamil Nadu Public Service Commission (TNPSC)",
+    "purpose": "Recruitment to Junior Assistant, Typist, Bill Collector, VAO and similar state government posts",
+    "min_education": "class10",
+    "eligibility": "Class 10 (SSLC) pass; age 18+; Tamil eligibility test is compulsory; typist posts need typewriting certificate",
+    "typical_month": "Notification early in the year, exam mid-year (verify on portal)",
+    "fee_note": "Exam fee exemption for some categories for limited attempts; verify on portal",
+    "url": "https://www.tnpsc.gov.in/",
+    "careers": [
+      "tnpsc_group4_clerk",
+      "village_administrative_officer",
+      "forest_guard"
+    ],
+    "source_url": "https://www.tnpsc.gov.in/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "tnpsc_vao",
+    "name": "TNPSC VAO (Village Administrative Officer, part of Group 4)",
+    "conducted_by": "Tamil Nadu Public Service Commission (TNPSC)",
+    "purpose": "Recruitment of Village Administrative Officers, now selected through the Group 4 exam",
+    "min_education": "class10",
+    "eligibility": "Class 10 (SSLC) pass; minimum age 21; Tamil eligibility test is compulsory",
+    "typical_month": "Same cycle as Group 4 (verify on portal)",
+    "fee_note": "Verify on portal",
+    "url": "https://www.tnpsc.gov.in/",
+    "careers": [
+      "village_administrative_officer"
+    ],
+    "source_url": "https://www.tnpsc.gov.in/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "tn_forest_guard",
+    "name": "Tamil Nadu Forest Guard / Forest Watcher recruitment",
+    "conducted_by": "Tamil Nadu Forest Department (via its uniformed services recruitment committee or TNPSC; check current notification)",
+    "purpose": "Recruitment of Forest Guards and Forest Watchers for the Tamil Nadu Forest Department",
+    "min_education": "class12",
+    "eligibility": "Class 12 for Forest Guard (lower for Forest Watcher); physical standards and walking test apply",
+    "typical_month": "Irregular; verify on portal",
+    "fee_note": "Verify on portal",
+    "url": "https://www.forests.tn.gov.in/",
+    "careers": [
+      "forest_guard"
+    ],
+    "source_url": "https://www.forests.tn.gov.in/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "ssc_gd",
+    "name": "SSC GD Constable",
+    "conducted_by": "Staff Selection Commission (SSC)",
+    "purpose": "Recruitment of constables (General Duty) in BSF, CRPF, CISF, ITBP, SSB, Assam Rifles and others",
+    "min_education": "class10",
+    "eligibility": "Class 10 pass; age 18-23 with relaxation for reserved categories; physical tests",
+    "typical_month": "Notification late in the year, exam early next year (verify on portal)",
+    "fee_note": "Women, SC/ST and ex-servicemen are exempt from fee",
+    "url": "https://ssc.gov.in/",
+    "careers": [
+      "police_constable",
+      "army_soldier"
+    ],
+    "source_url": "https://ssc.gov.in/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "ssc_chsl",
+    "name": "SSC CHSL (Combined Higher Secondary Level)",
+    "conducted_by": "Staff Selection Commission (SSC)",
+    "purpose": "Recruitment of Lower Division Clerks, Postal/Sorting Assistants and Data Entry Operators in central government",
+    "min_education": "class12",
+    "eligibility": "Class 12 pass; age 18-27 with relaxation",
+    "typical_month": "Mid-year (verify on portal)",
+    "fee_note": "Women, SC/ST, PwD and ex-servicemen are exempt from fee",
+    "url": "https://ssc.gov.in/",
+    "careers": [
+      "postal_assistant",
+      "tnpsc_group4_clerk",
+      "railway_staff"
+    ],
+    "source_url": "https://ssc.gov.in/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "ssc_mts",
+    "name": "SSC MTS (Multi-Tasking Staff)",
+    "conducted_by": "Staff Selection Commission (SSC)",
+    "purpose": "Recruitment of Multi-Tasking Staff and Havaldar posts in central government offices",
+    "min_education": "class10",
+    "eligibility": "Class 10 pass; age 18-25 (some posts 27) with relaxation",
+    "typical_month": "Mid-year (verify on portal)",
+    "fee_note": "Women, SC/ST, PwD and ex-servicemen are exempt from fee",
+    "url": "https://ssc.gov.in/",
+    "careers": [
+      "postal_assistant",
+      "tnpsc_group4_clerk"
+    ],
+    "source_url": "https://ssc.gov.in/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "rrb_ntpc",
+    "name": "RRB NTPC",
+    "conducted_by": "Railway Recruitment Boards (RRB)",
+    "purpose": "Recruitment to non-technical railway posts such as clerk, ticket clerk, station master and goods guard",
+    "min_education": "class12",
+    "eligibility": "Class 12 for undergraduate-level posts, a degree for graduate-level posts; age limits apply",
+    "typical_month": "Verify on portal",
+    "fee_note": "Partial fee refund after appearing; lower fee for SC/ST/women; verify on portal",
+    "url": "https://www.rrbcdg.gov.in/",
+    "careers": [
+      "railway_staff"
+    ],
+    "source_url": "https://indianrailways.gov.in/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "rrb_group_d",
+    "name": "RRB Group D (Level 1)",
+    "conducted_by": "Railway Recruitment Boards (RRB)",
+    "purpose": "Recruitment to Level 1 posts such as track maintainer, helper and assistant in railway departments",
+    "min_education": "class10",
+    "eligibility": "Class 10 or ITI / National Apprenticeship Certificate; age 18-33 with relaxation",
+    "typical_month": "Verify on portal",
+    "fee_note": "Partial fee refund after appearing; lower fee for SC/ST/women; verify on portal",
+    "url": "https://www.rrbcdg.gov.in/",
+    "careers": [
+      "railway_staff"
+    ],
+    "source_url": "https://indianrailways.gov.in/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "rrb_alp",
+    "name": "RRB ALP (Assistant Loco Pilot) and Technician",
+    "conducted_by": "Railway Recruitment Boards (RRB)",
+    "purpose": "Recruitment of assistant loco pilots and technicians",
+    "min_education": "iti",
+    "eligibility": "Class 10 plus ITI in a relevant trade (electrician, fitter, etc.) or diploma/degree in engineering; age limits apply",
+    "typical_month": "Verify on portal",
+    "fee_note": "Lower fee for SC/ST/women; verify on portal",
+    "url": "https://www.rrbcdg.gov.in/",
+    "careers": [
+      "railway_staff",
+      "electrician",
+      "fitter",
+      "electronics_technician"
+    ],
+    "source_url": "https://indianrailways.gov.in/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "agniveer_army",
+    "name": "Agniveer recruitment (Indian Army, Agnipath)",
+    "conducted_by": "Indian Army",
+    "purpose": "Online common entrance exam followed by recruitment rally for 4-year Agniveer service",
+    "min_education": "class10",
+    "eligibility": "Class 10 with 45% for General Duty (Class 12 for clerk/technical); age 17.5-21; physical standards",
+    "typical_month": "Online exam usually April-May (verify on portal)",
+    "fee_note": "Small online exam fee; verify on portal",
+    "url": "https://joinindianarmy.nic.in/",
+    "careers": [
+      "army_soldier"
+    ],
+    "source_url": "https://joinindianarmy.nic.in/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "tnusrb_constable",
+    "name": "TNUSRB Grade II Police Constable, Jail Warder and Fireman exam",
+    "conducted_by": "Tamil Nadu Uniformed Services Recruitment Board (TNUSRB)",
+    "purpose": "Recruitment of Grade II Police Constables, Jail Warders and Firemen in Tamil Nadu",
+    "min_education": "class10",
+    "eligibility": "Class 10 pass; age 18-26 with relaxation; Tamil eligibility test; physical tests",
+    "typical_month": "Verify on portal",
+    "fee_note": "Verify on portal",
+    "url": "https://www.tnusrb.tn.gov.in/",
+    "careers": [
+      "police_constable"
+    ],
+    "source_url": "https://www.tnusrb.tn.gov.in/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "ibps_po",
+    "name": "IBPS PO (Probationary Officer)",
+    "conducted_by": "Institute of Banking Personnel Selection (IBPS)",
+    "purpose": "Recruitment of probationary officers in public sector banks",
+    "min_education": "ug",
+    "eligibility": "Any degree; age 20-30 with relaxation",
+    "typical_month": "Prelims usually October (verify on portal)",
+    "fee_note": "Lower fee for SC/ST/PwD; verify on portal",
+    "url": "https://www.ibps.in/",
+    "careers": [
+      "bank_officer"
+    ],
+    "source_url": "https://www.ibps.in/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "ibps_clerk",
+    "name": "IBPS Clerk",
+    "conducted_by": "Institute of Banking Personnel Selection (IBPS)",
+    "purpose": "Recruitment of clerks (customer service associates) in public sector banks, state-wise vacancies",
+    "min_education": "ug",
+    "eligibility": "Any degree; age 20-28 with relaxation; must read, write and speak the state's official language",
+    "typical_month": "Prelims usually August-December (verify on portal)",
+    "fee_note": "Lower fee for SC/ST/PwD; verify on portal",
+    "url": "https://www.ibps.in/",
+    "careers": [
+      "bank_officer"
+    ],
+    "source_url": "https://www.ibps.in/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "india_post_gds",
+    "name": "India Post Gramin Dak Sevak (GDS) recruitment",
+    "conducted_by": "Department of Posts, India Post",
+    "purpose": "Merit-based selection of Branch Postmaster and Assistant Branch Postmaster in village post offices, using Class 10 marks (no written exam)",
+    "min_education": "class10",
+    "eligibility": "Class 10 with Maths and English, and the local language (Tamil) up to Class 10; age 18-40; basic computer knowledge",
+    "typical_month": "Usually 1-2 rounds a year (verify on portal)",
+    "fee_note": "Small fee; exempt for women, SC/ST, PwD and transwomen",
+    "url": "https://indiapostgdsonline.gov.in/",
+    "careers": [
+      "postal_assistant"
+    ],
+    "source_url": "https://indiapostgdsonline.gov.in/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "dgca_remote_pilot",
+    "name": "DGCA Remote Pilot Certificate (via authorised RPTO)",
+    "conducted_by": "Directorate General of Civil Aviation (DGCA)",
+    "purpose": "Training and test at a DGCA-authorised Remote Pilot Training Organisation, after which a Remote Pilot Certificate is issued through DigitalSky",
+    "min_education": "class10",
+    "eligibility": "Class 10 pass; age 18-65",
+    "typical_month": "Year-round, at the training centre",
+    "fee_note": "Training fee is charged by the RPTO; some government schemes subsidise it; verify on portal",
+    "url": "https://digitalsky.dgca.gov.in/",
+    "careers": [
+      "drone_pilot"
+    ],
+    "source_url": "https://digitalsky.dgca.gov.in/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "nios_exams",
+    "name": "NIOS Secondary and Senior Secondary exams",
+    "conducted_by": "National Institute of Open Schooling (NIOS)",
+    "purpose": "Open-school Class 10 and Class 12 certificates for students who left school or want flexible study",
+    "min_education": "class8",
+    "eligibility": "No upper age limit; Class 8 level or a self-certificate for Secondary, Class 10 for Senior Secondary",
+    "typical_month": "April-May and October-November",
+    "fee_note": "Fee concession for SC/ST, girls and PwD; verify on portal",
+    "url": "https://www.nios.ac.in/",
+    "careers": [
+      "army_soldier",
+      "police_constable",
+      "railway_staff",
+      "tailor_garment_maker",
+      "beautician",
+      "small_business_owner",
+      "postal_assistant"
+    ],
+    "source_url": "https://www.nios.ac.in/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "tn_tet",
+    "name": "TN TET (Teacher Eligibility Test)",
+    "conducted_by": "Teachers Recruitment Board (TRB), Tamil Nadu",
+    "purpose": "Eligibility test to teach Classes 1-5 (Paper I) or Classes 6-8 (Paper II) in Tamil Nadu schools",
+    "min_education": "diploma",
+    "eligibility": "D.El.Ed for Paper I; degree plus B.Ed for Paper II",
+    "typical_month": "Verify on portal",
+    "fee_note": "Lower fee for SC/ST/PwD; verify on portal",
+    "url": "https://www.trb.tn.gov.in/",
+    "careers": [
+      "teacher"
+    ],
+    "source_url": "https://www.trb.tn.gov.in/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "ctet",
+    "name": "CTET (Central Teacher Eligibility Test)",
+    "conducted_by": "Central Board of Secondary Education (CBSE)",
+    "purpose": "Eligibility test to teach Classes 1-8 in central government schools such as Kendriya Vidyalayas",
+    "min_education": "diploma",
+    "eligibility": "Class 12 plus D.El.Ed for Paper I; degree plus B.Ed for Paper II",
+    "typical_month": "Usually twice a year (verify on portal)",
+    "fee_note": "Lower fee for SC/ST/PwD; verify on portal",
+    "url": "https://ctet.nic.in/",
+    "careers": [
+      "teacher"
+    ],
+    "source_url": "https://ctet.nic.in/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "icar_aieea_pg",
+    "name": "ICAR AIEEA PG",
+    "conducted_by": "National Testing Agency (NTA) for ICAR",
+    "purpose": "Admission to M.Sc/M.Tech agriculture and allied programmes in agricultural universities",
+    "min_education": "ug",
+    "eligibility": "B.Sc Agriculture or allied degree",
+    "typical_month": "Verify on portal",
+    "fee_note": "Lower fee for SC/ST/PwD; verify on portal",
+    "url": "https://nta.ac.in/",
+    "careers": [
+      "research_scientist",
+      "agri_entrepreneur"
+    ],
+    "source_url": "https://icar.org.in/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "tnau_ug_admission",
+    "name": "TNAU undergraduate admission",
+    "conducted_by": "Tamil Nadu Agricultural University (TNAU)",
+    "purpose": "Merit-based admission to B.Sc (Hons) Agriculture, Horticulture, Forestry, Food Technology and other UG courses at TNAU and affiliated colleges",
+    "min_education": "class12",
+    "eligibility": "Class 12 with science subjects; merit on Class 12 marks; 7.5% reservation for government school students",
+    "typical_month": "May-June",
+    "fee_note": "Verify on portal",
+    "url": "https://tnau.ac.in/",
+    "careers": [
+      "agri_entrepreneur",
+      "organic_farmer",
+      "food_processing_technician",
+      "research_scientist",
+      "forest_guard"
+    ],
+    "source_url": "https://tnau.ac.in/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "tanuvas_admission",
+    "name": "TANUVAS undergraduate admission",
+    "conducted_by": "Tamil Nadu Veterinary and Animal Sciences University (TANUVAS)",
+    "purpose": "Merit-based admission to B.V.Sc and A.H. and B.Tech in food and dairy technology",
+    "min_education": "class12",
+    "eligibility": "Class 12 with Physics, Chemistry and Biology; merit on Class 12 marks",
+    "typical_month": "May-June",
+    "fee_note": "Verify on portal",
+    "url": "https://www.tanuvas.ac.in/",
+    "careers": [
+      "veterinary_assistant",
+      "dairy_farmer",
+      "food_processing_technician"
+    ],
+    "source_url": "https://www.tanuvas.ac.in/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "tnjfu_admission",
+    "name": "TNJFU undergraduate admission",
+    "conducted_by": "Tamil Nadu Dr. J. Jayalalithaa Fisheries University (TNJFU)",
+    "purpose": "Merit-based admission to B.F.Sc and other fisheries degree courses",
+    "min_education": "class12",
+    "eligibility": "Class 12 with science subjects; merit on Class 12 marks",
+    "typical_month": "May-June",
+    "fee_note": "Verify on portal",
+    "url": "https://www.tnjfu.ac.in/",
+    "careers": [
+      "fisheries_aquaculture"
+    ],
+    "source_url": "https://www.tnjfu.ac.in/",
+    "last_verified": "2026-10-18"
+  }
+]

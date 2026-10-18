@@ -1,0 +1,1729 @@
+[
+  {
+    "id": "sid_electrician_basics",
+    "title": "Domestic electrician basics: wiring, earthing and safety",
+    "provider": "Skill India Digital",
+    "url": "https://www.skillindiadigital.gov.in/",
+    "duration": "4-8 weeks",
+    "languages": [
+      "en",
+      "hi"
+    ],
+    "free": true,
+    "level": "beginner",
+    "interests": [
+      "electricity",
+      "repair",
+      "building"
+    ],
+    "careers": [
+      "electrician",
+      "solar_pv_installer",
+      "construction_supervisor"
+    ],
+    "source_url": "https://www.skillindiadigital.gov.in/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "pmkvy_assistant_electrician",
+    "title": "Assistant electrician (short-term skill training)",
+    "provider": "PMKVY",
+    "url": "https://www.skillindiadigital.gov.in/",
+    "duration": "3-4 months",
+    "languages": [
+      "en",
+      "ta",
+      "hi"
+    ],
+    "free": true,
+    "level": "beginner",
+    "interests": [
+      "electricity",
+      "repair"
+    ],
+    "careers": [
+      "electrician"
+    ],
+    "source_url": "https://www.pmkvyofficial.org/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "nm_fitting_machining",
+    "title": "Fitting, measuring and machining fundamentals",
+    "provider": "Naan Mudhalvan",
+    "url": "https://www.naanmudhalvan.tn.gov.in/",
+    "duration": "6-8 weeks",
+    "languages": [
+      "en",
+      "ta"
+    ],
+    "free": true,
+    "level": "beginner",
+    "interests": [
+      "machines",
+      "repair"
+    ],
+    "careers": [
+      "fitter",
+      "cnc_operator",
+      "mechanical_engineer"
+    ],
+    "source_url": "https://www.naanmudhalvan.tn.gov.in/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "sid_welding_basics",
+    "title": "Arc and gas welding basics with workshop safety",
+    "provider": "Skill India Digital",
+    "url": "https://www.skillindiadigital.gov.in/",
+    "duration": "4-8 weeks",
+    "languages": [
+      "en",
+      "hi"
+    ],
+    "free": true,
+    "level": "beginner",
+    "interests": [
+      "machines",
+      "building"
+    ],
+    "careers": [
+      "welder",
+      "fitter"
+    ],
+    "source_url": "https://www.skillindiadigital.gov.in/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "pmkvy_plumber",
+    "title": "Plumbing (general): pipes, fittings and sanitation",
+    "provider": "PMKVY",
+    "url": "https://www.skillindiadigital.gov.in/",
+    "duration": "3 months",
+    "languages": [
+      "en",
+      "ta",
+      "hi"
+    ],
+    "free": true,
+    "level": "beginner",
+    "interests": [
+      "building",
+      "repair"
+    ],
+    "careers": [
+      "plumber",
+      "construction_supervisor"
+    ],
+    "source_url": "https://www.pmkvyofficial.org/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "sid_mobile_repair",
+    "title": "Mobile phone hardware repair and servicing",
+    "provider": "Skill India Digital",
+    "url": "https://www.skillindiadigital.gov.in/",
+    "duration": "6-8 weeks",
+    "languages": [
+      "en",
+      "hi"
+    ],
+    "free": true,
+    "level": "beginner",
+    "interests": [
+      "repair",
+      "computers",
+      "electricity"
+    ],
+    "careers": [
+      "mobile_repair_technician",
+      "electronics_technician"
+    ],
+    "source_url": "https://www.skillindiadigital.gov.in/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "pmkvy_ac_technician",
+    "title": "Air conditioner and refrigerator field technician",
+    "provider": "PMKVY",
+    "url": "https://www.skillindiadigital.gov.in/",
+    "duration": "3-4 months",
+    "languages": [
+      "en",
+      "ta",
+      "hi"
+    ],
+    "free": true,
+    "level": "beginner",
+    "interests": [
+      "repair",
+      "machines",
+      "electricity"
+    ],
+    "careers": [
+      "ac_refrigeration_technician"
+    ],
+    "source_url": "https://www.pmkvyofficial.org/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "sid_two_wheeler_service",
+    "title": "Two-wheeler service and maintenance",
+    "provider": "Skill India Digital",
+    "url": "https://www.skillindiadigital.gov.in/",
+    "duration": "6-8 weeks",
+    "languages": [
+      "en",
+      "hi"
+    ],
+    "free": true,
+    "level": "beginner",
+    "interests": [
+      "vehicles",
+      "machines",
+      "repair"
+    ],
+    "careers": [
+      "two_wheeler_mechanic"
+    ],
+    "source_url": "https://www.skillindiadigital.gov.in/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "pmkvy_solar_pv",
+    "title": "Solar PV panel installation and maintenance",
+    "provider": "PMKVY",
+    "url": "https://www.skillindiadigital.gov.in/",
+    "duration": "3 months",
+    "languages": [
+      "en",
+      "ta",
+      "hi"
+    ],
+    "free": true,
+    "level": "beginner",
+    "interests": [
+      "electricity",
+      "environment",
+      "building"
+    ],
+    "careers": [
+      "solar_pv_installer",
+      "electrician"
+    ],
+    "source_url": "https://www.pmkvyofficial.org/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "nptel_cnc_cadcam",
+    "title": "CNC machining and CAD/CAM basics",
+    "provider": "NPTEL",
+    "url": "https://nptel.ac.in/courses",
+    "duration": "8-12 weeks",
+    "languages": [
+      "en"
+    ],
+    "free": true,
+    "level": "intermediate",
+    "interests": [
+      "machines",
+      "computers"
+    ],
+    "careers": [
+      "cnc_operator",
+      "mechanical_engineer"
+    ],
+    "source_url": "https://nptel.ac.in/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "pmkvy_tailoring",
+    "title": "Self-employed tailor: measuring, cutting and stitching",
+    "provider": "PMKVY",
+    "url": "https://www.skillindiadigital.gov.in/",
+    "duration": "3 months",
+    "languages": [
+      "en",
+      "ta",
+      "hi"
+    ],
+    "free": true,
+    "level": "beginner",
+    "interests": [
+      "sewing",
+      "fashion"
+    ],
+    "careers": [
+      "tailor_garment_maker",
+      "fashion_designer"
+    ],
+    "source_url": "https://www.pmkvyofficial.org/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "sid_beauty_therapy",
+    "title": "Beauty therapy basics: skin, hair and salon hygiene",
+    "provider": "Skill India Digital",
+    "url": "https://www.skillindiadigital.gov.in/",
+    "duration": "4-8 weeks",
+    "languages": [
+      "en",
+      "hi"
+    ],
+    "free": true,
+    "level": "beginner",
+    "interests": [
+      "beauty",
+      "fashion"
+    ],
+    "careers": [
+      "beautician"
+    ],
+    "source_url": "https://www.skillindiadigital.gov.in/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "nptel_basic_electronics",
+    "title": "Basic electronics",
+    "provider": "NPTEL",
+    "url": "https://nptel.ac.in/courses",
+    "duration": "8-12 weeks",
+    "languages": [
+      "en"
+    ],
+    "free": true,
+    "level": "beginner",
+    "interests": [
+      "electricity",
+      "physics",
+      "repair"
+    ],
+    "careers": [
+      "electronics_technician",
+      "electrical_engineer",
+      "mobile_repair_technician"
+    ],
+    "source_url": "https://nptel.ac.in/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "sid_carpentry",
+    "title": "Carpentry and furniture making basics",
+    "provider": "Skill India Digital",
+    "url": "https://www.skillindiadigital.gov.in/",
+    "duration": "4-8 weeks",
+    "languages": [
+      "en",
+      "hi"
+    ],
+    "free": true,
+    "level": "beginner",
+    "interests": [
+      "building",
+      "crafts"
+    ],
+    "careers": [
+      "carpenter",
+      "handicraft_artisan"
+    ],
+    "source_url": "https://www.skillindiadigital.gov.in/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "nptel_construction_mgmt",
+    "title": "Construction planning and site management",
+    "provider": "NPTEL",
+    "url": "https://nptel.ac.in/courses",
+    "duration": "8-12 weeks",
+    "languages": [
+      "en"
+    ],
+    "free": true,
+    "level": "intermediate",
+    "interests": [
+      "building",
+      "maths"
+    ],
+    "careers": [
+      "construction_supervisor",
+      "civil_engineer"
+    ],
+    "source_url": "https://nptel.ac.in/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "swayam_lab_safety",
+    "title": "Laboratory safety and good practices",
+    "provider": "SWAYAM",
+    "url": "https://swayam.gov.in/",
+    "duration": "4 weeks",
+    "languages": [
+      "en"
+    ],
+    "free": true,
+    "level": "beginner",
+    "interests": [
+      "biology",
+      "chemistry",
+      "health"
+    ],
+    "careers": [
+      "lab_technician"
+    ],
+    "source_url": "https://swayam.gov.in/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "sid_general_duty_assistant",
+    "title": "General duty assistant: basic patient care",
+    "provider": "Skill India Digital",
+    "url": "https://www.skillindiadigital.gov.in/",
+    "duration": "4-8 weeks",
+    "languages": [
+      "en",
+      "hi"
+    ],
+    "free": true,
+    "level": "beginner",
+    "interests": [
+      "health",
+      "helping_people"
+    ],
+    "careers": [
+      "nurse",
+      "community_health_worker"
+    ],
+    "source_url": "https://www.skillindiadigital.gov.in/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "swayam_pharmacy_basics",
+    "title": "Introduction to pharmaceutics and safe use of medicines",
+    "provider": "SWAYAM",
+    "url": "https://swayam.gov.in/",
+    "duration": "8-12 weeks",
+    "languages": [
+      "en"
+    ],
+    "free": true,
+    "level": "beginner",
+    "interests": [
+      "chemistry",
+      "health"
+    ],
+    "careers": [
+      "pharmacist"
+    ],
+    "source_url": "https://swayam.gov.in/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "swayam_anatomy_physiology",
+    "title": "Human anatomy and physiology basics",
+    "provider": "SWAYAM",
+    "url": "https://swayam.gov.in/",
+    "duration": "8-12 weeks",
+    "languages": [
+      "en"
+    ],
+    "free": true,
+    "level": "beginner",
+    "interests": [
+      "biology",
+      "health"
+    ],
+    "careers": [
+      "physiotherapist",
+      "nurse",
+      "doctor",
+      "radiology_technician",
+      "lab_technician",
+      "optometrist"
+    ],
+    "source_url": "https://swayam.gov.in/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "sid_radiology_assistant",
+    "title": "Medical imaging (X-ray) assistant basics",
+    "provider": "Skill India Digital",
+    "url": "https://www.skillindiadigital.gov.in/",
+    "duration": "4-8 weeks",
+    "languages": [
+      "en",
+      "hi"
+    ],
+    "free": true,
+    "level": "beginner",
+    "interests": [
+      "physics",
+      "health",
+      "machines"
+    ],
+    "careers": [
+      "radiology_technician"
+    ],
+    "source_url": "https://www.skillindiadigital.gov.in/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "sid_community_health",
+    "title": "Community health, nutrition and home care basics",
+    "provider": "Skill India Digital",
+    "url": "https://www.skillindiadigital.gov.in/",
+    "duration": "4-8 weeks",
+    "languages": [
+      "en",
+      "hi"
+    ],
+    "free": true,
+    "level": "beginner",
+    "interests": [
+      "health",
+      "helping_people"
+    ],
+    "careers": [
+      "community_health_worker",
+      "nurse"
+    ],
+    "source_url": "https://www.skillindiadigital.gov.in/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "swayam_eye_care",
+    "title": "Eye health and vision care basics",
+    "provider": "SWAYAM",
+    "url": "https://swayam.gov.in/",
+    "duration": "4-8 weeks",
+    "languages": [
+      "en"
+    ],
+    "free": true,
+    "level": "beginner",
+    "interests": [
+      "biology",
+      "health",
+      "physics"
+    ],
+    "careers": [
+      "optometrist"
+    ],
+    "source_url": "https://swayam.gov.in/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "nios_biology",
+    "title": "Senior Secondary Biology study material (open schooling)",
+    "provider": "NIOS",
+    "url": "https://www.nios.ac.in/",
+    "duration": "Self-paced",
+    "languages": [
+      "en",
+      "hi"
+    ],
+    "free": true,
+    "level": "beginner",
+    "interests": [
+      "biology",
+      "health"
+    ],
+    "careers": [
+      "doctor",
+      "nurse",
+      "lab_technician",
+      "pharmacist"
+    ],
+    "source_url": "https://www.nios.ac.in/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "diksha_science_maths",
+    "title": "Class 9 to 12 science and maths lessons (NCERT and state board content)",
+    "provider": "DIKSHA",
+    "url": "https://diksha.gov.in/",
+    "duration": "Self-paced",
+    "languages": [
+      "en",
+      "ta",
+      "hi"
+    ],
+    "free": true,
+    "level": "beginner",
+    "interests": [
+      "physics",
+      "chemistry",
+      "biology",
+      "maths"
+    ],
+    "careers": [
+      "doctor",
+      "civil_engineer",
+      "mechanical_engineer",
+      "electrical_engineer",
+      "research_scientist",
+      "software_developer",
+      "data_analyst"
+    ],
+    "source_url": "https://diksha.gov.in/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "nptel_python",
+    "title": "Programming basics with Python",
+    "provider": "NPTEL",
+    "url": "https://nptel.ac.in/courses",
+    "duration": "12 weeks",
+    "languages": [
+      "en"
+    ],
+    "free": true,
+    "level": "beginner",
+    "interests": [
+      "coding",
+      "computers",
+      "maths"
+    ],
+    "careers": [
+      "software_developer",
+      "data_analyst",
+      "web_designer",
+      "research_scientist"
+    ],
+    "source_url": "https://nptel.ac.in/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "nptel_dsa",
+    "title": "Data structures and algorithms",
+    "provider": "NPTEL",
+    "url": "https://nptel.ac.in/courses",
+    "duration": "12 weeks",
+    "languages": [
+      "en"
+    ],
+    "free": true,
+    "level": "intermediate",
+    "interests": [
+      "coding",
+      "computers",
+      "maths"
+    ],
+    "careers": [
+      "software_developer"
+    ],
+    "source_url": "https://nptel.ac.in/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "swayam_data_analytics",
+    "title": "Data analytics with spreadsheets and Python",
+    "provider": "SWAYAM",
+    "url": "https://swayam.gov.in/",
+    "duration": "8-12 weeks",
+    "languages": [
+      "en"
+    ],
+    "free": true,
+    "level": "beginner",
+    "interests": [
+      "maths",
+      "computers",
+      "accounts"
+    ],
+    "careers": [
+      "data_analyst",
+      "accountant"
+    ],
+    "source_url": "https://swayam.gov.in/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "nm_web_development",
+    "title": "Web development with HTML, CSS and JavaScript",
+    "provider": "Naan Mudhalvan",
+    "url": "https://www.naanmudhalvan.tn.gov.in/",
+    "duration": "6-8 weeks",
+    "languages": [
+      "en",
+      "ta"
+    ],
+    "free": true,
+    "level": "beginner",
+    "interests": [
+      "coding",
+      "computers",
+      "drawing"
+    ],
+    "careers": [
+      "web_designer",
+      "software_developer"
+    ],
+    "source_url": "https://www.naanmudhalvan.tn.gov.in/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "nptel_engg_mechanics",
+    "title": "Engineering mechanics",
+    "provider": "NPTEL",
+    "url": "https://nptel.ac.in/courses",
+    "duration": "12 weeks",
+    "languages": [
+      "en"
+    ],
+    "free": true,
+    "level": "intermediate",
+    "interests": [
+      "physics",
+      "maths",
+      "building",
+      "machines"
+    ],
+    "careers": [
+      "civil_engineer",
+      "mechanical_engineer"
+    ],
+    "source_url": "https://nptel.ac.in/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "nptel_electrical_machines",
+    "title": "Basic electrical circuits and machines",
+    "provider": "NPTEL",
+    "url": "https://nptel.ac.in/courses",
+    "duration": "12 weeks",
+    "languages": [
+      "en"
+    ],
+    "free": true,
+    "level": "intermediate",
+    "interests": [
+      "electricity",
+      "physics",
+      "maths"
+    ],
+    "careers": [
+      "electrical_engineer",
+      "electrician"
+    ],
+    "source_url": "https://nptel.ac.in/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "sid_drone_basics",
+    "title": "Drone technology basics and safe flying rules",
+    "provider": "Skill India Digital",
+    "url": "https://www.skillindiadigital.gov.in/",
+    "duration": "2-4 weeks",
+    "languages": [
+      "en",
+      "hi"
+    ],
+    "free": true,
+    "level": "beginner",
+    "interests": [
+      "machines",
+      "photography",
+      "farming"
+    ],
+    "careers": [
+      "drone_pilot",
+      "agri_entrepreneur"
+    ],
+    "source_url": "https://www.skillindiadigital.gov.in/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "swayam_research_methods",
+    "title": "Research methodology",
+    "provider": "SWAYAM",
+    "url": "https://swayam.gov.in/",
+    "duration": "8-12 weeks",
+    "languages": [
+      "en"
+    ],
+    "free": true,
+    "level": "intermediate",
+    "interests": [
+      "maths",
+      "writing",
+      "biology"
+    ],
+    "careers": [
+      "research_scientist",
+      "social_worker",
+      "journalist"
+    ],
+    "source_url": "https://swayam.gov.in/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "sid_it_helpdesk",
+    "title": "IT helpdesk and computer hardware support",
+    "provider": "Skill India Digital",
+    "url": "https://www.skillindiadigital.gov.in/",
+    "duration": "6-8 weeks",
+    "languages": [
+      "en",
+      "hi"
+    ],
+    "free": true,
+    "level": "beginner",
+    "interests": [
+      "computers",
+      "repair"
+    ],
+    "careers": [
+      "it_support_technician",
+      "customer_support_executive"
+    ],
+    "source_url": "https://www.skillindiadigital.gov.in/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "eskill_digital_literacy",
+    "title": "Basic computer and digital literacy",
+    "provider": "e-Skill India",
+    "url": "https://eskillindia.org/",
+    "duration": "2-4 weeks",
+    "languages": [
+      "en",
+      "hi"
+    ],
+    "free": true,
+    "level": "beginner",
+    "interests": [
+      "computers"
+    ],
+    "careers": [
+      "it_support_technician",
+      "postal_assistant",
+      "tnpsc_group4_clerk",
+      "customer_support_executive",
+      "retail_store_manager",
+      "logistics_executive",
+      "small_business_owner",
+      "ecommerce_seller"
+    ],
+    "source_url": "https://eskillindia.org/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "diksha_nishtha_teaching",
+    "title": "Classroom teaching practices (NISHTHA teacher modules)",
+    "provider": "DIKSHA",
+    "url": "https://diksha.gov.in/",
+    "duration": "Self-paced",
+    "languages": [
+      "en",
+      "ta",
+      "hi"
+    ],
+    "free": true,
+    "level": "beginner",
+    "interests": [
+      "teaching",
+      "helping_people"
+    ],
+    "careers": [
+      "teacher"
+    ],
+    "source_url": "https://diksha.gov.in/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "swayam_child_development",
+    "title": "Child development and pedagogy",
+    "provider": "SWAYAM",
+    "url": "https://swayam.gov.in/",
+    "duration": "8-12 weeks",
+    "languages": [
+      "en"
+    ],
+    "free": true,
+    "level": "beginner",
+    "interests": [
+      "teaching",
+      "helping_people"
+    ],
+    "careers": [
+      "teacher",
+      "social_worker"
+    ],
+    "source_url": "https://swayam.gov.in/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "swayam_constitution_law",
+    "title": "Introduction to the Indian Constitution and law",
+    "provider": "SWAYAM",
+    "url": "https://swayam.gov.in/",
+    "duration": "8-12 weeks",
+    "languages": [
+      "en"
+    ],
+    "free": true,
+    "level": "beginner",
+    "interests": [
+      "law",
+      "writing"
+    ],
+    "careers": [
+      "lawyer",
+      "police_constable",
+      "social_worker",
+      "village_administrative_officer"
+    ],
+    "source_url": "https://swayam.gov.in/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "nios_accountancy",
+    "title": "Senior Secondary Accountancy study material (open schooling)",
+    "provider": "NIOS",
+    "url": "https://www.nios.ac.in/",
+    "duration": "Self-paced",
+    "languages": [
+      "en",
+      "hi"
+    ],
+    "free": true,
+    "level": "beginner",
+    "interests": [
+      "accounts",
+      "business",
+      "maths"
+    ],
+    "careers": [
+      "accountant",
+      "bank_officer"
+    ],
+    "source_url": "https://www.nios.ac.in/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "sid_accounting_gst",
+    "title": "Accounting, GST basics and accounting software",
+    "provider": "Skill India Digital",
+    "url": "https://www.skillindiadigital.gov.in/",
+    "duration": "6-8 weeks",
+    "languages": [
+      "en",
+      "hi"
+    ],
+    "free": true,
+    "level": "beginner",
+    "interests": [
+      "accounts",
+      "business",
+      "computers"
+    ],
+    "careers": [
+      "accountant",
+      "small_business_owner",
+      "retail_store_manager",
+      "ecommerce_seller"
+    ],
+    "source_url": "https://www.skillindiadigital.gov.in/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "swayam_social_work",
+    "title": "Introduction to social work",
+    "provider": "SWAYAM",
+    "url": "https://swayam.gov.in/",
+    "duration": "8-12 weeks",
+    "languages": [
+      "en"
+    ],
+    "free": true,
+    "level": "beginner",
+    "interests": [
+      "helping_people",
+      "talking"
+    ],
+    "careers": [
+      "social_worker",
+      "community_health_worker"
+    ],
+    "source_url": "https://swayam.gov.in/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "swayam_journalism",
+    "title": "Journalism and mass communication basics",
+    "provider": "SWAYAM",
+    "url": "https://swayam.gov.in/",
+    "duration": "8-12 weeks",
+    "languages": [
+      "en"
+    ],
+    "free": true,
+    "level": "beginner",
+    "interests": [
+      "writing",
+      "talking",
+      "video"
+    ],
+    "careers": [
+      "journalist",
+      "content_creator"
+    ],
+    "source_url": "https://swayam.gov.in/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "swayam_translation",
+    "title": "Translation studies: theory and practice",
+    "provider": "SWAYAM",
+    "url": "https://swayam.gov.in/",
+    "duration": "8-12 weeks",
+    "languages": [
+      "en"
+    ],
+    "free": true,
+    "level": "beginner",
+    "interests": [
+      "languages",
+      "writing"
+    ],
+    "careers": [
+      "translator",
+      "tour_guide"
+    ],
+    "source_url": "https://swayam.gov.in/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "sid_hospitality",
+    "title": "Hospitality basics: front office and food and beverage service",
+    "provider": "Skill India Digital",
+    "url": "https://www.skillindiadigital.gov.in/",
+    "duration": "4-8 weeks",
+    "languages": [
+      "en",
+      "hi"
+    ],
+    "free": true,
+    "level": "beginner",
+    "interests": [
+      "cooking",
+      "talking",
+      "travel"
+    ],
+    "careers": [
+      "hotel_management",
+      "tour_guide",
+      "chef"
+    ],
+    "source_url": "https://www.skillindiadigital.gov.in/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "pmkvy_commis_chef",
+    "title": "Commis chef: kitchen basics and food hygiene",
+    "provider": "PMKVY",
+    "url": "https://www.skillindiadigital.gov.in/",
+    "duration": "3 months",
+    "languages": [
+      "en",
+      "ta",
+      "hi"
+    ],
+    "free": true,
+    "level": "beginner",
+    "interests": [
+      "cooking"
+    ],
+    "careers": [
+      "chef",
+      "hotel_management",
+      "food_processing_technician"
+    ],
+    "source_url": "https://www.pmkvyofficial.org/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "sid_tour_guide",
+    "title": "Local tour guide and tourism basics",
+    "provider": "Skill India Digital",
+    "url": "https://www.skillindiadigital.gov.in/",
+    "duration": "4 weeks",
+    "languages": [
+      "en",
+      "hi"
+    ],
+    "free": true,
+    "level": "beginner",
+    "interests": [
+      "travel",
+      "talking",
+      "languages"
+    ],
+    "careers": [
+      "tour_guide"
+    ],
+    "source_url": "https://www.skillindiadigital.gov.in/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "sid_retail_sales",
+    "title": "Retail sales and store operations",
+    "provider": "Skill India Digital",
+    "url": "https://www.skillindiadigital.gov.in/",
+    "duration": "4-8 weeks",
+    "languages": [
+      "en",
+      "hi"
+    ],
+    "free": true,
+    "level": "beginner",
+    "interests": [
+      "selling",
+      "business",
+      "talking"
+    ],
+    "careers": [
+      "retail_store_manager",
+      "small_business_owner",
+      "insurance_advisor"
+    ],
+    "source_url": "https://www.skillindiadigital.gov.in/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "nm_communication_english",
+    "title": "Spoken English and workplace communication",
+    "provider": "Naan Mudhalvan",
+    "url": "https://www.naanmudhalvan.tn.gov.in/",
+    "duration": "6-8 weeks",
+    "languages": [
+      "en",
+      "ta"
+    ],
+    "free": true,
+    "level": "beginner",
+    "interests": [
+      "talking",
+      "languages"
+    ],
+    "careers": [
+      "customer_support_executive",
+      "hotel_management",
+      "tour_guide",
+      "retail_store_manager",
+      "insurance_advisor",
+      "bank_officer",
+      "journalist"
+    ],
+    "source_url": "https://www.naanmudhalvan.tn.gov.in/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "sid_logistics",
+    "title": "Warehouse, supply chain and delivery operations basics",
+    "provider": "Skill India Digital",
+    "url": "https://www.skillindiadigital.gov.in/",
+    "duration": "4-8 weeks",
+    "languages": [
+      "en",
+      "hi"
+    ],
+    "free": true,
+    "level": "beginner",
+    "interests": [
+      "business",
+      "vehicles",
+      "computers"
+    ],
+    "careers": [
+      "logistics_executive",
+      "ecommerce_seller"
+    ],
+    "source_url": "https://www.skillindiadigital.gov.in/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "sid_insurance_basics",
+    "title": "Insurance products and customer service basics",
+    "provider": "Skill India Digital",
+    "url": "https://www.skillindiadigital.gov.in/",
+    "duration": "4 weeks",
+    "languages": [
+      "en",
+      "hi"
+    ],
+    "free": true,
+    "level": "beginner",
+    "interests": [
+      "selling",
+      "talking",
+      "accounts"
+    ],
+    "careers": [
+      "insurance_advisor"
+    ],
+    "source_url": "https://www.skillindiadigital.gov.in/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "swayam_banking_finance",
+    "title": "Banking and financial awareness basics",
+    "provider": "SWAYAM",
+    "url": "https://swayam.gov.in/",
+    "duration": "8 weeks",
+    "languages": [
+      "en"
+    ],
+    "free": true,
+    "level": "beginner",
+    "interests": [
+      "accounts",
+      "business",
+      "maths"
+    ],
+    "careers": [
+      "bank_officer",
+      "insurance_advisor",
+      "accountant"
+    ],
+    "source_url": "https://swayam.gov.in/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "nm_graphic_design",
+    "title": "Graphic design with free design tools",
+    "provider": "Naan Mudhalvan",
+    "url": "https://www.naanmudhalvan.tn.gov.in/",
+    "duration": "6-8 weeks",
+    "languages": [
+      "en",
+      "ta"
+    ],
+    "free": true,
+    "level": "beginner",
+    "interests": [
+      "drawing",
+      "computers",
+      "social_media"
+    ],
+    "careers": [
+      "graphic_designer",
+      "web_designer",
+      "content_creator",
+      "digital_marketing_freelancer"
+    ],
+    "source_url": "https://www.naanmudhalvan.tn.gov.in/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "swayam_textile_design",
+    "title": "Textile and apparel design basics",
+    "provider": "SWAYAM",
+    "url": "https://swayam.gov.in/",
+    "duration": "8-12 weeks",
+    "languages": [
+      "en"
+    ],
+    "free": true,
+    "level": "beginner",
+    "interests": [
+      "fashion",
+      "drawing",
+      "crafts"
+    ],
+    "careers": [
+      "textile_designer",
+      "fashion_designer",
+      "handicraft_artisan"
+    ],
+    "source_url": "https://swayam.gov.in/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "sid_fashion_design",
+    "title": "Fashion design and pattern making basics",
+    "provider": "Skill India Digital",
+    "url": "https://www.skillindiadigital.gov.in/",
+    "duration": "6-8 weeks",
+    "languages": [
+      "en",
+      "hi"
+    ],
+    "free": true,
+    "level": "beginner",
+    "interests": [
+      "fashion",
+      "sewing",
+      "drawing"
+    ],
+    "careers": [
+      "fashion_designer",
+      "tailor_garment_maker"
+    ],
+    "source_url": "https://www.skillindiadigital.gov.in/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "sid_photo_video",
+    "title": "Photography and video shooting basics",
+    "provider": "Skill India Digital",
+    "url": "https://www.skillindiadigital.gov.in/",
+    "duration": "4-8 weeks",
+    "languages": [
+      "en",
+      "hi"
+    ],
+    "free": true,
+    "level": "beginner",
+    "interests": [
+      "photography",
+      "video"
+    ],
+    "careers": [
+      "photographer_videographer",
+      "content_creator",
+      "journalist"
+    ],
+    "source_url": "https://www.skillindiadigital.gov.in/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "nm_content_creation",
+    "title": "Social media content creation and video editing",
+    "provider": "Naan Mudhalvan",
+    "url": "https://www.naanmudhalvan.tn.gov.in/",
+    "duration": "4-6 weeks",
+    "languages": [
+      "en",
+      "ta"
+    ],
+    "free": true,
+    "level": "beginner",
+    "interests": [
+      "social_media",
+      "video",
+      "writing"
+    ],
+    "careers": [
+      "content_creator",
+      "digital_marketing_freelancer",
+      "photographer_videographer"
+    ],
+    "source_url": "https://www.naanmudhalvan.tn.gov.in/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "swayam_animation",
+    "title": "2D animation and multimedia basics",
+    "provider": "SWAYAM",
+    "url": "https://swayam.gov.in/",
+    "duration": "8-12 weeks",
+    "languages": [
+      "en"
+    ],
+    "free": true,
+    "level": "beginner",
+    "interests": [
+      "drawing",
+      "computers",
+      "video"
+    ],
+    "careers": [
+      "animator",
+      "graphic_designer"
+    ],
+    "source_url": "https://swayam.gov.in/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "swayam_music",
+    "title": "Fundamentals of Indian music",
+    "provider": "SWAYAM",
+    "url": "https://swayam.gov.in/",
+    "duration": "8-12 weeks",
+    "languages": [
+      "en"
+    ],
+    "free": true,
+    "level": "beginner",
+    "interests": [
+      "music"
+    ],
+    "careers": [
+      "musician"
+    ],
+    "source_url": "https://swayam.gov.in/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "sid_handicrafts",
+    "title": "Handicraft production, quality and marketing for artisans",
+    "provider": "Skill India Digital",
+    "url": "https://www.skillindiadigital.gov.in/",
+    "duration": "4-8 weeks",
+    "languages": [
+      "en",
+      "hi"
+    ],
+    "free": true,
+    "level": "beginner",
+    "interests": [
+      "crafts",
+      "selling"
+    ],
+    "careers": [
+      "handicraft_artisan",
+      "small_business_owner",
+      "ecommerce_seller"
+    ],
+    "source_url": "https://www.skillindiadigital.gov.in/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "nm_competitive_exams",
+    "title": "Competitive exam preparation: aptitude, reasoning and general studies",
+    "provider": "Naan Mudhalvan",
+    "url": "https://www.naanmudhalvan.tn.gov.in/",
+    "duration": "Self-paced",
+    "languages": [
+      "en",
+      "ta"
+    ],
+    "free": true,
+    "level": "beginner",
+    "interests": [
+      "maths",
+      "languages",
+      "uniform_service"
+    ],
+    "careers": [
+      "tnpsc_group4_clerk",
+      "village_administrative_officer",
+      "police_constable",
+      "railway_staff",
+      "bank_officer",
+      "postal_assistant",
+      "forest_guard",
+      "army_soldier"
+    ],
+    "source_url": "https://www.naanmudhalvan.tn.gov.in/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "tn_career_services_coaching",
+    "title": "Free study material and coaching for TNPSC, TNUSRB, SSC, railway and bank exams",
+    "provider": "Other",
+    "url": "https://tamilnaducareerservices.tn.gov.in/",
+    "duration": "Self-paced",
+    "languages": [
+      "en",
+      "ta"
+    ],
+    "free": true,
+    "level": "beginner",
+    "interests": [
+      "languages",
+      "maths",
+      "uniform_service"
+    ],
+    "careers": [
+      "tnpsc_group4_clerk",
+      "village_administrative_officer",
+      "police_constable",
+      "railway_staff",
+      "bank_officer",
+      "postal_assistant",
+      "forest_guard"
+    ],
+    "source_url": "https://tamilnaducareerservices.tn.gov.in/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "tamilvu_tamil",
+    "title": "Tamil language and grammar lessons",
+    "provider": "Other",
+    "url": "https://www.tamilvu.org/",
+    "duration": "Self-paced",
+    "languages": [
+      "ta",
+      "en"
+    ],
+    "free": true,
+    "level": "beginner",
+    "interests": [
+      "languages",
+      "writing"
+    ],
+    "careers": [
+      "tnpsc_group4_clerk",
+      "village_administrative_officer",
+      "translator",
+      "teacher",
+      "police_constable"
+    ],
+    "source_url": "https://www.tamilvu.org/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "swayam_forestry",
+    "title": "Forest and wildlife conservation basics",
+    "provider": "SWAYAM",
+    "url": "https://swayam.gov.in/",
+    "duration": "8-12 weeks",
+    "languages": [
+      "en"
+    ],
+    "free": true,
+    "level": "beginner",
+    "interests": [
+      "nature",
+      "environment",
+      "animals"
+    ],
+    "careers": [
+      "forest_guard",
+      "organic_farmer"
+    ],
+    "source_url": "https://swayam.gov.in/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "sid_fitness_basics",
+    "title": "Fitness training basics: exercise, stamina and diet",
+    "provider": "Skill India Digital",
+    "url": "https://www.skillindiadigital.gov.in/",
+    "duration": "4-8 weeks",
+    "languages": [
+      "en",
+      "hi"
+    ],
+    "free": true,
+    "level": "beginner",
+    "interests": [
+      "fitness",
+      "sports",
+      "uniform_service"
+    ],
+    "careers": [
+      "police_constable",
+      "army_soldier",
+      "forest_guard"
+    ],
+    "source_url": "https://www.skillindiadigital.gov.in/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "sid_agri_entrepreneurship",
+    "title": "Agri-entrepreneurship and farm business planning",
+    "provider": "Skill India Digital",
+    "url": "https://www.skillindiadigital.gov.in/",
+    "duration": "4-8 weeks",
+    "languages": [
+      "en",
+      "hi"
+    ],
+    "free": true,
+    "level": "beginner",
+    "interests": [
+      "farming",
+      "business"
+    ],
+    "careers": [
+      "agri_entrepreneur",
+      "organic_farmer",
+      "small_business_owner"
+    ],
+    "source_url": "https://www.skillindiadigital.gov.in/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "sid_dairy_farming",
+    "title": "Dairy farming and cattle care",
+    "provider": "Skill India Digital",
+    "url": "https://www.skillindiadigital.gov.in/",
+    "duration": "4-8 weeks",
+    "languages": [
+      "en",
+      "hi"
+    ],
+    "free": true,
+    "level": "beginner",
+    "interests": [
+      "animals",
+      "farming"
+    ],
+    "careers": [
+      "dairy_farmer",
+      "veterinary_assistant"
+    ],
+    "source_url": "https://www.skillindiadigital.gov.in/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "swayam_organic_farming",
+    "title": "Organic farming practices",
+    "provider": "SWAYAM",
+    "url": "https://swayam.gov.in/",
+    "duration": "8-12 weeks",
+    "languages": [
+      "en"
+    ],
+    "free": true,
+    "level": "beginner",
+    "interests": [
+      "farming",
+      "environment",
+      "nature"
+    ],
+    "careers": [
+      "organic_farmer",
+      "agri_entrepreneur"
+    ],
+    "source_url": "https://swayam.gov.in/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "swayam_food_processing",
+    "title": "Food processing and preservation",
+    "provider": "SWAYAM",
+    "url": "https://swayam.gov.in/",
+    "duration": "8-12 weeks",
+    "languages": [
+      "en"
+    ],
+    "free": true,
+    "level": "beginner",
+    "interests": [
+      "cooking",
+      "chemistry",
+      "farming"
+    ],
+    "careers": [
+      "food_processing_technician",
+      "agri_entrepreneur",
+      "chef"
+    ],
+    "source_url": "https://swayam.gov.in/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "sid_aquaculture",
+    "title": "Freshwater fish farming (aquaculture) basics",
+    "provider": "Skill India Digital",
+    "url": "https://www.skillindiadigital.gov.in/",
+    "duration": "4-8 weeks",
+    "languages": [
+      "en",
+      "hi"
+    ],
+    "free": true,
+    "level": "beginner",
+    "interests": [
+      "animals",
+      "farming",
+      "nature"
+    ],
+    "careers": [
+      "fisheries_aquaculture"
+    ],
+    "source_url": "https://www.skillindiadigital.gov.in/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "sid_livestock_health",
+    "title": "Livestock health and first aid (para-vet basics)",
+    "provider": "Skill India Digital",
+    "url": "https://www.skillindiadigital.gov.in/",
+    "duration": "4-8 weeks",
+    "languages": [
+      "en",
+      "hi"
+    ],
+    "free": true,
+    "level": "beginner",
+    "interests": [
+      "animals",
+      "health"
+    ],
+    "careers": [
+      "veterinary_assistant",
+      "dairy_farmer"
+    ],
+    "source_url": "https://www.skillindiadigital.gov.in/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "sid_entrepreneurship",
+    "title": "Entrepreneurship development basics",
+    "provider": "Skill India Digital",
+    "url": "https://www.skillindiadigital.gov.in/",
+    "duration": "4-6 weeks",
+    "languages": [
+      "en",
+      "hi"
+    ],
+    "free": true,
+    "level": "beginner",
+    "interests": [
+      "business",
+      "selling"
+    ],
+    "careers": [
+      "small_business_owner",
+      "agri_entrepreneur",
+      "ecommerce_seller",
+      "digital_marketing_freelancer"
+    ],
+    "source_url": "https://www.skillindiadigital.gov.in/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "swayam_digital_marketing",
+    "title": "Digital marketing",
+    "provider": "SWAYAM",
+    "url": "https://swayam.gov.in/",
+    "duration": "8-12 weeks",
+    "languages": [
+      "en"
+    ],
+    "free": true,
+    "level": "beginner",
+    "interests": [
+      "social_media",
+      "business",
+      "selling"
+    ],
+    "careers": [
+      "digital_marketing_freelancer",
+      "content_creator",
+      "ecommerce_seller",
+      "small_business_owner"
+    ],
+    "source_url": "https://swayam.gov.in/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "sid_ecommerce_selling",
+    "title": "Selling online: e-commerce basics for small sellers",
+    "provider": "Skill India Digital",
+    "url": "https://www.skillindiadigital.gov.in/",
+    "duration": "2-4 weeks",
+    "languages": [
+      "en",
+      "hi"
+    ],
+    "free": true,
+    "level": "beginner",
+    "interests": [
+      "selling",
+      "business",
+      "computers"
+    ],
+    "careers": [
+      "ecommerce_seller",
+      "handicraft_artisan"
+    ],
+    "source_url": "https://www.skillindiadigital.gov.in/",
+    "last_verified": "2026-10-18"
+  }
+]

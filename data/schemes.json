@@ -1,0 +1,645 @@
+[
+  {
+    "id": "pmkvy_4",
+    "kind": "scheme",
+    "name": "Pradhan Mantri Kaushal Vikas Yojana 4.0 (PMKVY 4.0)",
+    "provider": "Ministry of Skill Development and Entrepreneurship, Government of India",
+    "level": "central",
+    "benefit": "Free short-term skill training (usually 2-6 months) with a government certificate and placement help",
+    "summary": "For school or college dropouts and unemployed youth aged 15 to 45. Courses range from electrician and tailoring to drones and IT; each course has its own minimum class.",
+    "rules": {
+      "education_levels": null,
+      "categories": null,
+      "max_family_income": null,
+      "min_marks_percent": null,
+      "gender": null,
+      "school_types": null,
+      "states": null,
+      "min_age": 15,
+      "max_age": 45,
+      "disability": null,
+      "first_graduate": null,
+      "streams": null
+    },
+    "documents": [
+      "Aadhaar card",
+      "Bank account passbook",
+      "Passport-size photo",
+      "Highest marksheet (if any)"
+    ],
+    "how_to_apply": "Register on Skill India Digital Hub, pick a course and a nearby training centre, and join the batch.",
+    "apply_url": "https://www.skillindiadigital.gov.in/",
+    "deadline_note": "Batches run all year",
+    "source_url": "https://www.pmkvyofficial.org/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "naps",
+    "kind": "scheme",
+    "name": "National Apprenticeship Promotion Scheme (NAPS)",
+    "provider": "Ministry of Skill Development and Entrepreneurship, Government of India",
+    "level": "central",
+    "benefit": "Paid on-the-job training with a monthly stipend from the company (minimum roughly Rs 6,800-12,300 depending on qualification after the 2025 revision; government shares part of it; verify on portal)",
+    "summary": "Apprenticeships in companies for people aged 14 and above (18 for hazardous trades) who have passed Class 5 or above, including ITI, diploma and degree holders.",
+    "rules": {
+      "education_levels": [
+        "class8",
+        "class9",
+        "class10",
+        "class11",
+        "class12",
+        "iti",
+        "diploma",
+        "ug"
+      ],
+      "categories": null,
+      "max_family_income": null,
+      "min_marks_percent": null,
+      "gender": null,
+      "school_types": null,
+      "states": null,
+      "min_age": 14,
+      "max_age": null,
+      "disability": null,
+      "first_graduate": null,
+      "streams": null
+    },
+    "documents": [
+      "Aadhaar card",
+      "Bank account passbook",
+      "Passport-size photo",
+      "Marksheets / ITI or diploma certificate"
+    ],
+    "how_to_apply": "Register on the Apprenticeship India portal, search for openings near you and apply; the company signs an apprenticeship contract with you.",
+    "apply_url": "https://www.apprenticeshipindia.gov.in/",
+    "deadline_note": "Openings all year",
+    "source_url": "https://www.apprenticeshipindia.gov.in/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "nats",
+    "kind": "scheme",
+    "name": "National Apprenticeship Training Scheme (NATS)",
+    "provider": "Ministry of Education (Boards of Apprenticeship Training), Government of India",
+    "level": "central",
+    "benefit": "6-12 months of paid training with a monthly stipend of about Rs 10,900 for diploma holders and Rs 12,300 for graduates (rates from April 2026; verify on portal)",
+    "summary": "Apprenticeships for diploma holders and graduates (engineering, B.A., B.Sc., B.Com and others) who passed recently, usually within the last few years.",
+    "rules": {
+      "education_levels": [
+        "diploma",
+        "ug"
+      ],
+      "categories": null,
+      "max_family_income": null,
+      "min_marks_percent": null,
+      "gender": null,
+      "school_types": null,
+      "states": null,
+      "min_age": null,
+      "max_age": null,
+      "disability": null,
+      "first_graduate": null,
+      "streams": null
+    },
+    "documents": [
+      "Aadhaar card",
+      "Bank account passbook",
+      "Passport-size photo",
+      "Diploma or degree certificate and marksheets"
+    ],
+    "how_to_apply": "Enrol on the NATS portal with your diploma or degree details, then apply to companies listed there.",
+    "apply_url": "https://nats.education.gov.in/",
+    "deadline_note": "Openings all year",
+    "source_url": "https://nats.education.gov.in/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "ddu_gky",
+    "kind": "scheme",
+    "name": "Deen Dayal Upadhyaya Grameen Kaushalya Yojana (DDU-GKY)",
+    "provider": "Ministry of Rural Development, Government of India",
+    "level": "central",
+    "benefit": "Free skill training (3-12 months, often residential with food and uniform) and placement in a job",
+    "summary": "For youth aged 15 to 35 from poor rural families (for example MGNREGA worker or SHG households, or ration cards for the poor). Upper age is 45 for women, SC/ST and persons with disabilities. In Tamil Nadu it is run by the State Rural Livelihoods Mission.",
+    "rules": {
+      "education_levels": null,
+      "categories": null,
+      "max_family_income": null,
+      "min_marks_percent": null,
+      "gender": null,
+      "school_types": null,
+      "states": null,
+      "min_age": 15,
+      "max_age": 35,
+      "disability": null,
+      "first_graduate": null,
+      "streams": null
+    },
+    "documents": [
+      "Aadhaar card",
+      "Bank account passbook",
+      "Passport-size photo",
+      "Ration card / MGNREGA job card / SHG proof",
+      "Marksheets (if any)"
+    ],
+    "how_to_apply": "Contact your block office or Mahalir Thittam office, or a DDU-GKY training centre, to join the next batch.",
+    "apply_url": "https://ddugky.gov.in/",
+    "deadline_note": "Batches run all year",
+    "source_url": "https://ddugky.gov.in/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "pm_internship",
+    "kind": "scheme",
+    "name": "PM Internship Scheme",
+    "provider": "Ministry of Corporate Affairs, Government of India",
+    "level": "central",
+    "benefit": "Monthly stipend (Rs 9,000 after the 2026 revamp, earlier Rs 5,000) plus a one-time Rs 6,000 grant, for an internship in a top company (verify on portal)",
+    "summary": "For young people not in full-time education or a full-time job, who have passed Class 10, Class 12, ITI, diploma or a degree. Age limits were widened in 2026 to 18-25. Not for families with a government employee or a member earning above the income limit.",
+    "rules": {
+      "education_levels": [
+        "class10",
+        "class12",
+        "iti",
+        "diploma",
+        "ug",
+        "pg"
+      ],
+      "categories": null,
+      "max_family_income": null,
+      "min_marks_percent": null,
+      "gender": null,
+      "school_types": null,
+      "states": null,
+      "min_age": 18,
+      "max_age": 25,
+      "disability": null,
+      "first_graduate": null,
+      "streams": null
+    },
+    "documents": [
+      "Aadhaar card",
+      "Highest qualification certificate",
+      "Bank account passbook"
+    ],
+    "how_to_apply": "Register on the PM Internship portal, choose up to a few internships near you, and wait for the company's offer.",
+    "apply_url": "https://pminternship.mca.gov.in/",
+    "deadline_note": "Rounds open a few times a year",
+    "source_url": "https://pminternship.mca.gov.in/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "pm_vishwakarma",
+    "kind": "scheme",
+    "name": "PM Vishwakarma",
+    "provider": "Ministry of Micro, Small and Medium Enterprises, Government of India",
+    "level": "central",
+    "benefit": "Rs 15,000 toolkit voucher, 5-7 days training with Rs 500 a day, and collateral-free loans of Rs 1 lakh then Rs 2 lakh at 5% interest",
+    "summary": "For self-employed artisans aged 18+ in 18 traditional trades such as carpentry, blacksmithing, pottery, tailoring, masonry, goldsmithing, cobbling and barbering. One person per family; not for government employees.",
+    "rules": {
+      "education_levels": null,
+      "categories": null,
+      "max_family_income": null,
+      "min_marks_percent": null,
+      "gender": null,
+      "school_types": null,
+      "states": null,
+      "min_age": 18,
+      "max_age": null,
+      "disability": null,
+      "first_graduate": null,
+      "streams": null
+    },
+    "documents": [
+      "Aadhaar card",
+      "Ration card",
+      "Bank account passbook",
+      "Mobile number linked to Aadhaar"
+    ],
+    "how_to_apply": "Go to your nearest Common Service Centre (CSC) to register; the panchayat verifies that you work in the trade.",
+    "apply_url": "https://pmvishwakarma.gov.in/",
+    "deadline_note": "Registration open all year",
+    "source_url": "https://pmvishwakarma.gov.in/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "pmegp",
+    "kind": "scheme",
+    "name": "Prime Minister's Employment Generation Programme (PMEGP)",
+    "provider": "Khadi and Village Industries Commission (KVIC), Ministry of MSME",
+    "level": "central",
+    "benefit": "Bank loan with 15-35% subsidy on project cost (up to Rs 50 lakh for manufacturing and Rs 20 lakh for service units); higher subsidy for rural, SC/ST, OBC and women applicants",
+    "summary": "For anyone aged 18+ starting a new small business. Class 8 pass is needed for projects above Rs 10 lakh (manufacturing) or Rs 5 lakh (service).",
+    "rules": {
+      "education_levels": null,
+      "categories": null,
+      "max_family_income": null,
+      "min_marks_percent": null,
+      "gender": null,
+      "school_types": null,
+      "states": null,
+      "min_age": 18,
+      "max_age": null,
+      "disability": null,
+      "first_graduate": null,
+      "streams": null
+    },
+    "documents": [
+      "Aadhaar card",
+      "Bank account passbook",
+      "Passport-size photo",
+      "Project report",
+      "Community certificate (for special category)",
+      "Class 8 or higher marksheet (for larger projects)"
+    ],
+    "how_to_apply": "Apply online on the PMEGP e-portal with your project report; after bank approval you attend a short entrepreneurship training.",
+    "apply_url": "https://www.kviconline.gov.in/pmegpeportal/",
+    "deadline_note": "Applications open all year",
+    "source_url": "https://www.kviconline.gov.in/pmegpeportal/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "pm_mudra",
+    "kind": "scheme",
+    "name": "Pradhan Mantri Mudra Yojana (PMMY)",
+    "provider": "Department of Financial Services, Ministry of Finance, Government of India",
+    "level": "central",
+    "benefit": "Business loans without collateral: Shishu up to Rs 50,000, Kishore Rs 50,000-5 lakh, Tarun Rs 5-10 lakh, Tarun Plus up to Rs 20 lakh for those who repaid a Tarun loan",
+    "summary": "For small non-farm businesses such as shops, tailoring, repair, food stalls and services, for anyone 18 or older.",
+    "rules": {
+      "education_levels": null,
+      "categories": null,
+      "max_family_income": null,
+      "min_marks_percent": null,
+      "gender": null,
+      "school_types": null,
+      "states": null,
+      "min_age": 18,
+      "max_age": null,
+      "disability": null,
+      "first_graduate": null,
+      "streams": null
+    },
+    "documents": [
+      "Aadhaar card",
+      "Bank account passbook",
+      "Passport-size photo",
+      "Business plan or quotation for machines",
+      "Address proof"
+    ],
+    "how_to_apply": "Go to any bank, small finance bank or MFI branch with your business idea and documents and ask for a Mudra loan.",
+    "apply_url": "https://www.mudra.org.in/",
+    "deadline_note": "Open all year",
+    "source_url": "https://www.mudra.org.in/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "stand_up_india",
+    "kind": "scheme",
+    "name": "Stand-Up India",
+    "provider": "Department of Financial Services / SIDBI, Government of India",
+    "level": "central",
+    "benefit": "Bank loans from Rs 10 lakh to Rs 1 crore for a new business",
+    "summary": "For SC/ST and women entrepreneurs aged 18+ starting a new (first-time) business in manufacturing, services, trading or farm-related activities. Every bank branch must give at least one such loan to an SC/ST and one to a woman.",
+    "rules": {
+      "education_levels": null,
+      "categories": null,
+      "max_family_income": null,
+      "min_marks_percent": null,
+      "gender": null,
+      "school_types": null,
+      "states": null,
+      "min_age": 18,
+      "max_age": null,
+      "disability": null,
+      "first_graduate": null,
+      "streams": null
+    },
+    "documents": [
+      "Aadhaar card",
+      "Bank account passbook",
+      "Passport-size photo",
+      "Community certificate (for SC/ST)",
+      "Project report",
+      "Address proof"
+    ],
+    "how_to_apply": "Register on the Stand-Up Mitra portal or visit a bank branch; you can also get handholding help there to prepare the project.",
+    "apply_url": "https://www.standupmitra.in/",
+    "deadline_note": "Open all year",
+    "source_url": "https://www.standupmitra.in/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "jan_shikshan_sansthan",
+    "kind": "scheme",
+    "name": "Jan Shikshan Sansthan (JSS)",
+    "provider": "Ministry of Skill Development and Entrepreneurship, Government of India",
+    "level": "central",
+    "benefit": "Free or very low-cost vocational training near your home (tailoring, beauty, electrical, computer basics and more)",
+    "summary": "For people aged 15 to 45 who never went to school, learned to read later, or left school before Class 12, with priority for women, SC/ST, minorities and rural poor.",
+    "rules": {
+      "education_levels": [
+        "class8",
+        "class9",
+        "class10",
+        "class11",
+        "class12"
+      ],
+      "categories": null,
+      "max_family_income": null,
+      "min_marks_percent": null,
+      "gender": null,
+      "school_types": null,
+      "states": null,
+      "min_age": 15,
+      "max_age": 45,
+      "disability": null,
+      "first_graduate": null,
+      "streams": null
+    },
+    "documents": [
+      "Aadhaar card",
+      "Bank account passbook",
+      "Passport-size photo"
+    ],
+    "how_to_apply": "Find the JSS centre in your district on the JSS website and visit it to join a course.",
+    "apply_url": "https://jss.gov.in/",
+    "deadline_note": "Batches run all year",
+    "source_url": "https://jss.gov.in/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "skill_india_digital",
+    "kind": "scheme",
+    "name": "Skill India Digital Hub (SIDH)",
+    "provider": "Ministry of Skill Development and Entrepreneurship, Government of India",
+    "level": "central",
+    "benefit": "Free online courses and certificates, and one place to find PMKVY, NAPS and JSS training and jobs",
+    "summary": "A free government portal and app where anyone can learn skills online, get certificates, and find training centres, apprenticeships and jobs.",
+    "rules": {
+      "education_levels": null,
+      "categories": null,
+      "max_family_income": null,
+      "min_marks_percent": null,
+      "gender": null,
+      "school_types": null,
+      "states": null,
+      "min_age": null,
+      "max_age": null,
+      "disability": null,
+      "first_graduate": null,
+      "streams": null
+    },
+    "documents": [
+      "Aadhaar or mobile number"
+    ],
+    "how_to_apply": "Sign up on the Skill India Digital Hub website or app with your mobile number and start a course.",
+    "apply_url": "https://www.skillindiadigital.gov.in/",
+    "deadline_note": "Open all year",
+    "source_url": "https://www.skillindiadigital.gov.in/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "tn_7_5_govt_school_reservation",
+    "kind": "scheme",
+    "name": "Tamil Nadu 7.5% Reservation for Government School Students in Professional Courses",
+    "provider": "Government of Tamil Nadu",
+    "level": "state",
+    "benefit": "7.5% of seats in medical, dental, engineering, agriculture, veterinary, fisheries and law courses kept for government school students, and the government pays their tuition, hostel and counselling fees",
+    "summary": "For students who studied Class 6 to 12 in Tamil Nadu government schools. The 7.5% applies inside every category (horizontal reservation), so you still need to qualify (e.g. NEET for MBBS).",
+    "rules": {
+      "education_levels": [
+        "class12"
+      ],
+      "categories": null,
+      "max_family_income": null,
+      "min_marks_percent": null,
+      "gender": null,
+      "school_types": [
+        "government"
+      ],
+      "states": [
+        "Tamil Nadu"
+      ],
+      "min_age": null,
+      "max_age": null,
+      "disability": null,
+      "first_graduate": null,
+      "streams": null
+    },
+    "documents": [
+      "Certificate from headmaster that you studied Class 6-12 in government schools",
+      "Class 12 marksheet",
+      "Community certificate",
+      "NEET scorecard (for medical courses)"
+    ],
+    "how_to_apply": "Tick the 7.5% government school quota option when you apply for TNEA or medical counselling and upload your school study certificate.",
+    "apply_url": "https://www.tneaonline.org/",
+    "deadline_note": "During counselling applications (May-July)",
+    "source_url": "https://www.tn.gov.in/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "naan_mudhalvan",
+    "kind": "scheme",
+    "name": "Naan Mudhalvan",
+    "provider": "Tamil Nadu Skill Development Corporation, Government of Tamil Nadu",
+    "level": "state",
+    "benefit": "Free industry skill courses, career guidance and competitive-exam coaching",
+    "summary": "Tamil Nadu programme for school students (career guidance from Class 9) and college, polytechnic and ITI students (skill courses with companies, built into the semester).",
+    "rules": {
+      "education_levels": [
+        "class9",
+        "class10",
+        "class11",
+        "class12",
+        "iti",
+        "diploma",
+        "ug",
+        "pg"
+      ],
+      "categories": null,
+      "max_family_income": null,
+      "min_marks_percent": null,
+      "gender": null,
+      "school_types": null,
+      "states": [
+        "Tamil Nadu"
+      ],
+      "min_age": null,
+      "max_age": null,
+      "disability": null,
+      "first_graduate": null,
+      "streams": null
+    },
+    "documents": [
+      "College or school ID",
+      "Aadhaar card"
+    ],
+    "how_to_apply": "Register on the Naan Mudhalvan portal with your college or school details and choose the courses offered to you.",
+    "apply_url": "https://www.naanmudhalvan.tn.gov.in/",
+    "deadline_note": "Courses offered every semester",
+    "source_url": "https://www.naanmudhalvan.tn.gov.in/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "tnsdc_skill_training",
+    "kind": "scheme",
+    "name": "TNSDC Skill Training Programmes",
+    "provider": "Tamil Nadu Skill Development Corporation, Government of Tamil Nadu",
+    "level": "state",
+    "benefit": "Free short-term skill training with certification and placement support at centres in every district",
+    "summary": "Tamil Nadu skill training for unemployed youth (usually 18 and above) in trades such as electrician, welding, tailoring, healthcare, retail and IT.",
+    "rules": {
+      "education_levels": null,
+      "categories": null,
+      "max_family_income": null,
+      "min_marks_percent": null,
+      "gender": null,
+      "school_types": null,
+      "states": [
+        "Tamil Nadu"
+      ],
+      "min_age": 18,
+      "max_age": null,
+      "disability": null,
+      "first_graduate": null,
+      "streams": null
+    },
+    "documents": [
+      "Aadhaar card",
+      "Bank account passbook",
+      "Passport-size photo",
+      "Marksheets (if any)"
+    ],
+    "how_to_apply": "Visit your District Skill Training office or register on the TNSDC website to find a course near you.",
+    "apply_url": "https://www.tnsdc.in/",
+    "deadline_note": "Batches run all year",
+    "source_url": "https://www.tnsdc.in/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "tn_needs",
+    "kind": "scheme",
+    "name": "New Entrepreneur-cum-Enterprise Development Scheme (NEEDS)",
+    "provider": "MSME Department, Government of Tamil Nadu",
+    "level": "state",
+    "benefit": "25% capital subsidy on project cost (cap raised over the years; latest notices mention up to Rs 75 lakh) and 3% interest subvention for projects of Rs 10 lakh and above; extra subsidy for SC/ST and differently-abled (verify on portal)",
+    "summary": "For first-generation entrepreneurs in Tamil Nadu with a degree, diploma or ITI, aged 21 to 35 (up to 45 for women, SC/ST, BC/MBC, minorities, ex-servicemen, transgender and differently-abled), living in Tamil Nadu for 3+ years. Includes free entrepreneurship training.",
+    "rules": {
+      "education_levels": [
+        "iti",
+        "diploma",
+        "ug",
+        "pg"
+      ],
+      "categories": null,
+      "max_family_income": null,
+      "min_marks_percent": null,
+      "gender": null,
+      "school_types": null,
+      "states": [
+        "Tamil Nadu"
+      ],
+      "min_age": 21,
+      "max_age": 45,
+      "disability": null,
+      "first_graduate": null,
+      "streams": null
+    },
+    "documents": [
+      "Aadhaar card",
+      "Bank account passbook",
+      "Passport-size photo",
+      "Degree / diploma / ITI certificate",
+      "Community certificate",
+      "Project report",
+      "Residence proof (3 years in Tamil Nadu)"
+    ],
+    "how_to_apply": "Apply online on the Tamil Nadu MSME portal; the District Industries Centre calls you for an interview and training.",
+    "apply_url": "https://www.msmeonline.tn.gov.in/",
+    "deadline_note": "Applications open all year",
+    "source_url": "https://www.msmeonline.tn.gov.in/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "tn_uyegp",
+    "kind": "scheme",
+    "name": "Unemployed Youth Employment Generation Programme (UYEGP)",
+    "provider": "MSME Department, Government of Tamil Nadu",
+    "level": "state",
+    "benefit": "25% subsidy on project cost (up to Rs 3.75 lakh) on a bank loan for a small business (verify on portal)",
+    "summary": "For unemployed youth in Tamil Nadu aged 18 to 45 (up to 55 for special categories) who passed Class 8, with family income up to Rs 5 lakh a year, to start a small manufacturing, service or business unit.",
+    "rules": {
+      "education_levels": null,
+      "categories": null,
+      "max_family_income": 500000,
+      "min_marks_percent": null,
+      "gender": null,
+      "school_types": null,
+      "states": [
+        "Tamil Nadu"
+      ],
+      "min_age": 18,
+      "max_age": 45,
+      "disability": null,
+      "first_graduate": null,
+      "streams": null
+    },
+    "documents": [
+      "Aadhaar card",
+      "Bank account passbook",
+      "Passport-size photo",
+      "Income certificate (from Tahsildar)",
+      "Class 8 or higher marksheet",
+      "Community certificate",
+      "Project report"
+    ],
+    "how_to_apply": "Apply online on the Tamil Nadu MSME portal; the District Industries Centre recommends your loan to a bank.",
+    "apply_url": "https://www.msmeonline.tn.gov.in/",
+    "deadline_note": "Applications open all year",
+    "source_url": "https://www.msmeonline.tn.gov.in/",
+    "last_verified": "2026-10-18"
+  },
+  {
+    "id": "tn_aabcs",
+    "kind": "scheme",
+    "name": "Annal Ambedkar Business Champions Scheme (AABCS)",
+    "provider": "MSME Department, Government of Tamil Nadu",
+    "level": "state",
+    "benefit": "35% capital subsidy (up to Rs 1.5 crore) and 6% interest subvention on business loans (verify on portal)",
+    "summary": "For SC and ST entrepreneurs in Tamil Nadu starting or expanding a manufacturing, service or trading business. No minimum education.",
+    "rules": {
+      "education_levels": null,
+      "categories": [
+        "sc",
+        "st"
+      ],
+      "max_family_income": null,
+      "min_marks_percent": null,
+      "gender": null,
+      "school_types": null,
+      "states": [
+        "Tamil Nadu"
+      ],
+      "min_age": 18,
+      "max_age": null,
+      "disability": null,
+      "first_graduate": null,
+      "streams": null
+    },
+    "documents": [
+      "Aadhaar card",
+      "Bank account passbook",
+      "Passport-size photo",
+      "Community certificate",
+      "Project report",
+      "Residence proof"
+    ],
+    "how_to_apply": "Apply online on the Tamil Nadu MSME portal; the District Industries Centre helps you get the bank loan.",
+    "apply_url": "https://www.msmeonline.tn.gov.in/",
+    "deadline_note": "Applications open all year",
+    "source_url": "https://www.msmeonline.tn.gov.in/",
+    "last_verified": "2026-10-18"
+  }
+]
