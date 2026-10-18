@@ -24,6 +24,10 @@ MASKABLE = (f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><rec
 
 def main() -> None:
     (ICONS / "icon.svg").write_text(ROUNDED + "\n")
+    # New file names for the tab icon, because browsers cache favicons by URL for a long time.
+    (ICONS / "thiran-logo.svg").write_text(ROUNDED + "\n")
+    cairosvg.svg2png(bytestring=ROUNDED.encode(), write_to=str(ICONS / "thiran-logo-32.png"),
+                     output_width=32, output_height=32)
     for size in (192, 512):
         cairosvg.svg2png(bytestring=ROUNDED.encode(), write_to=str(ICONS / f"icon-{size}.png"),
                          output_width=size, output_height=size)

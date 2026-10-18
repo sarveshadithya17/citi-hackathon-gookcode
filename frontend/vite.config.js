@@ -9,7 +9,7 @@ export default defineConfig({
     react(),
     VitePWA({
       registerType: 'autoUpdate',
-      includeAssets: ['icons/icon.svg', 'locales/*.json'],
+      includeAssets: ['icons/thiran-logo.svg', 'icons/thiran-logo-32.png', 'locales/*.json'],
       manifest: {
         name: 'Thiran - career companion',
         short_name: 'Thiran',
