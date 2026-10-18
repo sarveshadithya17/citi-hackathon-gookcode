@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { Async, ErrorView, Loading, PassportCard } from '../components/ui.jsx';
+import { Async, ErrorView, Loading, Logo, PassportCard } from '../components/ui.jsx';
 import { toast, useApi, useStudentPath } from '../lib/app-state.js';
 import { t } from '../lib/i18n.js';
 
@@ -46,7 +46,7 @@ export function PublicPassport({ slug }) {
   }, [slug]);
   return (
     <>
-      <header className="topbar"><a className="logo" href="/" style={{ color: 'inherit', textDecoration: 'none' }}>திறன் <small>Thiran · Talent Passport</small></a></header>
+      <header className="topbar"><a className="logo" href="/" style={{ color: 'inherit', textDecoration: 'none' }}><Logo /> Thiran <small>Talent Passport</small></a></header>
       <main>
         {err ? <ErrorView error={err} /> : !d ? <Loading /> : (
           <>

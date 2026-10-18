@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { post } from '../lib/api.js';
 import { toast, useApp } from '../lib/app-state.js';
 import { LANGS, t, useLang } from '../lib/i18n.js';
+import Tour from '../components/Tour.jsx';
 
 const DEMOS = [
   ['9000000001', '🧑‍🎓', 'Meena S', 'Student, Class 11 (profile done)'],
@@ -36,10 +37,10 @@ export default function Login() {
       <h1>{t('login.title', 'Find what you are good at. Build it. Earn from it.')}</h1>
       <p className="muted">{t('login.sub', 'Talk to Thiran in your language. It is free for students.')}</p>
       <h2>{t('login.lang', 'Choose your language')}</h2>
-      <div className="langs">
+      <div className="langs" data-tour="langs">
         {LANGS.map((l) => <button key={l.code} className={`lang ${l.code === lang ? 'on' : ''}`} onClick={() => setLang(l.code)}>{l.name}</button>)}
       </div>
-      <div className="card" style={{ marginTop: 16 }}>
+      <div className="card" style={{ marginTop: 16 }} data-tour="login-form">
         <form onSubmit={submit}>
           <label className="field"><span>📱 {t('login.phone', 'Phone number')}</span>
             <input className="input" value={f.phone} onChange={set('phone')} inputMode="numeric" pattern="\d{10}" maxLength={10} required autoComplete="tel" /></label>
@@ -65,7 +66,7 @@ export default function Login() {
         </form>
       </div>
       <h2>{t('login.demo', 'Demo accounts')} <span className="pill">PIN 1234</span></h2>
-      <div className="demo-list">
+      <div className="demo-list" data-tour="demo">
         {DEMOS.map(([ph, ic, n, d]) => (
           <button key={ph} className="card row" onClick={() => demo(ph)} style={{ cursor: 'pointer', width: '100%' }}>
             <span style={{ fontSize: 26 }}>{ic}</span>
@@ -73,6 +74,14 @@ export default function Login() {
           </button>
         ))}
       </div>
+      <Tour id="login" steps={[
+        { icon: '👋', title: t('tour.l0.t', 'Welcome to Thiran'), body: t('tour.l0.b', 'Thiran helps students find what they are good at, plan how to grow it, and reach scholarships, apprenticeships and jobs. Let me show you around. It takes 30 seconds.') },
+        { sel: '[data-tour="lang-switch"]', icon: '🌐', title: t('tour.l1.t', 'Your language, anytime'), body: t('tour.l1.b', 'Thiran works in English, Tamil and Hindi. Switch here on any screen, and the text and voice change with it.') },
+        { sel: '[data-tour="langs"]', icon: '🗣️', title: t('tour.l2.t', 'Or tap a big button'), body: t('tour.l2.b', 'Large buttons make it easy to pick a language, even for first-time phone users.') },
+        { sel: '[data-tour="login-form"]', icon: '📱', title: t('tour.l3.t', 'Phone number and PIN'), body: t('tour.l3.b', 'No email needed. Students, teachers and employers all log in here. New here? Tap "Create an account".') },
+        { sel: '[data-tour="demo"]', icon: '🎬', title: t('tour.l4.t', 'Try a demo account'), body: t('tour.l4.b', 'Explore Thiran as a student, a teacher or an employer with one tap. The PIN is 1234.') },
+        { sel: '[data-tour="help"]', icon: '❔', title: t('tour.l5.t', 'Help is always here'), body: t('tour.l5.b', 'Tap ? on any main screen to see this guide again.') },
+      ]} />
     </>
   );
 }

@@ -4,9 +4,10 @@ import { Async, PassportCard, Progress, Stat, Tabs } from '../components/ui.jsx'
 import { get, post } from '../lib/api.js';
 import { toast, useApi, useApp } from '../lib/app-state.js';
 import { eduLabel, inr, t } from '../lib/i18n.js';
+import Tour from '../components/Tour.jsx';
 
 function ETabs() {
-  return <Tabs items={[['/e', `📋 ${t('e.listings', 'My listings')}`], ['/e/talent', `🔎 ${t('e.talent', 'Find talent')}`], ['/e/post', `＋ ${t('e.post', 'Post')}`], ['/e/impact', `📊 ${t('e.impact', 'Impact')}`]]} />;
+  return <Tabs items={[['/e', `📋 ${t('e.listings', 'My listings')}`, 'e-listings'], ['/e/talent', `🔎 ${t('e.talent', 'Find talent')}`, 'e-talent'], ['/e/post', `＋ ${t('e.post', 'Post')}`, 'e-post'], ['/e/impact', `📊 ${t('e.impact', 'Impact')}`, 'e-impact']]} />;
 }
 
 function useCareers() {
@@ -45,6 +46,14 @@ export function EmployerListings() {
           </div>
         )))}
       </Async>
+      <Tour id="employer" steps={[
+        { icon: '🏢', title: t('tour.e0.t', 'Find verified rural talent'), body: t('tour.e0.b', 'Post opportunities and meet students whose skills are endorsed by their teachers.') },
+        { sel: '[data-tour="e-listings"]', icon: '📋', title: t('tour.e1.t', 'Your listings'), body: t('tour.e1.b', 'See who applied, who was recommended by a teacher, and the students Thiran suggests for each listing.') },
+        { sel: '[data-tour="e-talent"]', icon: '🔎', title: t('tour.e2.t', 'Search talent'), body: t('tour.e2.b', 'Filter by district, skill and career goal. Unlock a Talent Passport to see endorsements and badges.') },
+        { sel: '[data-tour="e-post"]', icon: '＋', title: t('tour.e3.t', 'Post an opportunity'), body: t('tour.e3.b', 'Apprenticeships, internships, jobs or CSR scholarships. Matching students are found right away.') },
+        { sel: '[data-tour="e-impact"]', icon: '📊', title: t('tour.e4.t', 'Impact dashboard'), body: t('tour.e4.b', 'Students reached, applications and placements, ready for CSR reporting.') },
+        { sel: '[data-tour="help"]', icon: '🔒', title: t('tour.e5.t', 'Privacy by design'), body: t('tour.e5.b', 'You see first names only, and contact goes through the student’s teacher. Tap ? to see this tour again.') },
+      ]} />
     </>
   );
 }

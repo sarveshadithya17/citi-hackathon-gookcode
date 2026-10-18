@@ -1,12 +1,12 @@
 # Thiran: 3-minute demo script
 
-Setup: run `./run.sh` and open http://localhost:8000 on a phone, or in Chrome with the device toolbar set to a phone. Use Chrome so voice works. Start in **தமிழ்**. All demo PINs are **1234**.
+Setup: run `./run.sh` and open http://localhost:8000 on a phone, or in Chrome with the device toolbar set to a phone. Use Chrome so voice works. The app opens in English; switch to தமிழ் or हिन्दी with the 🌐 picker in the top bar. All demo PINs are **1234**.
 
 Before the demo, reset the data with `python -m backend.app.seed --reset`, then restart the server.
 
 | Time | Screen | What to do and say |
 |---|---|---|
-| 0:00 | Login | "Meena is in Class 11 in a village near Madurai. No one has ever asked her what she is good at." Tap the language buttons to show Tamil, Hindi and English. |
+| 0:00 | Login | "Meena is in Class 11 in a village near Madurai. No one has ever asked her what she is good at." On a first visit the guided tour points out each area; tap Next or Skip (or ? to replay). Switch to Tamil with 🌐. |
 | 0:15 | **Kavya → Discover** | Log in as *Kavya R*. Tap 🎤 and say "நான் பத்தாம் வகுப்பு படிக்கிறேன்" ("I study in Class 10"). Thiran answers in Tamil and reads it aloud. Tap two interest chips, then ✅. Point out that it works by voice or by tapping, so low literacy is not a barrier. |
 | 0:50 | **Meena → My careers** | Log out and log in as *Meena S*. The career list spans healthcare, agriculture, government, trades and teaching, each with a fit %, a "why it suits you" line in Tamil, salary and training time. Say: "Not just doctor or engineer." |
 | 1:10 | **Lab Technician → path** | Show the steps built only from real catalogue items, with official links (SWAYAM, TN paramedical admissions, NAPS). Tick a step to add a badge to the Talent Passport. Tap "Make this my goal". |

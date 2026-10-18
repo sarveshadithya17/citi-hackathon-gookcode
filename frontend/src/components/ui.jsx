@@ -2,6 +2,16 @@ import { NavLink } from 'react-router-dom';
 import { t, inr, useLang } from '../lib/i18n.js';
 import { speak } from '../lib/voice.js';
 
+export function Logo() {
+  return (
+    <svg className="logo-mark" viewBox="0 0 512 512" aria-hidden="true">
+      <rect width="512" height="512" rx="112" fill="rgba(255,255,255,.18)" />
+      <path d="M128 360 L208 280 L264 320 L384 168" fill="none" stroke="currentColor" strokeWidth="44" strokeLinecap="round" strokeLinejoin="round" />
+      <circle cx="384" cy="168" r="40" fill="#fb923c" />
+    </svg>
+  );
+}
+
 export function Say({ text, className = 'icon-btn' }) {
   const { lang } = useLang();
   const label = t('listen', 'Listen');
@@ -39,7 +49,7 @@ export function Stale({ data }) {
 export function Tabs({ items }) {
   return (
     <nav className="tabs">
-      {items.map(([to, label]) => <NavLink key={to} to={to} end className={({ isActive }) => (isActive ? 'on' : '')}>{label}</NavLink>)}
+      {items.map(([to, label, tour]) => <NavLink key={to} to={to} end data-tour={tour} className={({ isActive }) => (isActive ? 'on' : '')}>{label}</NavLink>)}
     </nav>
   );
 }

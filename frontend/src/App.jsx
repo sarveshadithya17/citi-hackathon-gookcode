@@ -4,6 +4,8 @@ import { get, post, setToken, sync, token, useNet } from './lib/api.js';
 import { AppContext, useApp, useToasts } from './lib/app-state.js';
 import { LANGS, LangContext, initialLang, loadLang, t, useLang } from './lib/i18n.js';
 import { kv } from './lib/store.js';
+import { Logo } from './components/ui.jsx';
+import { startTour, useTourAvailable } from './components/Tour.jsx';
 import { stopSpeaking } from './lib/voice.js';
 import Login from './views/Login.jsx';
 import StudentHome from './views/StudentHome.jsx';
@@ -22,18 +24,21 @@ function Topbar() {
   const { user, logout } = useApp();
   const { lang, setLang } = useLang();
   const net = useNet();
-  const next = () => {
-    const i = LANGS.findIndex((l) => l.code === lang);
-    setLang(LANGS[(i + 1) % LANGS.length].code);
-  };
+  const hasTour = useTourAvailable();
   return (
     <header className="topbar">
-      <Link className="logo" to="/" style={{ color: 'inherit', textDecoration: 'none' }}>திறன் <small>Thiran</small></Link>
+      <Link className="logo" to="/" style={{ color: 'inherit', textDecoration: 'none' }}><Logo /> Thiran</Link>
       <span className="spacer" />
       {!net.online && <span className="net off">📴 {t('offline.short', 'Offline')}</span>}
       {net.online && net.pending > 0 && <span className="net">⏫ {net.pending}</span>}
-      <button onClick={next} aria-label="Language">{LANGS.find((l) => l.code === lang)?.name}</button>
-      {user && <button onClick={logout} aria-label="Log out">⎋</button>}
+      <label className="lang-select" data-tour="lang-switch" title={t('lang.switch', 'Change language')}>
+        <span aria-hidden="true">🌐</span>
+        <select value={lang} onChange={(e) => setLang(e.target.value)} aria-label={t('lang.switch', 'Change language')}>
+          {LANGS.map((l) => <option key={l.code} value={l.code}>{l.name}</option>)}
+        </select>
+      </label>
+      {hasTour && <button onClick={startTour} aria-label={t('tour.help', 'Show me around')} title={t('tour.help', 'Show me around')} data-tour="help">?</button>}
+      {user && <button onClick={logout} aria-label={t('logout', 'Log out')} title={t('logout', 'Log out')} data-tour="logout">⎋</button>}
     </header>
   );
 }
@@ -154,7 +159,6 @@ export default function App() {
     login: async (res) => {
       setToken(res.token);
       await kv.set('me', res.user);
-      if (res.user.language && res.user.language !== lang) await langValue.setLang(res.user.language);
       setUserState(res.user);
     },
     logout: () => {
@@ -165,7 +169,7 @@ export default function App() {
     },
   }), [user, acting, lang, langValue]);
 
-  if (!booted) return <div className="topbar"><span className="logo">திறன் <small>Thiran</small></span></div>;
+  if (!booted) return <div className="topbar"><span className="logo"><Logo /> Thiran</span></div>;
 
   // Public Talent Passport link: /p/<slug>, no login.
   const slug = location.pathname.match(/^\/p\/([\w-]+)/)?.[1];

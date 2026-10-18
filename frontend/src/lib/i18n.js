@@ -6,9 +6,9 @@ let lang = 'en';
 let dict = {};
 
 export const LANGS = [
+  { code: 'en', name: 'English' },
   { code: 'ta', name: 'தமிழ்' },
   { code: 'hi', name: 'हिन्दी' },
-  { code: 'en', name: 'English' },
 ];
 
 export function getLang() { return lang; }
@@ -23,7 +23,8 @@ export async function loadLang(code) {
 }
 
 export function initialLang() {
-  try { return localStorage.getItem('thiran.lang') || 'ta'; } catch { return 'ta'; }
+  // English by default for everyone; a language the user picks is remembered on this phone.
+  try { return localStorage.getItem('thiran.lang') || 'en'; } catch { return 'en'; }
 }
 
 export function t(key, fallback, vars) {

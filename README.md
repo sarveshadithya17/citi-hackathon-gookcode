@@ -26,6 +26,7 @@ Teachers use **facilitator mode** to guide a whole class from one phone. Employe
 | 💸 | **Teacher module marketplace** | Teachers publish lessons as free, pay-per-module or subscription. There is a 10% platform fee, and CSR sponsors can make a module free. |
 | 🏢 | **Employer / CSR / NGO** | Post listings (a schema.org JobPosting-like API), get matched candidates, search endorsed talent (paid unlocks or the Talent Pro plan), contact students only through their teacher, and see a CSR impact dashboard. |
 | 📴 | **Offline-first** | An installable PWA. The app shell is cached by a service worker, screens are saved in IndexedDB (Dexie), and actions taken offline go into an outbox that syncs with idempotent ops when the phone reconnects. Discover switches to a scripted interview offline. |
+| 🧑‍🏫 | **First-visit guided tour** | The login, student, teacher and employer screens each walk new users through the key areas with a spotlight, and Next, Back and Skip buttons. Tap **?** to replay it. The app opens in English, and the 🌐 picker switches to Tamil or Hindi at any time. |
 | 🔊 | **Voice in and out** | Uses the browser's free speech APIs (ta-IN, hi-IN, en-IN on Android Chrome). Every answer can be read aloud. |
 
 ## Architecture

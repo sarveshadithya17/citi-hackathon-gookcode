@@ -4,9 +4,10 @@ import { Async, PassportCard, PriceTag, Progress, Say, Stat, Tabs } from '../com
 import { doOrQueue, post } from '../lib/api.js';
 import { toast, useApi, useApp } from '../lib/app-state.js';
 import { LANGS, eduLabel, inr, t, useLang } from '../lib/i18n.js';
+import Tour from '../components/Tour.jsx';
 
 function TTabs() {
-  return <Tabs items={[['/t', `👥 ${t('t.class', 'My class')}`], ['/t/modules', `📚 ${t('t.modules', 'My modules')}`], ['/t/requests', `📨 ${t('t.requests', 'Employer requests')}`]]} />;
+  return <Tabs items={[['/t', `👥 ${t('t.class', 'My class')}`, 't-class-tab'], ['/t/modules', `📚 ${t('t.modules', 'My modules')}`, 't-modules'], ['/t/requests', `📨 ${t('t.requests', 'Employer requests')}`, 't-requests']]} />;
 }
 
 const KIND_ICON = { cluster: '🔎', unapplied: '🎁', incomplete: '📝', no_goal: '🧭' };
@@ -23,13 +24,13 @@ export function TeacherHome() {
       <Async api={ins}>
         {(d) => (
           <>
-            <div className="stats">
+            <div className="stats" data-tour="t-stats">
               <Stat value={d.class_size} label={t('t.students', 'Students')} />
               <Stat value={d.totals.profiles_done} label={t('t.profiles', 'Profiles done')} />
               <Stat value={d.totals.goals_chosen} label={t('t.goals', 'Career goals chosen')} />
               <Stat value={d.totals.applications} label={t('t.apps', 'Applications')} />
             </div>
-            <h2>✨ {t('t.insights', 'This week')}</h2>
+            <h2 data-tour="t-insights">✨ {t('t.insights', 'This week')}</h2>
             {d.summary && <div className="card row" style={{ background: 'var(--brand-soft)' }}><p className="grow" style={{ margin: 0 }}>{d.summary}</p><Say text={d.summary} /></div>}
             {d.cards.map((c, i) => (
               <div className="card" key={i}>
@@ -42,8 +43,8 @@ export function TeacherHome() {
         )}
       </Async>
       <div className="row" style={{ marginTop: 20 }}>
-        <h2 className="grow" style={{ margin: 0 }}>👥 {t('t.class', 'My class')}</h2>
-        <Link className="btn small" to="/t/add">＋ {t('t.add', 'Add student')}</Link>
+        <h2 className="grow" style={{ margin: 0 }} data-tour="t-class">👥 {t('t.class', 'My class')}</h2>
+        <Link className="btn small" to="/t/add" data-tour="t-add">＋ {t('t.add', 'Add student')}</Link>
       </div>
       <p className="small muted">{t('t.shared', 'Students without a phone use Thiran on your phone: open a student and tap "Use Thiran for them".')}</p>
       <Async api={roster}>
@@ -62,6 +63,15 @@ export function TeacherHome() {
           </Link>
         ))}
       </Async>
+      <Tour id="teacher" steps={[
+        { icon: '👩‍🏫', title: t('tour.t0.t', 'Facilitator mode'), body: t('tour.t0.b', 'Guide your whole class from one phone: spot talent, endorse skills and connect students to opportunities.') },
+        { sel: '[data-tour="t-stats"]', icon: '📊', title: t('tour.t1.t', 'Your class at a glance'), body: t('tour.t1.b', 'How many students have finished their profile, chosen a career goal and applied for something.') },
+        { sel: '[data-tour="t-insights"]', icon: '✨', title: t('tour.t2.t', 'What to do this week'), body: t('tour.t2.b', 'AI suggestions from your class data, for example a student who is eligible for scholarships but has not applied.') },
+        { sel: '[data-tour="t-class"]', icon: '👥', title: t('tour.t3.t', 'Your students'), body: t('tour.t3.b', 'Tap a student to endorse a skill, recommend them for an opportunity, or use Thiran for them on your phone.') },
+        { sel: '[data-tour="t-add"]', icon: '＋', title: t('tour.t4.t', 'Add students without a phone'), body: t('tour.t4.b', 'One phone can serve many students. Add them here and switch between them with a tap.') },
+        { sel: '[data-tour="t-modules"]', icon: '📚', title: t('tour.t5.t', 'Teach and earn'), body: t('tour.t5.b', 'Publish your own lessons for free, per module or as a subscription.') },
+        { sel: '[data-tour="t-requests"]', icon: '🔒', title: t('tour.t6.t', 'You keep students safe'), body: t('tour.t6.b', 'Employers cannot contact students directly. Their requests come to you to accept or decline.') },
+      ]} />
     </>
   );
 }
@@ -147,7 +157,7 @@ export function TeacherStudent() {
 
 export function TeacherAdd() {
   const nav = useNavigate();
-  const [f, setF] = useState({ name: '', education_level: 'class9', language: 'ta', district: 'Madurai' });
+  const [f, setF] = useState({ name: '', education_level: 'class9', language: 'en', district: 'Madurai' });
   const set = (k) => (e) => setF({ ...f, [k]: e.target.value });
   const submit = async (e) => {
     e.preventDefault();
