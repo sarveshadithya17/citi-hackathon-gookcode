@@ -57,7 +57,7 @@ img, svg { max-width: 100%; }
   position: sticky; top: 0; z-index: 10; display: flex; align-items: center; gap: 10px;
   padding: 10px 16px; background: var(--brand); color: var(--brand-ink);
 }
-.topbar .logo { font-weight: 800; font-size: 20px; letter-spacing: .2px; display: flex; align-items: center; gap: 8px; }
+.topbar .logo { font-weight: 800; font-size: 27px; letter-spacing: .3px; line-height: 1; display: flex; align-items: center; gap: 8px; }
 .topbar .logo small { font-weight: 500; opacity: .85; font-size: 13px; }
 .topbar .spacer { flex: 1; }
 .topbar button {
@@ -230,8 +230,9 @@ th { font-size: 13px; color: var(--muted); font-weight: 600; }
 .composer-space { height: calc(34vh + 96px); }
 
 /* brand + language picker in the top bar */
-.logo-mark { width: 26px; height: 26px; flex: none; }
-.topbar .logo { gap: 8px; }
+.logo-mark { width: 34px; height: 34px; flex: none; }
+.topbar .logo { gap: 10px; }
+@media (max-width: 380px) { .topbar .logo { font-size: 23px; } .logo-mark { width: 30px; height: 30px; } }
 .lang-select {
   display: inline-flex; align-items: center; gap: 4px; background: rgba(255,255,255,.16); border-radius: 999px;
   padding: 0 4px 0 10px; min-height: 36px; cursor: pointer;
