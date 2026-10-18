@@ -2,12 +2,15 @@ import { NavLink } from 'react-router-dom';
 import { t, inr, useLang } from '../lib/i18n.js';
 import { speak } from '../lib/voice.js';
 
+// The "Voice Sprout" mark: a speech bubble with a seedling (talk to Thiran, grow your skills).
 export function Logo() {
   return (
-    <svg className="logo-mark" viewBox="0 0 512 512" aria-hidden="true">
-      <rect width="512" height="512" rx="112" fill="rgba(255,255,255,.18)" />
-      <path d="M128 360 L208 280 L264 320 L384 168" fill="none" stroke="currentColor" strokeWidth="44" strokeLinecap="round" strokeLinejoin="round" />
-      <circle cx="384" cy="168" r="40" fill="#fb923c" />
+    <svg className="logo-mark" viewBox="0 0 100 100" aria-hidden="true">
+      <rect x="1.5" y="1.5" width="97" height="97" rx="23" fill="#0f766e" stroke="rgba(255,255,255,.55)" strokeWidth="3" />
+      <path d="M24 20h52a10 10 0 0 1 10 10v30a10 10 0 0 1-10 10H46l-14 12V70h-8a10 10 0 0 1-10-10V30a10 10 0 0 1 10-10z" fill="#fdf3e3" />
+      <path d="M50 62V44" fill="none" stroke="#0f766e" strokeWidth="5" strokeLinecap="round" />
+      <path d="M50 51c-10 0-16-6-16-15 10 0 16 6 16 15z" fill="#0f766e" />
+      <path d="M50 46c0-10 7-16 17-16 0 10-7 16-17 16z" fill="#fb923c" />
     </svg>
   );
 }
