@@ -7,7 +7,7 @@ from pydantic import BaseModel
 from sqlmodel import Session, select
 
 from ..ai import careers as careers_ai
-from ..ai import eligibility, matching, pathways, profiler
+from ..ai import eligibility, llm, matching, pathways, profiler
 from ..db import get_session
 from ..knowledge import kb
 from ..models import (Application, Badge, ChatMessage, Endorsement, Enrolment, Module, Opportunity,
@@ -351,6 +351,37 @@ def match_mentors(session: Session, p: dict, careers: list[str]) -> list[dict]:
                         "languages": mp.get("languages", []),
                         "careers": [matching.career_name(c) for c in shared], "score": score})
     return sorted(out, key=lambda x: -x["score"])[:3]
+
+
+class ExplainIn(BaseModel):
+    id: str
+    lang: str | None = None
+
+
+@router.post("/explain")
+def explain(body: ExplainIn, student: User = Depends(student_for), session: Session = Depends(get_session)):
+    """Explain a scholarship or scheme simply, in the student's language, using only the record's own facts."""
+    rec = kb().scholarships_by_id.get(body.id) or kb().schemes_by_id.get(body.id)
+    if not rec:
+        raise HTTPException(404, "Scheme not found")
+    lang = lang_of(student, body.lang)
+    p = profile_dict(get_profile(session, student))
+    res = eligibility.check(rec, p, lang)
+    facts = {k: rec.get(k) for k in ("name", "provider", "benefit", "summary", "documents", "how_to_apply",
+                                       "deadline_note")}
+    text = llm.chat([
+        {"role": "system", "content": (
+            "Explain this scholarship or scheme to a rural student in 3 or 4 short spoken sentences: what they get, "
+            "why they qualify (use the reasons given), and the first thing to do to apply. Use ONLY the facts "
+            "given; if something is not in the facts, do not say it. No lists, no markdown. "
+            + llm.lang_instruction(lang))},
+        {"role": "user", "content": json.dumps({"facts": facts, "reasons": res["reasons"],
+                                                "still_to_check": res["missing"] + res["conditions"]},
+                                               ensure_ascii=False)},
+    ], temperature=0.2, max_tokens=500)
+    if not text:
+        text = ". ".join(x for x in [rec["name"], rec.get("benefit"), rec.get("how_to_apply")] if x)
+    return {"text": text.strip(), "ai": text is not None}
 
 
 class ApplyIn(BaseModel):

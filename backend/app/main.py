@@ -45,14 +45,14 @@ for r in (auth.router, meta.router, students.router, teacher.router, modules.rou
 
 @app.get("/p/{slug}", include_in_schema=False)
 def passport_page(slug: str):
-    return FileResponse(FRONTEND_DIR / "passport.html")
+    # The React app renders the public passport when the path starts with /p/.
+    return FileResponse(FRONTEND_DIR / "index.html")
 
 
-@app.get("/sw.js", include_in_schema=False)
-def service_worker():
-    # Served from the root so its scope covers the whole app.
-    return FileResponse(FRONTEND_DIR / "sw.js", media_type="application/javascript",
-                        headers={"Cache-Control": "no-cache"})
-
-
-app.mount("/", StaticFiles(directory=FRONTEND_DIR, html=True), name="frontend")
+if (FRONTEND_DIR / "index.html").exists():
+    app.mount("/", StaticFiles(directory=FRONTEND_DIR, html=True), name="frontend")
+else:
+    @app.get("/", include_in_schema=False)
+    def no_frontend():
+        return {"message": "API is running. Build the web app with: cd frontend && npm install && npm run build",
+                "docs": "/docs"}

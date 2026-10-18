@@ -226,3 +226,5 @@ th { font-size: 13px; color: var(--muted); font-weight: 600; }
 @keyframes spin { to { transform: rotate(360deg); } }
 @media (min-width: 640px) { .tiles { grid-template-columns: repeat(3, 1fr); } .tile.primary { grid-column: span 3; } }
 @media (max-width: 380px) { body { font-size: 16px; } .tile { min-height: 116px; } }
+.composer .chips { max-height: 34vh; overflow-y: auto; padding-bottom: 2px; }
+.composer-space { height: calc(34vh + 96px); }

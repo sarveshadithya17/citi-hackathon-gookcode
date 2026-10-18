@@ -2,14 +2,18 @@
 // GET responses are cached in IndexedDB (and by the service worker), so screens
 // the student has opened before still work without a network. Actions taken
 // offline go into an outbox and are sent to /api/v1/sync when the phone reconnects.
+import { useSyncExternalStore } from 'react';
 import { kv, outbox, uid } from './store.js';
 
 const BASE = '/api/v1';
 const listeners = new Set();
-export const net = { online: navigator.onLine, pending: 0 };
+let net = { online: navigator.onLine, pending: 0 };
 
-export function onNet(fn) { listeners.add(fn); }
-function emit() { for (const fn of listeners) fn(net); }
+export function onNet(fn) { listeners.add(fn); return () => listeners.delete(fn); }
+function emit() { net = { ...net }; for (const fn of listeners) fn(net); }
+export const getNet = () => net;
+// React hook: { online, pending } that re-renders when connectivity or the outbox changes.
+export const useNet = () => useSyncExternalStore(onNet, getNet);
 
 export function token() { try { return localStorage.getItem('thiran.token'); } catch { return null; } }
 export function setToken(t) { try { t ? localStorage.setItem('thiran.token', t) : localStorage.removeItem('thiran.token'); } catch {} }
@@ -32,6 +36,7 @@ async function raw(method, path, body) {
 }
 
 function setOnline(v) { if (net.online !== v) { net.online = v; emit(); } }
+function setPending(n) { net.pending = n; emit(); }
 
 export async function get(path, { cache = true } = {}) {
   try {
@@ -67,8 +72,7 @@ export const patch = (path, body) => post(path, body, 'PATCH');
 export async function queue(kind, studentId, payload) {
   const op = { op_id: uid(), kind, student_id: studentId || null, ts: Date.now() / 1000, payload };
   await outbox.add(op);
-  net.pending = (await outbox.all()).length;
-  emit();
+  setPending((await outbox.all()).length);
   sync();
   return op;
 }
@@ -88,8 +92,7 @@ let syncing = false;
 export async function sync() {
   if (syncing || !token()) return;
   const ops = await outbox.all();
-  net.pending = ops.length;
-  if (!ops.length) { emit(); return; }
+  if (!ops.length) { if (net.pending) setPending(0); return; }
   syncing = true;
   try {
     const res = await raw('POST', '/sync', { ops });
@@ -97,8 +100,7 @@ export async function sync() {
     setOnline(true);
   } catch { setOnline(false); }
   syncing = false;
-  net.pending = (await outbox.all()).length;
-  emit();
+  setPending((await outbox.all()).length);
 }
 
 window.addEventListener('online', () => { setOnline(true); sync(); });

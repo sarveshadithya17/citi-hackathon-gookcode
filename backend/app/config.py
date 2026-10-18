@@ -8,7 +8,8 @@ ROOT = Path(__file__).resolve().parents[2]
 load_dotenv(ROOT / ".env")
 
 DATA_DIR = Path(os.getenv("THIRAN_DATA_DIR", ROOT / "data"))
-FRONTEND_DIR = Path(os.getenv("THIRAN_FRONTEND_DIR", ROOT / "frontend"))
+# The built React app (cd frontend && npm run build).
+FRONTEND_DIR = Path(os.getenv("THIRAN_FRONTEND_DIR", ROOT / "frontend" / "dist"))
 DATABASE_URL = os.getenv("DATABASE_URL", f"sqlite:///{ROOT / 'backend' / 'thiran.db'}")
 
 SECRET_KEY = os.getenv("SECRET_KEY", "dev-only-change-me")

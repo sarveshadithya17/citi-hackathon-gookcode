@@ -11,7 +11,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 from backend.app.ai import llm  # noqa: E402
 
 ROOT = Path(__file__).resolve().parent.parent
-LOCALES = ROOT / "frontend" / "locales"
+LOCALES = ROOT / "frontend" / "public" / "locales"
 NAMES = {"ta": "Tamil", "hi": "Hindi"}
 
 

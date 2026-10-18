@@ -9,150 +9,1112 @@
     "ta": "நன்றி! இப்போது உங்களை நன்றாகத் தெரிந்துகொண்டேன். உங்களுக்குப் பொருத்தமான வேலைகளைப் பார்க்க 'என் தொழில்கள்' என்பதைத் தொடவும்.",
     "hi": "धन्यवाद! अब मैं आपको बेहतर जानता हूँ। आपके लिए सही काम देखने के लिए 'मेरे करियर' पर टैप करें।"
   },
-  "required": ["education_level", "interests", "work_styles"],
+  "required": [
+    "education_level",
+    "interests",
+    "work_styles"
+  ],
   "questions": [
     {
-      "id": "name", "field": "name", "type": "text",
-      "text": {"en": "What is your name?", "ta": "உங்கள் பெயர் என்ன?", "hi": "आपका नाम क्या है?"}
+      "id": "name",
+      "field": "name",
+      "type": "text",
+      "text": {
+        "en": "What is your name?",
+        "ta": "உங்கள் பெயர் என்ன?",
+        "hi": "आपका नाम क्या है?"
+      }
     },
     {
-      "id": "education", "field": "education_level", "type": "choice",
-      "text": {"en": "Which class are you studying in now?", "ta": "நீங்கள் இப்போது எந்த வகுப்பில் படிக்கிறீர்கள்?", "hi": "आप अभी किस कक्षा में पढ़ रहे हैं?"},
+      "id": "education",
+      "field": "education_level",
+      "type": "choice",
+      "text": {
+        "en": "Which class are you studying in now?",
+        "ta": "நீங்கள் இப்போது எந்த வகுப்பில் படிக்கிறீர்கள்?",
+        "hi": "आप अभी किस कक्षा में पढ़ रहे हैं?"
+      },
       "options": [
-        {"value": "class9", "icon": "9", "label": {"en": "Class 9", "ta": "9ஆம் வகுப்பு", "hi": "कक्षा 9"}, "keywords": ["9", "ninth", "ஒன்பது", "नौ", "नौवीं"]},
-        {"value": "class10", "icon": "10", "label": {"en": "Class 10", "ta": "10ஆம் வகுப்பு", "hi": "कक्षा 10"}, "keywords": ["10", "tenth", "பத்து", "दस", "दसवीं"]},
-        {"value": "class11", "icon": "11", "label": {"en": "Class 11", "ta": "11ஆம் வகுப்பு", "hi": "कक्षा 11"}, "keywords": ["11", "eleventh", "பதினொன்று", "ग्यारह", "ग्यारहवीं", "plus one"]},
-        {"value": "class12", "icon": "12", "label": {"en": "Class 12", "ta": "12ஆம் வகுப்பு", "hi": "कक्षा 12"}, "keywords": ["12", "twelfth", "பன்னிரண்டு", "बारह", "बारहवीं", "plus two"]},
-        {"value": "iti", "icon": "🔧", "label": {"en": "ITI", "ta": "ஐடிஐ", "hi": "आईटीआई"}, "keywords": ["iti", "ஐடிஐ", "आईटीआई"]},
-        {"value": "diploma", "icon": "📜", "label": {"en": "Diploma / Polytechnic", "ta": "டிப்ளமோ / பாலிடெக்னிக்", "hi": "डिप्लोमा / पॉलिटेक्निक"}, "keywords": ["diploma", "polytechnic", "டிப்ளமோ", "डिप्लोमा"]},
-        {"value": "ug", "icon": "🎓", "label": {"en": "College (degree)", "ta": "கல்லூரி (பட்டம்)", "hi": "कॉलेज (डिग्री)"}, "keywords": ["college", "degree", "bsc", "ba", "bcom", "கல்லூரி", "कॉलेज"]}
+        {
+          "value": "class9",
+          "icon": "🏫",
+          "label": {
+            "en": "Class 9",
+            "ta": "9ஆம் வகுப்பு",
+            "hi": "कक्षा 9"
+          },
+          "keywords": [
+            "9",
+            "ninth",
+            "ஒன்பது",
+            "नौ",
+            "नौवीं"
+          ]
+        },
+        {
+          "value": "class10",
+          "icon": "🏫",
+          "label": {
+            "en": "Class 10",
+            "ta": "10ஆம் வகுப்பு",
+            "hi": "कक्षा 10"
+          },
+          "keywords": [
+            "10",
+            "tenth",
+            "பத்து",
+            "दस",
+            "दसवीं"
+          ]
+        },
+        {
+          "value": "class11",
+          "icon": "🏫",
+          "label": {
+            "en": "Class 11",
+            "ta": "11ஆம் வகுப்பு",
+            "hi": "कक्षा 11"
+          },
+          "keywords": [
+            "11",
+            "eleventh",
+            "பதினொன்று",
+            "ग्यारह",
+            "ग्यारहवीं",
+            "plus one"
+          ]
+        },
+        {
+          "value": "class12",
+          "icon": "🏫",
+          "label": {
+            "en": "Class 12",
+            "ta": "12ஆம் வகுப்பு",
+            "hi": "कक्षा 12"
+          },
+          "keywords": [
+            "12",
+            "twelfth",
+            "பன்னிரண்டு",
+            "बारह",
+            "बारहवीं",
+            "plus two"
+          ]
+        },
+        {
+          "value": "iti",
+          "icon": "🔧",
+          "label": {
+            "en": "ITI",
+            "ta": "ஐடிஐ",
+            "hi": "आईटीआई"
+          },
+          "keywords": [
+            "iti",
+            "ஐடிஐ",
+            "आईटीआई"
+          ]
+        },
+        {
+          "value": "diploma",
+          "icon": "📜",
+          "label": {
+            "en": "Diploma / Polytechnic",
+            "ta": "டிப்ளமோ / பாலிடெக்னிக்",
+            "hi": "डिप्लोमा / पॉलिटेक्निक"
+          },
+          "keywords": [
+            "diploma",
+            "polytechnic",
+            "டிப்ளமோ",
+            "डिप्लोमा"
+          ]
+        },
+        {
+          "value": "ug",
+          "icon": "🎓",
+          "label": {
+            "en": "College (degree)",
+            "ta": "கல்லூரி (பட்டம்)",
+            "hi": "कॉलेज (डिग्री)"
+          },
+          "keywords": [
+            "college",
+            "degree",
+            "bsc",
+            "ba",
+            "bcom",
+            "கல்லூரி",
+            "कॉलेज"
+          ]
+        }
       ]
     },
     {
-      "id": "stream", "field": "stream", "type": "choice",
-      "ask_if": {"education_level": ["class11", "class12", "ug"]},
-      "text": {"en": "Which group or subjects did you take?", "ta": "நீங்கள் எந்த குரூப் அல்லது பாடங்களை எடுத்தீர்கள்?", "hi": "आपने कौन-सा विषय समूह लिया है?"},
+      "id": "stream",
+      "field": "stream",
+      "type": "choice",
+      "ask_if": {
+        "education_level": [
+          "class11",
+          "class12",
+          "ug"
+        ]
+      },
+      "text": {
+        "en": "Which group or subjects did you take?",
+        "ta": "நீங்கள் எந்த குரூப் அல்லது பாடங்களை எடுத்தீர்கள்?",
+        "hi": "आपने कौन-सा विषय समूह लिया है?"
+      },
       "options": [
-        {"value": "science_bio", "icon": "🧬", "label": {"en": "Science with Biology", "ta": "உயிரியல் அறிவியல்", "hi": "जीव विज्ञान के साथ साइंस"}, "keywords": ["biology", "bio", "உயிரியல்", "बायो", "जीव"]},
-        {"value": "science_maths", "icon": "📐", "label": {"en": "Science with Maths", "ta": "கணித அறிவியல்", "hi": "गणित के साथ साइंस"}, "keywords": ["maths", "computer science", "கணிதம்", "गणित"]},
-        {"value": "commerce", "icon": "💰", "label": {"en": "Commerce", "ta": "வணிகவியல்", "hi": "कॉमर्स"}, "keywords": ["commerce", "accounts", "வணிக", "कॉमर्स"]},
-        {"value": "arts", "icon": "📚", "label": {"en": "Arts / Humanities", "ta": "கலை", "hi": "आर्ट्स"}, "keywords": ["arts", "history", "கலை", "आर्ट्स", "कला"]},
-        {"value": "vocational", "icon": "🛠️", "label": {"en": "Vocational", "ta": "தொழிற்கல்வி", "hi": "व्यावसायिक"}, "keywords": ["vocational", "தொழிற்கல்வி", "व्यावसायिक"]}
+        {
+          "value": "science_bio",
+          "icon": "🧬",
+          "label": {
+            "en": "Science with Biology",
+            "ta": "உயிரியல் அறிவியல்",
+            "hi": "जीव विज्ञान के साथ साइंस"
+          },
+          "keywords": [
+            "biology",
+            "bio",
+            "உயிரியல்",
+            "बायो",
+            "जीव"
+          ]
+        },
+        {
+          "value": "science_maths",
+          "icon": "📐",
+          "label": {
+            "en": "Science with Maths",
+            "ta": "கணித அறிவியல்",
+            "hi": "गणित के साथ साइंस"
+          },
+          "keywords": [
+            "maths",
+            "computer science",
+            "கணிதம்",
+            "गणित"
+          ]
+        },
+        {
+          "value": "commerce",
+          "icon": "💰",
+          "label": {
+            "en": "Commerce",
+            "ta": "வணிகவியல்",
+            "hi": "कॉमर्स"
+          },
+          "keywords": [
+            "commerce",
+            "accounts",
+            "வணிக",
+            "कॉमर्स"
+          ]
+        },
+        {
+          "value": "arts",
+          "icon": "📚",
+          "label": {
+            "en": "Arts / Humanities",
+            "ta": "கலை",
+            "hi": "आर्ट्स"
+          },
+          "keywords": [
+            "arts",
+            "history",
+            "கலை",
+            "आर्ट्स",
+            "कला"
+          ]
+        },
+        {
+          "value": "vocational",
+          "icon": "🛠️",
+          "label": {
+            "en": "Vocational",
+            "ta": "தொழிற்கல்வி",
+            "hi": "व्यावसायिक"
+          },
+          "keywords": [
+            "vocational",
+            "தொழிற்கல்வி",
+            "व्यावसायिक"
+          ]
+        }
       ]
     },
     {
-      "id": "interests", "field": "interests", "type": "multi",
-      "text": {"en": "What do you enjoy doing after school? Pick everything you like.", "ta": "பள்ளி முடிந்த பிறகு நீங்கள் எதைச் செய்ய விரும்புகிறீர்கள்? பிடித்த எல்லாவற்றையும் தேர்ந்தெடுங்கள்.", "hi": "स्कूल के बाद आपको क्या करना पसंद है? जो भी पसंद हो, सब चुनें।"},
+      "id": "interests",
+      "field": "interests",
+      "type": "multi",
+      "text": {
+        "en": "What do you enjoy doing after school? Pick everything you like.",
+        "ta": "பள்ளி முடிந்த பிறகு நீங்கள் எதைச் செய்ய விரும்புகிறீர்கள்? பிடித்த எல்லாவற்றையும் தேர்ந்தெடுங்கள்.",
+        "hi": "स्कूल के बाद आपको क्या करना पसंद है? जो भी पसंद हो, सब चुनें।"
+      },
       "options": [
-        {"value": "biology", "icon": "🌱", "label": {"en": "Plants and the human body", "ta": "தாவரங்கள், மனித உடல்", "hi": "पौधे और शरीर"}, "keywords": ["biology", "plants", "body", "உயிரியல்", "தாவர", "जीव", "पौधे"]},
-        {"value": "machines", "icon": "⚙️", "label": {"en": "Fixing machines", "ta": "இயந்திரங்களைச் சரிசெய்வது", "hi": "मशीनें ठीक करना"}, "keywords": ["machine", "repair", "fix", "இயந்திர", "சரிசெய்", "मशीन", "ठीक"]},
-        {"value": "electricity", "icon": "💡", "label": {"en": "Wires and electricity", "ta": "மின்சாரம், வயர்கள்", "hi": "बिजली और तार"}, "keywords": ["electric", "wire", "மின்", "बिजली"]},
-        {"value": "computers", "icon": "💻", "label": {"en": "Computers and phones", "ta": "கணினி, மொபைல்", "hi": "कंप्यूटर और फ़ोन"}, "keywords": ["computer", "phone", "mobile", "கணினி", "மொபைல்", "कंप्यूटर", "फ़ोन", "मोबाइल"]},
-        {"value": "drawing", "icon": "🎨", "label": {"en": "Drawing and design", "ta": "ஓவியம், வடிவமைப்பு", "hi": "ड्राइंग और डिज़ाइन"}, "keywords": ["draw", "design", "paint", "art", "ஓவிய", "வரை", "चित्र", "ड्राइंग"]},
-        {"value": "sewing", "icon": "🧵", "label": {"en": "Sewing and clothes", "ta": "தையல், உடைகள்", "hi": "सिलाई और कपड़े"}, "keywords": ["sew", "stitch", "tailor", "cloth", "தையல்", "सिलाई", "कपड़े"]},
-        {"value": "farming", "icon": "🌾", "label": {"en": "Farming and animals", "ta": "விவசாயம், கால்நடை", "hi": "खेती और पशु"}, "keywords": ["farm", "agri", "cow", "animal", "விவசாய", "மாடு", "खेती", "पशु"]},
-        {"value": "helping_people", "icon": "🤝", "label": {"en": "Helping and caring for people", "ta": "மக்களுக்கு உதவுவது", "hi": "लोगों की मदद करना"}, "keywords": ["help", "care", "nurse", "உதவ", "மருத்துவ", "मदद", "सेवा"]},
-        {"value": "teaching", "icon": "🧑‍🏫", "label": {"en": "Teaching others", "ta": "மற்றவர்களுக்குக் கற்பிப்பது", "hi": "दूसरों को पढ़ाना"}, "keywords": ["teach", "கற்பி", "ஆசிரியர்", "पढ़ा", "टीचर"]},
-        {"value": "business", "icon": "🏪", "label": {"en": "Buying and selling, business", "ta": "வியாபாரம்", "hi": "व्यापार, खरीद-बिक्री"}, "keywords": ["business", "shop", "sell", "வியாபார", "கடை", "व्यापार", "दुकान"]},
-        {"value": "cooking", "icon": "🍳", "label": {"en": "Cooking", "ta": "சமையல்", "hi": "खाना बनाना"}, "keywords": ["cook", "food", "சமை", "खाना", "रसोई"]},
-        {"value": "sports", "icon": "🏃", "label": {"en": "Sports and fitness", "ta": "விளையாட்டு", "hi": "खेल-कूद"}, "keywords": ["sport", "run", "cricket", "kabaddi", "விளையாட்டு", "खेल"]},
-        {"value": "music", "icon": "🎵", "label": {"en": "Music and dance", "ta": "இசை, நடனம்", "hi": "संगीत और नृत्य"}, "keywords": ["music", "song", "sing", "dance", "இசை", "பாட்டு", "நடன", "संगीत", "गाना", "नाच"]},
-        {"value": "maths", "icon": "🔢", "label": {"en": "Maths and numbers", "ta": "கணக்கு", "hi": "गणित"}, "keywords": ["math", "number", "calculation", "கணக்கு", "கணித", "गणित", "हिसाब"]},
-        {"value": "talking", "icon": "🗣️", "label": {"en": "Talking to people", "ta": "மக்களிடம் பேசுவது", "hi": "लोगों से बात करना"}, "keywords": ["talk", "speak", "பேச", "बात"]},
-        {"value": "vehicles", "icon": "🏍️", "label": {"en": "Bikes and vehicles", "ta": "பைக், வாகனங்கள்", "hi": "बाइक और गाड़ियाँ"}, "keywords": ["bike", "vehicle", "car", "வண்டி", "பைக்", "गाड़ी", "बाइक"]},
-        {"value": "uniform_service", "icon": "🎖️", "label": {"en": "Police, army, uniform jobs", "ta": "காவல், ராணுவம்", "hi": "पुलिस, सेना"}, "keywords": ["police", "army", "soldier", "காவல்", "ராணுவ", "पुलिस", "सेना", "फ़ौज"]},
-        {"value": "photography", "icon": "📷", "label": {"en": "Photos and videos", "ta": "புகைப்படம், வீடியோ", "hi": "फ़ोटो और वीडियो"}, "keywords": ["photo", "video", "camera", "புகைப்பட", "வீடியோ", "फ़ोटो", "वीडियो"]}
+        {
+          "value": "biology",
+          "icon": "🌱",
+          "label": {
+            "en": "Plants and the human body",
+            "ta": "தாவரங்கள், மனித உடல்",
+            "hi": "पौधे और शरीर"
+          },
+          "keywords": [
+            "biology",
+            "plants",
+            "body",
+            "உயிரியல்",
+            "தாவர",
+            "जीव",
+            "पौधे"
+          ]
+        },
+        {
+          "value": "machines",
+          "icon": "⚙️",
+          "label": {
+            "en": "Fixing machines",
+            "ta": "இயந்திரங்களைச் சரிசெய்வது",
+            "hi": "मशीनें ठीक करना"
+          },
+          "keywords": [
+            "machine",
+            "repair",
+            "fix",
+            "இயந்திர",
+            "சரிசெய்",
+            "मशीन",
+            "ठीक"
+          ]
+        },
+        {
+          "value": "electricity",
+          "icon": "💡",
+          "label": {
+            "en": "Wires and electricity",
+            "ta": "மின்சாரம், வயர்கள்",
+            "hi": "बिजली और तार"
+          },
+          "keywords": [
+            "electric",
+            "wire",
+            "மின்",
+            "बिजली"
+          ]
+        },
+        {
+          "value": "computers",
+          "icon": "💻",
+          "label": {
+            "en": "Computers and phones",
+            "ta": "கணினி, மொபைல்",
+            "hi": "कंप्यूटर और फ़ोन"
+          },
+          "keywords": [
+            "computer",
+            "phone",
+            "mobile",
+            "கணினி",
+            "மொபைல்",
+            "कंप्यूटर",
+            "फ़ोन",
+            "मोबाइल"
+          ]
+        },
+        {
+          "value": "drawing",
+          "icon": "🎨",
+          "label": {
+            "en": "Drawing and design",
+            "ta": "ஓவியம், வடிவமைப்பு",
+            "hi": "ड्राइंग और डिज़ाइन"
+          },
+          "keywords": [
+            "draw",
+            "design",
+            "paint",
+            "art",
+            "ஓவிய",
+            "வரை",
+            "चित्र",
+            "ड्राइंग"
+          ]
+        },
+        {
+          "value": "sewing",
+          "icon": "🧵",
+          "label": {
+            "en": "Sewing and clothes",
+            "ta": "தையல், உடைகள்",
+            "hi": "सिलाई और कपड़े"
+          },
+          "keywords": [
+            "sew",
+            "stitch",
+            "tailor",
+            "cloth",
+            "தையல்",
+            "सिलाई",
+            "कपड़े"
+          ]
+        },
+        {
+          "value": "farming",
+          "icon": "🌾",
+          "label": {
+            "en": "Farming and animals",
+            "ta": "விவசாயம், கால்நடை",
+            "hi": "खेती और पशु"
+          },
+          "keywords": [
+            "farm",
+            "agri",
+            "cow",
+            "animal",
+            "விவசாய",
+            "மாடு",
+            "खेती",
+            "पशु"
+          ]
+        },
+        {
+          "value": "helping_people",
+          "icon": "🤝",
+          "label": {
+            "en": "Helping and caring for people",
+            "ta": "மக்களுக்கு உதவுவது",
+            "hi": "लोगों की मदद करना"
+          },
+          "keywords": [
+            "help",
+            "care",
+            "nurse",
+            "உதவ",
+            "மருத்துவ",
+            "मदद",
+            "सेवा"
+          ]
+        },
+        {
+          "value": "teaching",
+          "icon": "🧑‍🏫",
+          "label": {
+            "en": "Teaching others",
+            "ta": "மற்றவர்களுக்குக் கற்பிப்பது",
+            "hi": "दूसरों को पढ़ाना"
+          },
+          "keywords": [
+            "teach",
+            "கற்பி",
+            "ஆசிரியர்",
+            "पढ़ा",
+            "टीचर"
+          ]
+        },
+        {
+          "value": "business",
+          "icon": "🏪",
+          "label": {
+            "en": "Buying and selling, business",
+            "ta": "வியாபாரம்",
+            "hi": "व्यापार, खरीद-बिक्री"
+          },
+          "keywords": [
+            "business",
+            "shop",
+            "sell",
+            "வியாபார",
+            "கடை",
+            "व्यापार",
+            "दुकान"
+          ]
+        },
+        {
+          "value": "cooking",
+          "icon": "🍳",
+          "label": {
+            "en": "Cooking",
+            "ta": "சமையல்",
+            "hi": "खाना बनाना"
+          },
+          "keywords": [
+            "cook",
+            "food",
+            "சமை",
+            "खाना",
+            "रसोई"
+          ]
+        },
+        {
+          "value": "sports",
+          "icon": "🏃",
+          "label": {
+            "en": "Sports and fitness",
+            "ta": "விளையாட்டு",
+            "hi": "खेल-कूद"
+          },
+          "keywords": [
+            "sport",
+            "run",
+            "cricket",
+            "kabaddi",
+            "விளையாட்டு",
+            "खेल"
+          ]
+        },
+        {
+          "value": "music",
+          "icon": "🎵",
+          "label": {
+            "en": "Music and dance",
+            "ta": "இசை, நடனம்",
+            "hi": "संगीत और नृत्य"
+          },
+          "keywords": [
+            "music",
+            "song",
+            "sing",
+            "dance",
+            "இசை",
+            "பாட்டு",
+            "நடன",
+            "संगीत",
+            "गाना",
+            "नाच"
+          ]
+        },
+        {
+          "value": "maths",
+          "icon": "🔢",
+          "label": {
+            "en": "Maths and numbers",
+            "ta": "கணக்கு",
+            "hi": "गणित"
+          },
+          "keywords": [
+            "math",
+            "number",
+            "calculation",
+            "கணக்கு",
+            "கணித",
+            "गणित",
+            "हिसाब"
+          ]
+        },
+        {
+          "value": "talking",
+          "icon": "🗣️",
+          "label": {
+            "en": "Talking to people",
+            "ta": "மக்களிடம் பேசுவது",
+            "hi": "लोगों से बात करना"
+          },
+          "keywords": [
+            "talk",
+            "speak",
+            "பேச",
+            "बात"
+          ]
+        },
+        {
+          "value": "vehicles",
+          "icon": "🏍️",
+          "label": {
+            "en": "Bikes and vehicles",
+            "ta": "பைக், வாகனங்கள்",
+            "hi": "बाइक और गाड़ियाँ"
+          },
+          "keywords": [
+            "bike",
+            "vehicle",
+            "car",
+            "வண்டி",
+            "பைக்",
+            "गाड़ी",
+            "बाइक"
+          ]
+        },
+        {
+          "value": "uniform_service",
+          "icon": "🎖️",
+          "label": {
+            "en": "Police, army, uniform jobs",
+            "ta": "காவல், ராணுவம்",
+            "hi": "पुलिस, सेना"
+          },
+          "keywords": [
+            "police",
+            "army",
+            "soldier",
+            "காவல்",
+            "ராணுவ",
+            "पुलिस",
+            "सेना",
+            "फ़ौज"
+          ]
+        },
+        {
+          "value": "photography",
+          "icon": "📷",
+          "label": {
+            "en": "Photos and videos",
+            "ta": "புகைப்படம், வீடியோ",
+            "hi": "फ़ोटो और वीडियो"
+          },
+          "keywords": [
+            "photo",
+            "video",
+            "camera",
+            "புகைப்பட",
+            "வீடியோ",
+            "फ़ोटो",
+            "वीडियो"
+          ]
+        }
       ]
     },
     {
-      "id": "work_style", "field": "work_styles", "type": "multi",
-      "text": {"en": "How do you like to work?", "ta": "நீங்கள் எப்படி வேலை செய்ய விரும்புகிறீர்கள்?", "hi": "आपको किस तरह काम करना पसंद है?"},
+      "id": "work_style",
+      "field": "work_styles",
+      "type": "multi",
+      "text": {
+        "en": "How do you like to work?",
+        "ta": "நீங்கள் எப்படி வேலை செய்ய விரும்புகிறீர்கள்?",
+        "hi": "आपको किस तरह काम करना पसंद है?"
+      },
       "options": [
-        {"value": "hands", "icon": "🔧", "label": {"en": "With my hands", "ta": "கைகளால்", "hi": "हाथों से"}, "keywords": ["hand", "கை", "हाथ"]},
-        {"value": "people", "icon": "🤝", "label": {"en": "With people", "ta": "மக்களுடன்", "hi": "लोगों के साथ"}, "keywords": ["people", "மக்கள்", "लोग"]},
-        {"value": "computers", "icon": "💻", "label": {"en": "On a computer", "ta": "கணினியில்", "hi": "कंप्यूटर पर"}, "keywords": ["computer", "கணினி", "कंप्यूटर"]},
-        {"value": "outdoors", "icon": "🌳", "label": {"en": "Outdoors", "ta": "வெளியில்", "hi": "बाहर"}, "keywords": ["outside", "outdoor", "வெளி", "बाहर"]},
-        {"value": "creative", "icon": "🎨", "label": {"en": "Making new things", "ta": "புதியவற்றை உருவாக்குவது", "hi": "नई चीज़ें बनाना"}, "keywords": ["create", "make", "new", "உருவாக்", "बनाना"]},
-        {"value": "numbers", "icon": "🔢", "label": {"en": "With numbers", "ta": "எண்களுடன்", "hi": "अंकों के साथ"}, "keywords": ["number", "எண்", "अंक"]}
+        {
+          "value": "hands",
+          "icon": "🔧",
+          "label": {
+            "en": "With my hands",
+            "ta": "கைகளால்",
+            "hi": "हाथों से"
+          },
+          "keywords": [
+            "hand",
+            "கை",
+            "हाथ"
+          ]
+        },
+        {
+          "value": "people",
+          "icon": "🤝",
+          "label": {
+            "en": "With people",
+            "ta": "மக்களுடன்",
+            "hi": "लोगों के साथ"
+          },
+          "keywords": [
+            "people",
+            "மக்கள்",
+            "लोग"
+          ]
+        },
+        {
+          "value": "computers",
+          "icon": "💻",
+          "label": {
+            "en": "On a computer",
+            "ta": "கணினியில்",
+            "hi": "कंप्यूटर पर"
+          },
+          "keywords": [
+            "computer",
+            "கணினி",
+            "कंप्यूटर"
+          ]
+        },
+        {
+          "value": "outdoors",
+          "icon": "🌳",
+          "label": {
+            "en": "Outdoors",
+            "ta": "வெளியில்",
+            "hi": "बाहर"
+          },
+          "keywords": [
+            "outside",
+            "outdoor",
+            "வெளி",
+            "बाहर"
+          ]
+        },
+        {
+          "value": "creative",
+          "icon": "🎨",
+          "label": {
+            "en": "Making new things",
+            "ta": "புதியவற்றை உருவாக்குவது",
+            "hi": "नई चीज़ें बनाना"
+          },
+          "keywords": [
+            "create",
+            "make",
+            "new",
+            "உருவாக்",
+            "बनाना"
+          ]
+        },
+        {
+          "value": "numbers",
+          "icon": "🔢",
+          "label": {
+            "en": "With numbers",
+            "ta": "எண்களுடன்",
+            "hi": "अंकों के साथ"
+          },
+          "keywords": [
+            "number",
+            "எண்",
+            "अंक"
+          ]
+        }
       ]
     },
     {
-      "id": "marks", "field": "marks_percent", "type": "choice",
-      "text": {"en": "What marks did you get in your last exam?", "ta": "கடைசித் தேர்வில் எவ்வளவு மதிப்பெண் பெற்றீர்கள்?", "hi": "पिछली परीक्षा में आपके कितने अंक आए?"},
+      "id": "marks",
+      "field": "marks_percent",
+      "type": "choice",
+      "text": {
+        "en": "What marks did you get in your last exam?",
+        "ta": "கடைசித் தேர்வில் எவ்வளவு மதிப்பெண் பெற்றீர்கள்?",
+        "hi": "पिछली परीक्षा में आपके कितने अंक आए?"
+      },
       "options": [
-        {"value": 45, "icon": "🙂", "label": {"en": "Below 50%", "ta": "50%க்குக் கீழ்", "hi": "50% से कम"}},
-        {"value": 55, "icon": "👍", "label": {"en": "50 to 60%", "ta": "50 முதல் 60%", "hi": "50 से 60%"}},
-        {"value": 68, "icon": "⭐", "label": {"en": "60 to 75%", "ta": "60 முதல் 75%", "hi": "60 से 75%"}},
-        {"value": 82, "icon": "🌟", "label": {"en": "75 to 90%", "ta": "75 முதல் 90%", "hi": "75 से 90%"}},
-        {"value": 93, "icon": "🏆", "label": {"en": "Above 90%", "ta": "90%க்கு மேல்", "hi": "90% से ज़्यादा"}}
+        {
+          "value": 45,
+          "icon": "🙂",
+          "label": {
+            "en": "Below 50%",
+            "ta": "50%க்குக் கீழ்",
+            "hi": "50% से कम"
+          }
+        },
+        {
+          "value": 55,
+          "icon": "👍",
+          "label": {
+            "en": "50 to 60%",
+            "ta": "50 முதல் 60%",
+            "hi": "50 से 60%"
+          }
+        },
+        {
+          "value": 68,
+          "icon": "⭐",
+          "label": {
+            "en": "60 to 75%",
+            "ta": "60 முதல் 75%",
+            "hi": "60 से 75%"
+          }
+        },
+        {
+          "value": 82,
+          "icon": "🌟",
+          "label": {
+            "en": "75 to 90%",
+            "ta": "75 முதல் 90%",
+            "hi": "75 से 90%"
+          }
+        },
+        {
+          "value": 93,
+          "icon": "🏆",
+          "label": {
+            "en": "Above 90%",
+            "ta": "90%க்கு மேல்",
+            "hi": "90% से ज़्यादा"
+          }
+        }
       ]
     },
     {
-      "id": "earning", "field": "needs_income_soon", "type": "choice",
-      "text": {"en": "Does your family need you to start earning soon?", "ta": "நீங்கள் விரைவில் சம்பாதிக்க வேண்டும் என்று உங்கள் குடும்பம் எதிர்பார்க்கிறதா?", "hi": "क्या आपके परिवार को ज़रूरत है कि आप जल्दी कमाना शुरू करें?"},
+      "id": "earning",
+      "field": "needs_income_soon",
+      "type": "choice",
+      "text": {
+        "en": "Does your family need you to start earning soon?",
+        "ta": "நீங்கள் விரைவில் சம்பாதிக்க வேண்டும் என்று உங்கள் குடும்பம் எதிர்பார்க்கிறதா?",
+        "hi": "क्या आपके परिवार को ज़रूरत है कि आप जल्दी कमाना शुरू करें?"
+      },
       "options": [
-        {"value": true, "icon": "💵", "label": {"en": "Yes, soon", "ta": "ஆம், விரைவில்", "hi": "हाँ, जल्दी"}, "keywords": ["yes", "soon", "ஆம்", "ஆமா", "हाँ", "हां"]},
-        {"value": false, "icon": "📖", "label": {"en": "No, I can study more", "ta": "இல்லை, மேலும் படிக்கலாம்", "hi": "नहीं, और पढ़ सकता हूँ"}, "keywords": ["no", "study", "இல்லை", "நோ", "नहीं"]}
+        {
+          "value": true,
+          "icon": "💵",
+          "label": {
+            "en": "Yes, soon",
+            "ta": "ஆம், விரைவில்",
+            "hi": "हाँ, जल्दी"
+          },
+          "keywords": [
+            "yes",
+            "soon",
+            "ஆம்",
+            "ஆமா",
+            "हाँ",
+            "हां"
+          ]
+        },
+        {
+          "value": false,
+          "icon": "📖",
+          "label": {
+            "en": "No, I can study more",
+            "ta": "இல்லை, மேலும் படிக்கலாம்",
+            "hi": "नहीं, और पढ़ सकता हूँ"
+          },
+          "keywords": [
+            "no",
+            "study",
+            "இல்லை",
+            "நோ",
+            "नहीं"
+          ]
+        }
       ]
     },
     {
-      "id": "relocate", "field": "can_relocate", "type": "choice",
-      "text": {"en": "Can you move to a city for study or work?", "ta": "படிப்பு அல்லது வேலைக்காக நகரத்துக்குச் செல்ல முடியுமா?", "hi": "क्या आप पढ़ाई या काम के लिए शहर जा सकते हैं?"},
+      "id": "relocate",
+      "field": "can_relocate",
+      "type": "choice",
+      "text": {
+        "en": "Can you move to a city for study or work?",
+        "ta": "படிப்பு அல்லது வேலைக்காக நகரத்துக்குச் செல்ல முடியுமா?",
+        "hi": "क्या आप पढ़ाई या काम के लिए शहर जा सकते हैं?"
+      },
       "options": [
-        {"value": true, "icon": "🏙️", "label": {"en": "Yes", "ta": "ஆம்", "hi": "हाँ"}, "keywords": ["yes", "ஆம்", "हाँ", "हां"]},
-        {"value": false, "icon": "🏡", "label": {"en": "No, near home", "ta": "இல்லை, வீட்டுக்கு அருகில்", "hi": "नहीं, घर के पास"}, "keywords": ["no", "home", "இல்லை", "வீடு", "नहीं", "घर"]}
+        {
+          "value": true,
+          "icon": "🏙️",
+          "label": {
+            "en": "Yes",
+            "ta": "ஆம்",
+            "hi": "हाँ"
+          },
+          "keywords": [
+            "yes",
+            "ஆம்",
+            "हाँ",
+            "हां"
+          ]
+        },
+        {
+          "value": false,
+          "icon": "🏡",
+          "label": {
+            "en": "No, near home",
+            "ta": "இல்லை, வீட்டுக்கு அருகில்",
+            "hi": "नहीं, घर के पास"
+          },
+          "keywords": [
+            "no",
+            "home",
+            "இல்லை",
+            "வீடு",
+            "नहीं",
+            "घर"
+          ]
+        }
       ]
     },
     {
-      "id": "gender", "field": "gender", "type": "choice",
-      "text": {"en": "Are you a girl or a boy? This helps find scholarships for you.", "ta": "நீங்கள் பெண்ணா ஆணா? இது உங்களுக்கான உதவித்தொகையைக் கண்டுபிடிக்க உதவும்.", "hi": "आप लड़की हैं या लड़का? इससे आपके लिए छात्रवृत्ति ढूँढने में मदद मिलेगी।"},
+      "id": "gender",
+      "field": "gender",
+      "type": "choice",
+      "text": {
+        "en": "Are you a girl or a boy? This helps find scholarships for you.",
+        "ta": "நீங்கள் பெண்ணா ஆணா? இது உங்களுக்கான உதவித்தொகையைக் கண்டுபிடிக்க உதவும்.",
+        "hi": "आप लड़की हैं या लड़का? इससे आपके लिए छात्रवृत्ति ढूँढने में मदद मिलेगी।"
+      },
       "options": [
-        {"value": "female", "icon": "👧", "label": {"en": "Girl", "ta": "பெண்", "hi": "लड़की"}, "keywords": ["girl", "female", "பெண்", "लड़की"]},
-        {"value": "male", "icon": "👦", "label": {"en": "Boy", "ta": "ஆண்", "hi": "लड़का"}, "keywords": ["boy", "male", "ஆண்", "பையன்", "लड़का"]},
-        {"value": "other", "icon": "🙂", "label": {"en": "Prefer not to say", "ta": "சொல்ல விரும்பவில்லை", "hi": "नहीं बताना"}}
+        {
+          "value": "female",
+          "icon": "👧",
+          "label": {
+            "en": "Girl",
+            "ta": "பெண்",
+            "hi": "लड़की"
+          },
+          "keywords": [
+            "girl",
+            "female",
+            "பெண்",
+            "लड़की"
+          ]
+        },
+        {
+          "value": "male",
+          "icon": "👦",
+          "label": {
+            "en": "Boy",
+            "ta": "ஆண்",
+            "hi": "लड़का"
+          },
+          "keywords": [
+            "boy",
+            "male",
+            "ஆண்",
+            "பையன்",
+            "लड़का"
+          ]
+        },
+        {
+          "value": "other",
+          "icon": "🙂",
+          "label": {
+            "en": "Prefer not to say",
+            "ta": "சொல்ல விரும்பவில்லை",
+            "hi": "नहीं बताना"
+          }
+        }
       ]
     },
     {
-      "id": "category", "field": "category", "type": "choice",
-      "text": {"en": "Which community category is on your certificate?", "ta": "உங்கள் சான்றிதழில் எந்த சமூகப் பிரிவு உள்ளது?", "hi": "आपके प्रमाणपत्र पर कौन-सी श्रेणी लिखी है?"},
+      "id": "category",
+      "field": "category",
+      "type": "choice",
+      "text": {
+        "en": "Which community category is on your certificate?",
+        "ta": "உங்கள் சான்றிதழில் எந்த சமூகப் பிரிவு உள்ளது?",
+        "hi": "आपके प्रमाणपत्र पर कौन-सी श्रेणी लिखी है?"
+      },
       "options": [
-        {"value": "general", "label": {"en": "General / OC", "ta": "பொது (OC)", "hi": "सामान्य"}, "keywords": ["general", "oc", "பொது", "सामान्य"]},
-        {"value": "bc", "label": {"en": "BC / OBC", "ta": "பிற்படுத்தப்பட்டோர் (BC)", "hi": "ओबीसी"}, "keywords": ["bc", "obc", "ஓபிசி", "ओबीसी"]},
-        {"value": "mbc", "label": {"en": "MBC / DNC", "ta": "மிகப் பிற்படுத்தப்பட்டோர் (MBC)", "hi": "एमबीसी"}, "keywords": ["mbc", "dnc"]},
-        {"value": "sc", "label": {"en": "SC", "ta": "ஆதிதிராவிடர் (SC)", "hi": "अनुसूचित जाति (SC)"}, "keywords": ["sc"]},
-        {"value": "st", "label": {"en": "ST", "ta": "பழங்குடியினர் (ST)", "hi": "अनुसूचित जनजाति (ST)"}, "keywords": ["st", "tribal"]},
-        {"value": "minority", "label": {"en": "Minority", "ta": "சிறுபான்மையினர்", "hi": "अल्पसंख्यक"}, "keywords": ["minority", "muslim", "christian", "சிறுபான்மை", "अल्पसंख्यक"]},
-        {"value": "ews", "label": {"en": "EWS", "ta": "பொருளாதாரத்தில் நலிந்தோர் (EWS)", "hi": "ईडब्ल्यूएस"}, "keywords": ["ews"]},
-        {"value": null, "label": {"en": "I don't know", "ta": "தெரியாது", "hi": "पता नहीं"}, "keywords": ["don't know", "தெரியாது", "पता नहीं"]}
+        {
+          "value": "general",
+          "label": {
+            "en": "General / OC",
+            "ta": "பொது (OC)",
+            "hi": "सामान्य"
+          },
+          "keywords": [
+            "general",
+            "oc",
+            "பொது",
+            "सामान्य"
+          ]
+        },
+        {
+          "value": "bc",
+          "label": {
+            "en": "BC / OBC",
+            "ta": "பிற்படுத்தப்பட்டோர் (BC)",
+            "hi": "ओबीसी"
+          },
+          "keywords": [
+            "bc",
+            "obc",
+            "ஓபிசி",
+            "ओबीसी"
+          ]
+        },
+        {
+          "value": "mbc",
+          "label": {
+            "en": "MBC / DNC",
+            "ta": "மிகப் பிற்படுத்தப்பட்டோர் (MBC)",
+            "hi": "एमबीसी"
+          },
+          "keywords": [
+            "mbc",
+            "dnc"
+          ]
+        },
+        {
+          "value": "sc",
+          "label": {
+            "en": "SC",
+            "ta": "ஆதிதிராவிடர் (SC)",
+            "hi": "अनुसूचित जाति (SC)"
+          },
+          "keywords": [
+            "sc"
+          ]
+        },
+        {
+          "value": "st",
+          "label": {
+            "en": "ST",
+            "ta": "பழங்குடியினர் (ST)",
+            "hi": "अनुसूचित जनजाति (ST)"
+          },
+          "keywords": [
+            "st",
+            "tribal"
+          ]
+        },
+        {
+          "value": "minority",
+          "label": {
+            "en": "Minority",
+            "ta": "சிறுபான்மையினர்",
+            "hi": "अल्पसंख्यक"
+          },
+          "keywords": [
+            "minority",
+            "muslim",
+            "christian",
+            "சிறுபான்மை",
+            "अल्पसंख्यक"
+          ]
+        },
+        {
+          "value": "ews",
+          "label": {
+            "en": "EWS",
+            "ta": "பொருளாதாரத்தில் நலிந்தோர் (EWS)",
+            "hi": "ईडब्ल्यूएस"
+          },
+          "keywords": [
+            "ews"
+          ]
+        },
+        {
+          "value": null,
+          "label": {
+            "en": "I don't know",
+            "ta": "தெரியாது",
+            "hi": "पता नहीं"
+          },
+          "keywords": [
+            "don't know",
+            "தெரியாது",
+            "पता नहीं"
+          ]
+        }
       ]
     },
     {
-      "id": "income", "field": "family_income", "type": "choice",
-      "text": {"en": "About how much does your family earn in a year?", "ta": "உங்கள் குடும்பம் ஒரு வருடத்தில் சுமார் எவ்வளவு சம்பாதிக்கிறது?", "hi": "आपका परिवार साल में लगभग कितना कमाता है?"},
+      "id": "income",
+      "field": "family_income",
+      "type": "choice",
+      "text": {
+        "en": "About how much does your family earn in a year?",
+        "ta": "உங்கள் குடும்பம் ஒரு வருடத்தில் சுமார் எவ்வளவு சம்பாதிக்கிறது?",
+        "hi": "आपका परिवार साल में लगभग कितना कमाता है?"
+      },
       "options": [
-        {"value": 80000, "label": {"en": "Under ₹1 lakh", "ta": "₹1 லட்சத்துக்குக் கீழ்", "hi": "₹1 लाख से कम"}},
-        {"value": 200000, "label": {"en": "₹1 to 2.5 lakh", "ta": "₹1 முதல் 2.5 லட்சம்", "hi": "₹1 से 2.5 लाख"}},
-        {"value": 350000, "label": {"en": "₹2.5 to 4.5 lakh", "ta": "₹2.5 முதல் 4.5 லட்சம்", "hi": "₹2.5 से 4.5 लाख"}},
-        {"value": 600000, "label": {"en": "₹4.5 to 8 lakh", "ta": "₹4.5 முதல் 8 லட்சம்", "hi": "₹4.5 से 8 लाख"}},
-        {"value": 1000000, "label": {"en": "More than ₹8 lakh", "ta": "₹8 லட்சத்துக்கு மேல்", "hi": "₹8 लाख से ज़्यादा"}}
+        {
+          "value": 80000,
+          "label": {
+            "en": "Under ₹1 lakh",
+            "ta": "₹1 லட்சத்துக்குக் கீழ்",
+            "hi": "₹1 लाख से कम"
+          }
+        },
+        {
+          "value": 200000,
+          "label": {
+            "en": "₹1 to 2.5 lakh",
+            "ta": "₹1 முதல் 2.5 லட்சம்",
+            "hi": "₹1 से 2.5 लाख"
+          }
+        },
+        {
+          "value": 350000,
+          "label": {
+            "en": "₹2.5 to 4.5 lakh",
+            "ta": "₹2.5 முதல் 4.5 லட்சம்",
+            "hi": "₹2.5 से 4.5 लाख"
+          }
+        },
+        {
+          "value": 600000,
+          "label": {
+            "en": "₹4.5 to 8 lakh",
+            "ta": "₹4.5 முதல் 8 லட்சம்",
+            "hi": "₹4.5 से 8 लाख"
+          }
+        },
+        {
+          "value": 1000000,
+          "label": {
+            "en": "More than ₹8 lakh",
+            "ta": "₹8 லட்சத்துக்கு மேல்",
+            "hi": "₹8 लाख से ज़्यादा"
+          }
+        }
       ]
     },
     {
-      "id": "school_type", "field": "school_type", "type": "choice",
-      "text": {"en": "What kind of school do you study in?", "ta": "நீங்கள் எந்த வகைப் பள்ளியில் படிக்கிறீர்கள்?", "hi": "आप किस तरह के स्कूल में पढ़ते हैं?"},
+      "id": "school_type",
+      "field": "school_type",
+      "type": "choice",
+      "text": {
+        "en": "What kind of school do you study in?",
+        "ta": "நீங்கள் எந்த வகைப் பள்ளியில் படிக்கிறீர்கள்?",
+        "hi": "आप किस तरह के स्कूल में पढ़ते हैं?"
+      },
       "options": [
-        {"value": "government", "icon": "🏫", "label": {"en": "Government", "ta": "அரசுப் பள்ளி", "hi": "सरकारी"}, "keywords": ["government", "govt", "அரசு", "सरकारी"]},
-        {"value": "aided", "icon": "🏫", "label": {"en": "Government-aided", "ta": "அரசு உதவி பெறும்", "hi": "सरकारी सहायता प्राप्त"}, "keywords": ["aided", "உதவி", "सहायता"]},
-        {"value": "private", "icon": "🏢", "label": {"en": "Private", "ta": "தனியார்", "hi": "प्राइवेट"}, "keywords": ["private", "தனியார்", "प्राइवेट", "निजी"]}
+        {
+          "value": "government",
+          "icon": "🏫",
+          "label": {
+            "en": "Government",
+            "ta": "அரசுப் பள்ளி",
+            "hi": "सरकारी"
+          },
+          "keywords": [
+            "government",
+            "govt",
+            "அரசு",
+            "सरकारी"
+          ]
+        },
+        {
+          "value": "aided",
+          "icon": "🏫",
+          "label": {
+            "en": "Government-aided",
+            "ta": "அரசு உதவி பெறும்",
+            "hi": "सरकारी सहायता प्राप्त"
+          },
+          "keywords": [
+            "aided",
+            "உதவி",
+            "सहायता"
+          ]
+        },
+        {
+          "value": "private",
+          "icon": "🏢",
+          "label": {
+            "en": "Private",
+            "ta": "தனியார்",
+            "hi": "प्राइवेट"
+          },
+          "keywords": [
+            "private",
+            "தனியார்",
+            "प्राइवेट",
+            "निजी"
+          ]
+        }
       ]
     },
     {
-      "id": "district", "field": "district", "type": "text",
-      "text": {"en": "Which district do you live in?", "ta": "நீங்கள் எந்த மாவட்டத்தில் வசிக்கிறீர்கள்?", "hi": "आप किस ज़िले में रहते हैं?"}
+      "id": "district",
+      "field": "district",
+      "type": "text",
+      "text": {
+        "en": "Which district do you live in?",
+        "ta": "நீங்கள் எந்த மாவட்டத்தில் வசிக்கிறீர்கள்?",
+        "hi": "आप किस ज़िले में रहते हैं?"
+      }
     },
     {
-      "id": "dream", "field": "aspirations", "type": "text",
-      "text": {"en": "If you could do any job when you grow up, what would it be? Any answer is fine.", "ta": "பெரியவரானதும் எந்த வேலை வேண்டுமானாலும் செய்யலாம் என்றால், என்ன செய்வீர்கள்? எந்தப் பதிலும் சரிதான்.", "hi": "अगर बड़े होकर आप कोई भी काम कर सकें, तो क्या करेंगे? कोई भी जवाब ठीक है।"}
+      "id": "dream",
+      "field": "aspirations",
+      "type": "text",
+      "text": {
+        "en": "If you could do any job when you grow up, what would it be? Any answer is fine.",
+        "ta": "பெரியவரானதும் எந்த வேலை வேண்டுமானாலும் செய்யலாம் என்றால், என்ன செய்வீர்கள்? எந்தப் பதிலும் சரிதான்.",
+        "hi": "अगर बड़े होकर आप कोई भी काम कर सकें, तो क्या करेंगे? कोई भी जवाब ठीक है।"
+      }
     }
   ]
 }

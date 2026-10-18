@@ -12,13 +12,14 @@ PATTERN = re.compile(r"""\bt\(\s*'([\w.]+)'\s*,\s*'((?:[^'\\]|\\.)*)'""")
 
 def main() -> None:
     strings = {}
-    for js in sorted((ROOT / "frontend" / "js").glob("*.js")):
+    src = ROOT / "frontend" / "src"
+    for js in sorted([*src.rglob("*.js"), *src.rglob("*.jsx")]):
         for key, text in PATTERN.findall(js.read_text(encoding="utf-8")):
             text = text.replace("\\'", "'")
             if key in strings and strings[key] != text:
                 print(f"warning: {key} has two texts: {strings[key]!r} / {text!r}")
             strings.setdefault(key, text)
-    out = ROOT / "frontend" / "locales" / "en.json"
+    out = ROOT / "frontend" / "public" / "locales" / "en.json"
     out.write_text(json.dumps(dict(sorted(strings.items())), ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
     print(f"{len(strings)} strings -> {out.relative_to(ROOT)}")
 
