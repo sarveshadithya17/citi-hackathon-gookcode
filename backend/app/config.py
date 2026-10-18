@@ -12,7 +12,7 @@ DATA_DIR = Path(os.getenv("THIRAN_DATA_DIR", ROOT / "data"))
 FRONTEND_DIR = Path(os.getenv("THIRAN_FRONTEND_DIR", ROOT / "frontend" / "dist"))
 DATABASE_URL = os.getenv("DATABASE_URL", f"sqlite:///{ROOT / 'backend' / 'thiran.db'}")
 
-SECRET_KEY = os.getenv("SECRET_KEY", "dev-only-change-me")
+SECRET_KEY = os.getenv("SECRET_KEY", "dev-only-secret-change-me-in-production")
 TOKEN_TTL_HOURS = int(os.getenv("TOKEN_TTL_HOURS", "720"))
 
 # Comma-separated provider order. The first one that has a key (or, for ollama,

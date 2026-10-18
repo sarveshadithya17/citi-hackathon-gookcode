@@ -70,7 +70,9 @@ export const patch = (path, body) => post(path, body, 'PATCH');
 
 // Queue an action to sync later. kind: progress | apply | answers | endorse
 export async function queue(kind, studentId, payload) {
-  const op = { op_id: uid(), kind, student_id: studentId || null, ts: Date.now() / 1000, payload };
+  // Tag the op with the student it belongs to, so it can never be applied to another account.
+  const me = await kv.get('me').catch(() => null);
+  const op = { op_id: uid(), kind, student_id: studentId || me?.id || null, ts: Date.now() / 1000, payload };
   await outbox.add(op);
   setPending((await outbox.all()).length);
   sync();

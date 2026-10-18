@@ -1,0 +1,11 @@
+services:
+  thiran:
+    build: .
+    ports:
+      - "8000:8000"
+    env_file: .env
+    volumes:
+      - thiran-data:/app/var
+    restart: unless-stopped
+volumes:
+  thiran-data:

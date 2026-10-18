@@ -127,7 +127,7 @@ export default function App() {
       await loadLang(initialLang());
       setLangState(initialLang());
       if (token()) {
-        try { setUserState(await get('/auth/me', { cache: false })); }
+        try { const me = await get('/auth/me', { cache: false }); setUserState(me); kv.set('me', me); }
         catch (e) { if (e.status === 0) setUserState((await kv.get('me')) || null); else setToken(null); }
       }
       setBooted(true);
