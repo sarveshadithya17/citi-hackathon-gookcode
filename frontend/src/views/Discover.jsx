@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { ErrorView, Loading } from '../components/ui.jsx';
 import { get, post, queue } from '../lib/api.js';
 import { toast, useApp, useStudentPath } from '../lib/app-state.js';
-import { t, useLang } from '../lib/i18n.js';
+import { LANGS, t, useLang } from '../lib/i18n.js';
 import { kv } from '../lib/store.js';
 import { canListen, listen, speak, stopSpeaking } from '../lib/voice.js';
 
@@ -85,7 +85,45 @@ function Chat({ msgs }) {
   );
 }
 
+const PICK_TEXT = {
+  en: { title: 'Which language do you want to talk in?', sub: 'Thiran will chat and speak in this language.', hello: 'Hello! Let us talk in English.' },
+  ta: { title: 'எந்த மொழியில் பேச விரும்புகிறீர்கள்?', sub: 'திறன் இந்த மொழியில் பேசும், பதில் சொல்லும்.', hello: 'வணக்கம்! தமிழில் பேசலாம்.' },
+  hi: { title: 'आप किस भाषा में बात करना चाहते हैं?', sub: 'थिरन इसी भाषा में बात करेगा और बोलेगा।', hello: 'नमस्ते! चलिए हिंदी में बात करते हैं।' },
+};
+const LANG_SUB = { en: 'English', ta: 'Tamil', hi: 'Hindi' };
+
+// Discover always starts by asking which language to talk in; chat and voice then use it.
+// (The dashboard switches back to English when the student returns to it.)
 export default function Discover() {
+  const { lang, setLang } = useLang();
+  const [chosen, setChosen] = useState(null);
+  const pick = async (code) => {
+    await setLang(code);
+    if (autoSpeakOn()) speak(PICK_TEXT[code].hello, code);
+    setChosen(code);
+  };
+  if (chosen && chosen === lang) return <DiscoverChat onChangeLang={() => setChosen(null)} />;
+  return (
+    <div className="lang-pick">
+      <div className="lang-pick-ic" aria-hidden="true">🗣️</div>
+      {LANGS.map((l) => (
+        <div key={l.code} className={l.code === 'en' ? 'lang-pick-q main' : 'lang-pick-q'} lang={l.code}>
+          {PICK_TEXT[l.code].title}
+        </div>
+      ))}
+      <div className="lang-pick-options">
+        {LANGS.map((l) => (
+          <button key={l.code} className="lang-pick-btn" lang={l.code} onClick={() => pick(l.code)}>
+            <b>{l.name}</b>
+            <span>{l.code === 'en' ? PICK_TEXT.en.sub : `${LANG_SUB[l.code]} · ${PICK_TEXT[l.code].sub}`}</span>
+          </button>
+        ))}
+      </div>
+    </div>
+  );
+}
+
+function DiscoverChat({ onChangeLang }) {
   const S = useStudentPath();
   const { lang } = useLang();
   const [state, setState] = useState({ loading: true });
@@ -98,9 +136,11 @@ export default function Discover() {
       try {
         const d = await get(S(`/chat?lang=${lang}`), { cache: false });
         if (!alive) return;
-        const msgs = d.messages.length ? d.messages : [{ role: 'assistant', text: `${d.intro}\n\n${d.question?.text || ''}` }];
+        // New chat: greet and ask the first question. Continuing chat: ask the next question again in the chosen language.
+        const opener = d.messages.length ? d.question?.text : `${d.intro}\n\n${d.question?.text || ''}`;
+        const msgs = opener ? [...d.messages, { role: 'assistant', text: opener }] : d.messages;
         setState({ msgs, question: d.question, ready: d.ready });
-        if (!d.messages.length && autoSpeakOn()) speak(msgs[0].text, lang);
+        if (opener && autoSpeakOn()) setTimeout(() => speak(opener, lang), 900);
       } catch (e) {
         if (alive) setState(e.status === 0 ? { offline: true } : { error: e });
       }
@@ -141,6 +181,7 @@ export default function Discover() {
   return (
     <>
       <div className="row"><h1 className="grow">🎙️ {t('discover.title', 'Discover')}</h1>
+        <button className="btn ghost small" onClick={onChangeLang} title={t('lang.switch', 'Change language')}>🌐 {LANGS.find((l) => l.code === lang)?.name}</button>
         <button className="btn ghost small" onClick={toggleSay}>{autoSay ? '🔊' : '🔇'} {t('discover.voice', 'Voice')}</button></div>
       <Chat msgs={state.msgs} />
       {state.ready && <div style={{ margin: '12px 0' }}><Link className="btn accent block" to="/careers">🧭 {t('discover.see', 'See my careers')}</Link></div>}

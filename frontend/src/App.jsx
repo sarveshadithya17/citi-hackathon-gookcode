@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useState } from 'react';
-import { HashRouter, Link, Navigate, Route, Routes, useNavigate } from 'react-router-dom';
+import { HashRouter, Link, Navigate, Route, Routes, useLocation, useNavigate } from 'react-router-dom';
 import { get, post, setToken, sync, token, useNet } from './lib/api.js';
 import { AppContext, useApp, useToasts } from './lib/app-state.js';
 import { LANGS, LangContext, initialLang, loadLang, t, useLang } from './lib/i18n.js';
@@ -60,6 +60,21 @@ function Banners() {
   );
 }
 
+const HOMES = ['/home', '/t', '/e', '/m', '/login'];
+
+// Every inner page gets a way back to its dashboard.
+function BackBar() {
+  const { user, acting } = useApp();
+  const { pathname } = useLocation();
+  if (!user || HOMES.includes(pathname)) return null;
+  const to = acting && !pathname.startsWith('/t') ? '/home' : homeFor(user);
+  return (
+    <div className="backbar">
+      <Link to={to}>← {t('nav.dashboard', 'Back to dashboard')}</Link>
+    </div>
+  );
+}
+
 function Guard({ role, children }) {
   const { user, acting } = useApp();
   if (!user) return <Navigate to="/login" replace />;
@@ -91,6 +106,7 @@ function Shell() {
       <Topbar />
       <main>
         <Banners />
+        <BackBar />
         <Routes>
           <Route path="/login" element={user ? <Navigate to={homeFor(user)} replace /> : <Login />} />
           <Route path="/home" element={S('student', <StudentHome />)} />

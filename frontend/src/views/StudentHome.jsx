@@ -1,12 +1,16 @@
+import { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { Async, Progress } from '../components/ui.jsx';
 import { useApi, useStudentPath } from '../lib/app-state.js';
-import { t } from '../lib/i18n.js';
+import { t, useLang } from '../lib/i18n.js';
 import Tour from '../components/Tour.jsx';
 
 export default function StudentHome() {
   const S = useStudentPath();
   const api = useApi(S('/profile'));
+  const { lang, setLang } = useLang();
+  // The dashboard is always shown in English; Discover asks for the chat language each time.
+  useEffect(() => { if (lang !== 'en') setLang('en'); }, []); // eslint-disable-line react-hooks/exhaustive-deps
   return (
     <Async api={api}>
       {(p) => {
