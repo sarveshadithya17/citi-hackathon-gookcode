@@ -125,6 +125,7 @@ export function EmployerPost() {
   const nav = useNavigate();
   const [f, setF] = useState({ kind: 'apprenticeship', title: '', career: '', district: 'Madurai', stipend: 9000, duration: '12 months', min_education: 'class12', description: '', naps: true, sponsored: false });
   const set = (k) => (e) => setF({ ...f, [k]: e.target.type === 'checkbox' ? e.target.checked : e.target.value });
+  useEffect(() => { if (careers.length && !f.career) setF((x) => ({ ...x, career: careers.find((c) => c.id === 'lab_technician')?.id || careers[0].id })); }, [careers]); // eslint-disable-line react-hooks/exhaustive-deps
   const submit = async (e) => {
     e.preventDefault();
     try {
