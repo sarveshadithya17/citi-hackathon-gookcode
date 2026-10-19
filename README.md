@@ -149,7 +149,6 @@ backend/tests/      end-to-end API tests (run without the AI)
 data/               knowledge base JSON + SCHEMA.md + interview.json
 frontend/           React + Vite PWA: src/views, src/lib (api, offline store, voice, i18n), public/locales
 tools/              string extraction and locale drafting
-lean_canvas/        script that fills the Lean Canvas template
 docs/               demo script
 ```
 

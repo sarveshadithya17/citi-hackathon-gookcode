@@ -21,3 +21,10 @@ Team_details.pdf
 ~$*
 .~lock.*
 .claude/
+
+# hackathon paperwork, kept locally but not part of the project
+*.pptx
+*.xlsx
+Thiran_Plan.*
+hackathon-brief.md
+lean_canvas/
